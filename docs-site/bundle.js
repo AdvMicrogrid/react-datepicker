@@ -52079,7 +52079,9 @@
 	      'react-datepicker__day--in-range': this.isInRange(),
 	      'react-datepicker__day--today': this.isSameDay((0, _moment2.default)()),
 	      'react-datepicker__day--weekend': this.isWeekend(),
-	      'react-datepicker__day--outside-month': this.isOutsideMonth()
+	      'react-datepicker__day--outside-month': this.isOutsideMonth(),
+	      'react-datepicker__day--start-date': this.isSameDay(this.props.startDate),
+	      'react-datepicker__day--end-date': this.isSameDay(this.props.endDate)
 	    });
 	  },
 	  render: function render() {

@@ -60,7 +60,9 @@ var Day = React.createClass({
       'react-datepicker__day--in-range': this.isInRange(),
       'react-datepicker__day--today': this.isSameDay(moment()),
       'react-datepicker__day--weekend': this.isWeekend(),
-      'react-datepicker__day--outside-month': this.isOutsideMonth()
+      'react-datepicker__day--outside-month': this.isOutsideMonth(),
+      'react-datepicker__day--start-date': this.isSameDay(this.props.startDate),
+      'react-datepicker__day--end-date': this.isSameDay(this.props.endDate)
     })
   },
 

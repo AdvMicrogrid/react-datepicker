@@ -631,7 +631,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      return _react2.default.createElement(
 	        'div',
 	        { key: offset, className: 'react-datepicker__day-name' },
-	        day.localeData().weekdaysMin(day)
+	        day.localeData().weekdaysShort(day)
 	      );
 	    });
 	  },

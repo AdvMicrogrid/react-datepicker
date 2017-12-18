@@ -1,21 +1,22 @@
 import React from 'react'
 import Day from './day'
+import PropTypes from 'prop-types'
 
 var Week = React.createClass({
   displayName: 'Week',
 
   propTypes: {
-    day: React.PropTypes.object.isRequired,
-    endDate: React.PropTypes.object,
-    excludeDates: React.PropTypes.array,
-    filterDate: React.PropTypes.func,
-    includeDates: React.PropTypes.array,
-    maxDate: React.PropTypes.object,
-    minDate: React.PropTypes.object,
-    month: React.PropTypes.number,
-    onDayClick: React.PropTypes.func,
-    selected: React.PropTypes.object,
-    startDate: React.PropTypes.object
+    day: PropTypes.object.isRequired,
+    endDate: PropTypes.object,
+    excludeDates: PropTypes.array,
+    filterDate: PropTypes.func,
+    includeDates: PropTypes.array,
+    maxDate: PropTypes.object,
+    minDate: PropTypes.object,
+    month: PropTypes.number,
+    onDayClick: PropTypes.func,
+    selected: PropTypes.object,
+    startDate: PropTypes.object
   },
 
   handleDayClick (day) {

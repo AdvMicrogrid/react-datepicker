@@ -1,12 +1,13 @@
 import React from 'react'
 import YearDropdownOptions from './year_dropdown_options'
+import PropTypes from 'prop-types'
 
 var YearDropdown = React.createClass({
   displayName: 'YearDropdown',
 
   propTypes: {
-    onChange: React.PropTypes.func.isRequired,
-    year: React.PropTypes.number.isRequired
+    onChange: PropTypes.func.isRequired,
+    year: PropTypes.number.isRequired
   },
 
   getInitialState () {

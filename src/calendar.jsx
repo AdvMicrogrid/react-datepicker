@@ -2,28 +2,29 @@ import moment from 'moment'
 import YearDropdown from './year_dropdown'
 import Month from './month'
 import React from 'react'
+import PropTypes from 'prop-types'
 import { isSameDay, allDaysDisabledBefore, allDaysDisabledAfter, getEffectiveMinDate, getEffectiveMaxDate } from './date_utils'
 
 var Calendar = React.createClass({
   displayName: 'Calendar',
 
   propTypes: {
-    dateFormat: React.PropTypes.string.isRequired,
-    endDate: React.PropTypes.object,
-    excludeDates: React.PropTypes.array,
-    filterDate: React.PropTypes.func,
-    fixedHeight: React.PropTypes.bool,
-    includeDates: React.PropTypes.array,
-    locale: React.PropTypes.string,
-    maxDate: React.PropTypes.object,
-    minDate: React.PropTypes.object,
-    onClickOutside: React.PropTypes.func.isRequired,
-    onSelect: React.PropTypes.func.isRequired,
-    openToDate: React.PropTypes.object,
-    selected: React.PropTypes.object,
-    showYearDropdown: React.PropTypes.bool,
-    startDate: React.PropTypes.object,
-    todayButton: React.PropTypes.string
+    dateFormat: PropTypes.string.isRequired,
+    endDate: PropTypes.object,
+    excludeDates: PropTypes.array,
+    filterDate: PropTypes.func,
+    fixedHeight: PropTypes.bool,
+    includeDates: PropTypes.array,
+    locale: PropTypes.string,
+    maxDate: PropTypes.object,
+    minDate: PropTypes.object,
+    onClickOutside: PropTypes.func.isRequired,
+    onSelect: PropTypes.func.isRequired,
+    openToDate: PropTypes.object,
+    selected: PropTypes.object,
+    showYearDropdown: PropTypes.bool,
+    startDate: PropTypes.object,
+    todayButton: PropTypes.string
   },
 
   mixins: [require('react-onclickoutside')],

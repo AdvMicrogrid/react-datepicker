@@ -2,7 +2,7 @@
   "author": "AdvMicrogrid",
   "name": "react-datepicker-adv",
   "description": "A simple and reusable datepicker component for React",
-  "version": "0.28.3",
+  "version": "0.28.4",
   "license": "MIT",
   "homepage": "https://github.com/jmcgeeney/react-datepicker",
   "main": "dist/react-datepicker.min.js",

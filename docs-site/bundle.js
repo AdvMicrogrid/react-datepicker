@@ -18050,326 +18050,134 @@
 /* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _example_components = __webpack_require__(183);
+	var _example_components = __webpack_require__(28);
 
 	var _example_components2 = _interopRequireDefault(_example_components);
 
-	var _hero_example = __webpack_require__(522);
+	var _hero_example = __webpack_require__(368);
 
 	var _hero_example2 = _interopRequireDefault(_hero_example);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  Root: {
-	    displayName: 'Root'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/root.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('Root')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'Root',
 
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      null,
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'hero' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'div',
 	          { className: 'hero__content' },
-	          _react3.default.createElement(
+	          _react2.default.createElement(
 	            'h1',
 	            { className: 'hero__title' },
 	            'ReactJS Datepicker'
 	          ),
-	          _react3.default.createElement(
+	          _react2.default.createElement(
 	            'div',
 	            { className: 'hero__crafted-by' },
-	            _react3.default.createElement(
+	            _react2.default.createElement(
 	              'a',
 	              { href: 'https://hackerone.com', className: 'hero__crafted-by-link' },
 	              'Crafted by ',
-	              _react3.default.createElement('img', { src: 'images/logo.png', className: 'hero__image', alt: 'HackerOne', title: 'HackerOne' })
+	              _react2.default.createElement('img', { src: 'images/logo.png', className: 'hero__image', alt: 'HackerOne', title: 'HackerOne' })
 	            )
 	          ),
-	          _react3.default.createElement(
+	          _react2.default.createElement(
 	            'div',
 	            { className: 'hero__example' },
-	            _react3.default.createElement(_hero_example2.default, null)
+	            _react2.default.createElement(_hero_example2.default, null)
 	          )
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'wrapper' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'h1',
 	          null,
 	          'ReactJS Datepicker'
 	        ),
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'p',
 	          null,
-	          _react3.default.createElement(
+	          _react2.default.createElement(
 	            'a',
 	            { href: 'https://npmjs.org/package/react-datepicker' },
-	            _react3.default.createElement('img', { src: 'https://badge.fury.io/js/react-datepicker.svg', className: 'badge' })
+	            _react2.default.createElement('img', { src: 'https://badge.fury.io/js/react-datepicker.svg', className: 'badge' })
 	          ),
-	          _react3.default.createElement(
+	          _react2.default.createElement(
 	            'a',
 	            { href: 'https://travis-ci.org/Hacker0x01/react-datepicker' },
-	            _react3.default.createElement('img', { src: 'https://travis-ci.org/Hacker0x01/react-datepicker.svg?branch=master', className: 'badge' })
+	            _react2.default.createElement('img', { src: 'https://travis-ci.org/Hacker0x01/react-datepicker.svg?branch=master', className: 'badge' })
 	          ),
-	          _react3.default.createElement(
+	          _react2.default.createElement(
 	            'a',
 	            { href: 'https://david-dm.org/Hacker0x01/react-datepicker' },
-	            _react3.default.createElement('img', { src: 'https://david-dm.org/Hacker0x01/react-datepicker.svg', className: 'badge' })
+	            _react2.default.createElement('img', { src: 'https://david-dm.org/Hacker0x01/react-datepicker.svg', className: 'badge' })
 	          ),
-	          _react3.default.createElement(
+	          _react2.default.createElement(
 	            'a',
 	            { href: 'https://npmjs.org/package/react-datepicker' + '?__hstc=72727564.ca821b01b5b29b1831f0936a681f0483.1428679773810.1435582678273.1438354735499.5' + '&__hssc=72727564.1.1438354735499' + '&__hsfp=2497064007' },
-	            _react3.default.createElement('img', { src: 'https://img.shields.io/npm/dm/react-datepicker.svg', className: 'badge' })
+	            _react2.default.createElement('img', { src: 'https://img.shields.io/npm/dm/react-datepicker.svg', className: 'badge' })
 	          )
 	        ),
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'p',
 	          null,
 	          'A simple and reusable datepicker component for React.'
 	        ),
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'h2',
 	          null,
 	          'Installation'
 	        ),
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'p',
 	          null,
 	          'The package can be installed via NPM:'
 	        ),
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'p',
 	          null,
-	          _react3.default.createElement(
+	          _react2.default.createElement(
 	            'code',
 	            null,
 	            'npm install react-datepicker --save'
 	          )
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'wrapper' },
-	        _react3.default.createElement(_example_components2.default, null)
+	        _react2.default.createElement(_example_components2.default, null)
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'a',
 	        { href: 'https://github.com/Hacker0x01/react-datepicker/' },
-	        _react3.default.createElement('img', { className: 'github-ribbon', src: 'images/ribbon.png', alt: 'Fork me on GitHub' })
+	        _react2.default.createElement('img', { className: 'github-ribbon', src: 'images/ribbon.png', alt: 'Fork me on GitHub' })
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
 /* 28 */
-/***/ (function(module, exports) {
-
-	module.exports = function(module) {
-		if(!module.webpackPolyfill) {
-			module.deprecate = function() {};
-			module.paths = [];
-			// module.parent = undefined by default
-			module.children = [];
-			module.webpackPolyfill = 1;
-		}
-		return module;
-	}
-
-
-/***/ }),
-/* 29 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, '__esModule', {
-	  value: true
-	});
-
-	var _slicedToArray = (function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i['return']) _i['return'](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError('Invalid attempt to destructure non-iterable instance'); } }; })();
-
-	exports['default'] = proxyReactComponents;
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-	var _reactProxy = __webpack_require__(30);
-
-	var _globalWindow = __webpack_require__(182);
-
-	var _globalWindow2 = _interopRequireDefault(_globalWindow);
-
-	var componentProxies = undefined;
-	if (_globalWindow2['default'].__reactComponentProxies) {
-	  componentProxies = _globalWindow2['default'].__reactComponentProxies;
-	} else {
-	  componentProxies = {};
-	  Object.defineProperty(_globalWindow2['default'], '__reactComponentProxies', {
-	    configurable: true,
-	    enumerable: false,
-	    writable: false,
-	    value: componentProxies
-	  });
-	}
-
-	function proxyReactComponents(_ref) {
-	  var filename = _ref.filename;
-	  var components = _ref.components;
-	  var imports = _ref.imports;
-	  var locals = _ref.locals;
-
-	  var _imports = _slicedToArray(imports, 1);
-
-	  var React = _imports[0];
-
-	  var _locals = _slicedToArray(locals, 1);
-
-	  var hot = _locals[0].hot;
-
-	  if (!React.Component) {
-	    throw new Error('imports[0] for react-transform-hmr does not look like React.');
-	  }
-
-	  if (!hot || typeof hot.accept !== 'function') {
-	    throw new Error('locals[0] does not appear to be a `module` object with Hot Module ' + 'replacement API enabled. You should disable react-transform-hmr in ' + 'production by using `env` section in Babel configuration. See the ' + 'example in README: https://github.com/gaearon/react-transform-hmr');
-	  }
-
-	  if (Object.keys(components).some(function (key) {
-	    return !components[key].isInFunction;
-	  })) {
-	    hot.accept(function (err) {
-	      if (err) {
-	        console.warn('[React Transform HMR] There was an error updating ' + filename + ':');
-	        console.error(err);
-	      }
-	    });
-	  }
-
-	  var forceUpdate = (0, _reactProxy.getForceUpdate)(React);
-
-	  return function wrapWithProxy(ReactClass, uniqueId) {
-	    var _components$uniqueId = components[uniqueId];
-	    var _components$uniqueId$isInFunction = _components$uniqueId.isInFunction;
-	    var isInFunction = _components$uniqueId$isInFunction === undefined ? false : _components$uniqueId$isInFunction;
-	    var _components$uniqueId$displayName = _components$uniqueId.displayName;
-	    var displayName = _components$uniqueId$displayName === undefined ? uniqueId : _components$uniqueId$displayName;
-
-	    if (isInFunction) {
-	      return ReactClass;
-	    }
-
-	    var globalUniqueId = filename + '$' + uniqueId;
-	    if (componentProxies[globalUniqueId]) {
-	      (function () {
-	        console.info('[React Transform HMR] Patching ' + displayName);
-	        var instances = componentProxies[globalUniqueId].update(ReactClass);
-	        setTimeout(function () {
-	          return instances.forEach(forceUpdate);
-	        });
-	      })();
-	    } else {
-	      componentProxies[globalUniqueId] = (0, _reactProxy.createProxy)(ReactClass);
-	    }
-
-	    return componentProxies[globalUniqueId].get();
-	  };
-	}
-
-	module.exports = exports['default'];
-
-/***/ }),
-/* 30 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.getForceUpdate = exports.createProxy = undefined;
-
-	var _supportsProtoAssignment = __webpack_require__(31);
-
-	var _supportsProtoAssignment2 = _interopRequireDefault(_supportsProtoAssignment);
-
-	var _createClassProxy = __webpack_require__(32);
-
-	var _createClassProxy2 = _interopRequireDefault(_createClassProxy);
-
-	var _reactDeepForceUpdate = __webpack_require__(181);
-
-	var _reactDeepForceUpdate2 = _interopRequireDefault(_reactDeepForceUpdate);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	if (!(0, _supportsProtoAssignment2.default)()) {
-	  console.warn('This JavaScript environment does not support __proto__. ' + 'This means that react-proxy is unable to proxy React components. ' + 'Features that rely on react-proxy, such as react-transform-hmr, ' + 'will not function as expected.');
-	}
-
-	exports.createProxy = _createClassProxy2.default;
-	exports.getForceUpdate = _reactDeepForceUpdate2.default;
-
-/***/ }),
-/* 31 */
-/***/ (function(module, exports) {
-
-	"use strict";
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.default = supportsProtoAssignment;
-	var x = {};
-	var y = { supports: true };
-	try {
-	  x.__proto__ = y;
-	} catch (err) {}
-
-	function supportsProtoAssignment() {
-	  return x.supports || false;
-	};
-
-/***/ }),
-/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -18378,5729 +18186,105 @@
 	  value: true
 	});
 
-	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	var _react = __webpack_require__(2);
 
-	var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+	var _react2 = _interopRequireDefault(_react);
 
-	exports.default = proxyClass;
-	exports.default = createClassProxy;
-
-	var _find = __webpack_require__(33);
-
-	var _find2 = _interopRequireDefault(_find);
-
-	var _createPrototypeProxy = __webpack_require__(154);
-
-	var _createPrototypeProxy2 = _interopRequireDefault(_createPrototypeProxy);
-
-	var _bindAutoBindMethods = __webpack_require__(179);
-
-	var _bindAutoBindMethods2 = _interopRequireDefault(_bindAutoBindMethods);
-
-	var _deleteUnknownAutoBindMethods = __webpack_require__(180);
-
-	var _deleteUnknownAutoBindMethods2 = _interopRequireDefault(_deleteUnknownAutoBindMethods);
-
-	var _supportsProtoAssignment = __webpack_require__(31);
-
-	var _supportsProtoAssignment2 = _interopRequireDefault(_supportsProtoAssignment);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
-
-	var RESERVED_STATICS = ['length', 'name', 'arguments', 'caller', 'prototype', 'toString'];
-
-	function isEqualDescriptor(a, b) {
-	  if (!a && !b) {
-	    return true;
-	  }
-	  if (!a || !b) {
-	    return false;
-	  }
-	  for (var key in a) {
-	    if (a[key] !== b[key]) {
-	      return false;
-	    }
-	  }
-	  return true;
-	}
-
-	// This was originally a WeakMap but we had issues with React Native:
-	// https://github.com/gaearon/react-proxy/issues/50#issuecomment-192928066
-	var allProxies = [];
-	function findProxy(Component) {
-	  var pair = (0, _find2.default)(allProxies, function (_ref) {
-	    var _ref2 = _slicedToArray(_ref, 1);
-
-	    var key = _ref2[0];
-	    return key === Component;
-	  });
-	  return pair ? pair[1] : null;
-	}
-	function addProxy(Component, proxy) {
-	  allProxies.push([Component, proxy]);
-	}
-
-	function proxyClass(InitialComponent) {
-	  // Prevent double wrapping.
-	  // Given a proxy class, return the existing proxy managing it.
-	  var existingProxy = findProxy(InitialComponent);
-	  if (existingProxy) {
-	    return existingProxy;
-	  }
-
-	  var prototypeProxy = (0, _createPrototypeProxy2.default)();
-	  var CurrentComponent = undefined;
-	  var ProxyComponent = undefined;
-
-	  var staticDescriptors = {};
-	  function wasStaticModifiedByUser(key) {
-	    // Compare the descriptor with the one we previously set ourselves.
-	    var currentDescriptor = Object.getOwnPropertyDescriptor(ProxyComponent, key);
-	    return !isEqualDescriptor(staticDescriptors[key], currentDescriptor);
-	  }
-
-	  function instantiate(factory, context, params) {
-	    var component = factory();
-
-	    try {
-	      return component.apply(context, params);
-	    } catch (err) {
-	      (function () {
-	        // Native ES6 class instantiation
-	        var instance = new (Function.prototype.bind.apply(component, [null].concat(_toConsumableArray(params))))();
-
-	        Object.keys(instance).forEach(function (key) {
-	          if (RESERVED_STATICS.indexOf(key) > -1) {
-	            return;
-	          }
-	          context[key] = instance[key];
-	        });
-	      })();
-	    }
-	  }
-
-	  try {
-	    // Create a proxy constructor with matching name
-	    ProxyComponent = new Function('factory', 'instantiate', 'return function ' + (InitialComponent.name || 'ProxyComponent') + '() {\n         return instantiate(factory, this, arguments);\n      }')(function () {
-	      return CurrentComponent;
-	    }, instantiate);
-	  } catch (err) {
-	    // Some environments may forbid dynamic evaluation
-	    ProxyComponent = function ProxyComponent() {
-	      return instantiate(function () {
-	        return CurrentComponent;
-	      }, this, arguments);
-	    };
-	  }
-
-	  // Point proxy constructor to the proxy prototype
-	  ProxyComponent.prototype = prototypeProxy.get();
-
-	  // Proxy toString() to the current constructor
-	  ProxyComponent.toString = function toString() {
-	    return CurrentComponent.toString();
-	  };
-
-	  function update(NextComponent) {
-	    if (typeof NextComponent !== 'function') {
-	      throw new Error('Expected a constructor.');
-	    }
-
-	    // Prevent proxy cycles
-	    var existingProxy = findProxy(NextComponent);
-	    if (existingProxy) {
-	      return update(existingProxy.__getCurrent());
-	    }
-
-	    // Save the next constructor so we call it
-	    CurrentComponent = NextComponent;
-
-	    // Update the prototype proxy with new methods
-	    var mountedInstances = prototypeProxy.update(NextComponent.prototype);
-
-	    // Set up the constructor property so accessing the statics work
-	    ProxyComponent.prototype.constructor = ProxyComponent;
-
-	    // Set up the same prototype for inherited statics
-	    ProxyComponent.__proto__ = NextComponent.__proto__;
-
-	    // Copy static methods and properties
-	    Object.getOwnPropertyNames(NextComponent).forEach(function (key) {
-	      if (RESERVED_STATICS.indexOf(key) > -1) {
-	        return;
-	      }
-
-	      var staticDescriptor = _extends({}, Object.getOwnPropertyDescriptor(NextComponent, key), {
-	        configurable: true
-	      });
-
-	      // Copy static unless user has redefined it at runtime
-	      if (!wasStaticModifiedByUser(key)) {
-	        Object.defineProperty(ProxyComponent, key, staticDescriptor);
-	        staticDescriptors[key] = staticDescriptor;
-	      }
-	    });
-
-	    // Remove old static methods and properties
-	    Object.getOwnPropertyNames(ProxyComponent).forEach(function (key) {
-	      if (RESERVED_STATICS.indexOf(key) > -1) {
-	        return;
-	      }
-
-	      // Skip statics that exist on the next class
-	      if (NextComponent.hasOwnProperty(key)) {
-	        return;
-	      }
-
-	      // Skip non-configurable statics
-	      var descriptor = Object.getOwnPropertyDescriptor(ProxyComponent, key);
-	      if (descriptor && !descriptor.configurable) {
-	        return;
-	      }
-
-	      // Delete static unless user has redefined it at runtime
-	      if (!wasStaticModifiedByUser(key)) {
-	        delete ProxyComponent[key];
-	        delete staticDescriptors[key];
-	      }
-	    });
-
-	    // Try to infer displayName
-	    ProxyComponent.displayName = NextComponent.displayName || NextComponent.name;
-
-	    // We might have added new methods that need to be auto-bound
-	    mountedInstances.forEach(_bindAutoBindMethods2.default);
-	    mountedInstances.forEach(_deleteUnknownAutoBindMethods2.default);
-
-	    // Let the user take care of redrawing
-	    return mountedInstances;
-	  };
-
-	  function get() {
-	    return ProxyComponent;
-	  }
-
-	  function getCurrent() {
-	    return CurrentComponent;
-	  }
-
-	  update(InitialComponent);
-
-	  var proxy = { get: get, update: update };
-	  addProxy(ProxyComponent, proxy);
-
-	  Object.defineProperty(proxy, '__getCurrent', {
-	    configurable: false,
-	    writable: false,
-	    enumerable: false,
-	    value: getCurrent
-	  });
-
-	  return proxy;
-	}
-
-	function createFallback(Component) {
-	  var CurrentComponent = Component;
-
-	  return {
-	    get: function get() {
-	      return CurrentComponent;
-	    },
-	    update: function update(NextComponent) {
-	      CurrentComponent = NextComponent;
-	    }
-	  };
-	}
-
-	function createClassProxy(Component) {
-	  return Component.__proto__ && (0, _supportsProtoAssignment2.default)() ? proxyClass(Component) : createFallback(Component);
-	}
-
-/***/ }),
-/* 33 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var createFind = __webpack_require__(34),
-	    findIndex = __webpack_require__(149);
-
-	/**
-	 * Iterates over elements of `collection`, returning the first element
-	 * `predicate` returns truthy for. The predicate is invoked with three
-	 * arguments: (value, index|key, collection).
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 0.1.0
-	 * @category Collection
-	 * @param {Array|Object} collection The collection to inspect.
-	 * @param {Function} [predicate=_.identity] The function invoked per iteration.
-	 * @param {number} [fromIndex=0] The index to search from.
-	 * @returns {*} Returns the matched element, else `undefined`.
-	 * @example
-	 *
-	 * var users = [
-	 *   { 'user': 'barney',  'age': 36, 'active': true },
-	 *   { 'user': 'fred',    'age': 40, 'active': false },
-	 *   { 'user': 'pebbles', 'age': 1,  'active': true }
-	 * ];
-	 *
-	 * _.find(users, function(o) { return o.age < 40; });
-	 * // => object for 'barney'
-	 *
-	 * // The `_.matches` iteratee shorthand.
-	 * _.find(users, { 'age': 1, 'active': true });
-	 * // => object for 'pebbles'
-	 *
-	 * // The `_.matchesProperty` iteratee shorthand.
-	 * _.find(users, ['active', false]);
-	 * // => object for 'fred'
-	 *
-	 * // The `_.property` iteratee shorthand.
-	 * _.find(users, 'active');
-	 * // => object for 'barney'
-	 */
-	var find = createFind(findIndex);
-
-	module.exports = find;
-
-
-/***/ }),
-/* 34 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseIteratee = __webpack_require__(35),
-	    isArrayLike = __webpack_require__(120),
-	    keys = __webpack_require__(102);
-
-	/**
-	 * Creates a `_.find` or `_.findLast` function.
-	 *
-	 * @private
-	 * @param {Function} findIndexFunc The function to find the collection index.
-	 * @returns {Function} Returns the new find function.
-	 */
-	function createFind(findIndexFunc) {
-	  return function(collection, predicate, fromIndex) {
-	    var iterable = Object(collection);
-	    if (!isArrayLike(collection)) {
-	      var iteratee = baseIteratee(predicate, 3);
-	      collection = keys(collection);
-	      predicate = function(key) { return iteratee(iterable[key], key, iterable); };
-	    }
-	    var index = findIndexFunc(collection, predicate, fromIndex);
-	    return index > -1 ? iterable[iteratee ? collection[index] : index] : undefined;
-	  };
-	}
-
-	module.exports = createFind;
-
-
-/***/ }),
-/* 35 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseMatches = __webpack_require__(36),
-	    baseMatchesProperty = __webpack_require__(129),
-	    identity = __webpack_require__(145),
-	    isArray = __webpack_require__(98),
-	    property = __webpack_require__(146);
-
-	/**
-	 * The base implementation of `_.iteratee`.
-	 *
-	 * @private
-	 * @param {*} [value=_.identity] The value to convert to an iteratee.
-	 * @returns {Function} Returns the iteratee.
-	 */
-	function baseIteratee(value) {
-	  // Don't store the `typeof` result in a variable to avoid a JIT bug in Safari 9.
-	  // See https://bugs.webkit.org/show_bug.cgi?id=156034 for more details.
-	  if (typeof value == 'function') {
-	    return value;
-	  }
-	  if (value == null) {
-	    return identity;
-	  }
-	  if (typeof value == 'object') {
-	    return isArray(value)
-	      ? baseMatchesProperty(value[0], value[1])
-	      : baseMatches(value);
-	  }
-	  return property(value);
-	}
-
-	module.exports = baseIteratee;
-
-
-/***/ }),
-/* 36 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseIsMatch = __webpack_require__(37),
-	    getMatchData = __webpack_require__(126),
-	    matchesStrictComparable = __webpack_require__(128);
-
-	/**
-	 * The base implementation of `_.matches` which doesn't clone `source`.
-	 *
-	 * @private
-	 * @param {Object} source The object of property values to match.
-	 * @returns {Function} Returns the new spec function.
-	 */
-	function baseMatches(source) {
-	  var matchData = getMatchData(source);
-	  if (matchData.length == 1 && matchData[0][2]) {
-	    return matchesStrictComparable(matchData[0][0], matchData[0][1]);
-	  }
-	  return function(object) {
-	    return object === source || baseIsMatch(object, source, matchData);
-	  };
-	}
-
-	module.exports = baseMatches;
-
-
-/***/ }),
-/* 37 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var Stack = __webpack_require__(38),
-	    baseIsEqual = __webpack_require__(82);
-
-	/** Used to compose bitmasks for value comparisons. */
-	var COMPARE_PARTIAL_FLAG = 1,
-	    COMPARE_UNORDERED_FLAG = 2;
-
-	/**
-	 * The base implementation of `_.isMatch` without support for iteratee shorthands.
-	 *
-	 * @private
-	 * @param {Object} object The object to inspect.
-	 * @param {Object} source The object of property values to match.
-	 * @param {Array} matchData The property names, values, and compare flags to match.
-	 * @param {Function} [customizer] The function to customize comparisons.
-	 * @returns {boolean} Returns `true` if `object` is a match, else `false`.
-	 */
-	function baseIsMatch(object, source, matchData, customizer) {
-	  var index = matchData.length,
-	      length = index,
-	      noCustomizer = !customizer;
-
-	  if (object == null) {
-	    return !length;
-	  }
-	  object = Object(object);
-	  while (index--) {
-	    var data = matchData[index];
-	    if ((noCustomizer && data[2])
-	          ? data[1] !== object[data[0]]
-	          : !(data[0] in object)
-	        ) {
-	      return false;
-	    }
-	  }
-	  while (++index < length) {
-	    data = matchData[index];
-	    var key = data[0],
-	        objValue = object[key],
-	        srcValue = data[1];
-
-	    if (noCustomizer && data[2]) {
-	      if (objValue === undefined && !(key in object)) {
-	        return false;
-	      }
-	    } else {
-	      var stack = new Stack;
-	      if (customizer) {
-	        var result = customizer(objValue, srcValue, key, object, source, stack);
-	      }
-	      if (!(result === undefined
-	            ? baseIsEqual(srcValue, objValue, COMPARE_PARTIAL_FLAG | COMPARE_UNORDERED_FLAG, customizer, stack)
-	            : result
-	          )) {
-	        return false;
-	      }
-	    }
-	  }
-	  return true;
-	}
-
-	module.exports = baseIsMatch;
-
-
-/***/ }),
-/* 38 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var ListCache = __webpack_require__(39),
-	    stackClear = __webpack_require__(47),
-	    stackDelete = __webpack_require__(48),
-	    stackGet = __webpack_require__(49),
-	    stackHas = __webpack_require__(50),
-	    stackSet = __webpack_require__(51);
-
-	/**
-	 * Creates a stack cache object to store key-value pairs.
-	 *
-	 * @private
-	 * @constructor
-	 * @param {Array} [entries] The key-value pairs to cache.
-	 */
-	function Stack(entries) {
-	  var data = this.__data__ = new ListCache(entries);
-	  this.size = data.size;
-	}
-
-	// Add methods to `Stack`.
-	Stack.prototype.clear = stackClear;
-	Stack.prototype['delete'] = stackDelete;
-	Stack.prototype.get = stackGet;
-	Stack.prototype.has = stackHas;
-	Stack.prototype.set = stackSet;
-
-	module.exports = Stack;
-
-
-/***/ }),
-/* 39 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var listCacheClear = __webpack_require__(40),
-	    listCacheDelete = __webpack_require__(41),
-	    listCacheGet = __webpack_require__(44),
-	    listCacheHas = __webpack_require__(45),
-	    listCacheSet = __webpack_require__(46);
-
-	/**
-	 * Creates an list cache object.
-	 *
-	 * @private
-	 * @constructor
-	 * @param {Array} [entries] The key-value pairs to cache.
-	 */
-	function ListCache(entries) {
-	  var index = -1,
-	      length = entries == null ? 0 : entries.length;
-
-	  this.clear();
-	  while (++index < length) {
-	    var entry = entries[index];
-	    this.set(entry[0], entry[1]);
-	  }
-	}
-
-	// Add methods to `ListCache`.
-	ListCache.prototype.clear = listCacheClear;
-	ListCache.prototype['delete'] = listCacheDelete;
-	ListCache.prototype.get = listCacheGet;
-	ListCache.prototype.has = listCacheHas;
-	ListCache.prototype.set = listCacheSet;
-
-	module.exports = ListCache;
-
-
-/***/ }),
-/* 40 */
-/***/ (function(module, exports) {
-
-	/**
-	 * Removes all key-value entries from the list cache.
-	 *
-	 * @private
-	 * @name clear
-	 * @memberOf ListCache
-	 */
-	function listCacheClear() {
-	  this.__data__ = [];
-	  this.size = 0;
-	}
-
-	module.exports = listCacheClear;
-
-
-/***/ }),
-/* 41 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var assocIndexOf = __webpack_require__(42);
-
-	/** Used for built-in method references. */
-	var arrayProto = Array.prototype;
-
-	/** Built-in value references. */
-	var splice = arrayProto.splice;
-
-	/**
-	 * Removes `key` and its value from the list cache.
-	 *
-	 * @private
-	 * @name delete
-	 * @memberOf ListCache
-	 * @param {string} key The key of the value to remove.
-	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
-	 */
-	function listCacheDelete(key) {
-	  var data = this.__data__,
-	      index = assocIndexOf(data, key);
-
-	  if (index < 0) {
-	    return false;
-	  }
-	  var lastIndex = data.length - 1;
-	  if (index == lastIndex) {
-	    data.pop();
-	  } else {
-	    splice.call(data, index, 1);
-	  }
-	  --this.size;
-	  return true;
-	}
-
-	module.exports = listCacheDelete;
-
-
-/***/ }),
-/* 42 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var eq = __webpack_require__(43);
-
-	/**
-	 * Gets the index at which the `key` is found in `array` of key-value pairs.
-	 *
-	 * @private
-	 * @param {Array} array The array to inspect.
-	 * @param {*} key The key to search for.
-	 * @returns {number} Returns the index of the matched value, else `-1`.
-	 */
-	function assocIndexOf(array, key) {
-	  var length = array.length;
-	  while (length--) {
-	    if (eq(array[length][0], key)) {
-	      return length;
-	    }
-	  }
-	  return -1;
-	}
-
-	module.exports = assocIndexOf;
-
-
-/***/ }),
-/* 43 */
-/***/ (function(module, exports) {
-
-	/**
-	 * Performs a
-	 * [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
-	 * comparison between two values to determine if they are equivalent.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.0.0
-	 * @category Lang
-	 * @param {*} value The value to compare.
-	 * @param {*} other The other value to compare.
-	 * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
-	 * @example
-	 *
-	 * var object = { 'a': 1 };
-	 * var other = { 'a': 1 };
-	 *
-	 * _.eq(object, object);
-	 * // => true
-	 *
-	 * _.eq(object, other);
-	 * // => false
-	 *
-	 * _.eq('a', 'a');
-	 * // => true
-	 *
-	 * _.eq('a', Object('a'));
-	 * // => false
-	 *
-	 * _.eq(NaN, NaN);
-	 * // => true
-	 */
-	function eq(value, other) {
-	  return value === other || (value !== value && other !== other);
-	}
-
-	module.exports = eq;
-
-
-/***/ }),
-/* 44 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var assocIndexOf = __webpack_require__(42);
-
-	/**
-	 * Gets the list cache value for `key`.
-	 *
-	 * @private
-	 * @name get
-	 * @memberOf ListCache
-	 * @param {string} key The key of the value to get.
-	 * @returns {*} Returns the entry value.
-	 */
-	function listCacheGet(key) {
-	  var data = this.__data__,
-	      index = assocIndexOf(data, key);
-
-	  return index < 0 ? undefined : data[index][1];
-	}
-
-	module.exports = listCacheGet;
-
-
-/***/ }),
-/* 45 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var assocIndexOf = __webpack_require__(42);
-
-	/**
-	 * Checks if a list cache value for `key` exists.
-	 *
-	 * @private
-	 * @name has
-	 * @memberOf ListCache
-	 * @param {string} key The key of the entry to check.
-	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
-	 */
-	function listCacheHas(key) {
-	  return assocIndexOf(this.__data__, key) > -1;
-	}
-
-	module.exports = listCacheHas;
-
-
-/***/ }),
-/* 46 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var assocIndexOf = __webpack_require__(42);
-
-	/**
-	 * Sets the list cache `key` to `value`.
-	 *
-	 * @private
-	 * @name set
-	 * @memberOf ListCache
-	 * @param {string} key The key of the value to set.
-	 * @param {*} value The value to set.
-	 * @returns {Object} Returns the list cache instance.
-	 */
-	function listCacheSet(key, value) {
-	  var data = this.__data__,
-	      index = assocIndexOf(data, key);
-
-	  if (index < 0) {
-	    ++this.size;
-	    data.push([key, value]);
-	  } else {
-	    data[index][1] = value;
-	  }
-	  return this;
-	}
-
-	module.exports = listCacheSet;
-
-
-/***/ }),
-/* 47 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var ListCache = __webpack_require__(39);
-
-	/**
-	 * Removes all key-value entries from the stack.
-	 *
-	 * @private
-	 * @name clear
-	 * @memberOf Stack
-	 */
-	function stackClear() {
-	  this.__data__ = new ListCache;
-	  this.size = 0;
-	}
-
-	module.exports = stackClear;
-
-
-/***/ }),
-/* 48 */
-/***/ (function(module, exports) {
-
-	/**
-	 * Removes `key` and its value from the stack.
-	 *
-	 * @private
-	 * @name delete
-	 * @memberOf Stack
-	 * @param {string} key The key of the value to remove.
-	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
-	 */
-	function stackDelete(key) {
-	  var data = this.__data__,
-	      result = data['delete'](key);
-
-	  this.size = data.size;
-	  return result;
-	}
-
-	module.exports = stackDelete;
-
-
-/***/ }),
-/* 49 */
-/***/ (function(module, exports) {
-
-	/**
-	 * Gets the stack value for `key`.
-	 *
-	 * @private
-	 * @name get
-	 * @memberOf Stack
-	 * @param {string} key The key of the value to get.
-	 * @returns {*} Returns the entry value.
-	 */
-	function stackGet(key) {
-	  return this.__data__.get(key);
-	}
-
-	module.exports = stackGet;
-
-
-/***/ }),
-/* 50 */
-/***/ (function(module, exports) {
-
-	/**
-	 * Checks if a stack value for `key` exists.
-	 *
-	 * @private
-	 * @name has
-	 * @memberOf Stack
-	 * @param {string} key The key of the entry to check.
-	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
-	 */
-	function stackHas(key) {
-	  return this.__data__.has(key);
-	}
-
-	module.exports = stackHas;
-
-
-/***/ }),
-/* 51 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var ListCache = __webpack_require__(39),
-	    Map = __webpack_require__(52),
-	    MapCache = __webpack_require__(67);
-
-	/** Used as the size to enable large array optimizations. */
-	var LARGE_ARRAY_SIZE = 200;
-
-	/**
-	 * Sets the stack `key` to `value`.
-	 *
-	 * @private
-	 * @name set
-	 * @memberOf Stack
-	 * @param {string} key The key of the value to set.
-	 * @param {*} value The value to set.
-	 * @returns {Object} Returns the stack cache instance.
-	 */
-	function stackSet(key, value) {
-	  var data = this.__data__;
-	  if (data instanceof ListCache) {
-	    var pairs = data.__data__;
-	    if (!Map || (pairs.length < LARGE_ARRAY_SIZE - 1)) {
-	      pairs.push([key, value]);
-	      this.size = ++data.size;
-	      return this;
-	    }
-	    data = this.__data__ = new MapCache(pairs);
-	  }
-	  data.set(key, value);
-	  this.size = data.size;
-	  return this;
-	}
-
-	module.exports = stackSet;
-
-
-/***/ }),
-/* 52 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var getNative = __webpack_require__(53),
-	    root = __webpack_require__(58);
-
-	/* Built-in method references that are verified to be native. */
-	var Map = getNative(root, 'Map');
-
-	module.exports = Map;
-
-
-/***/ }),
-/* 53 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseIsNative = __webpack_require__(54),
-	    getValue = __webpack_require__(66);
-
-	/**
-	 * Gets the native function at `key` of `object`.
-	 *
-	 * @private
-	 * @param {Object} object The object to query.
-	 * @param {string} key The key of the method to get.
-	 * @returns {*} Returns the function if it's native, else `undefined`.
-	 */
-	function getNative(object, key) {
-	  var value = getValue(object, key);
-	  return baseIsNative(value) ? value : undefined;
-	}
-
-	module.exports = getNative;
-
-
-/***/ }),
-/* 54 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var isFunction = __webpack_require__(55),
-	    isMasked = __webpack_require__(63),
-	    isObject = __webpack_require__(62),
-	    toSource = __webpack_require__(65);
-
-	/**
-	 * Used to match `RegExp`
-	 * [syntax characters](http://ecma-international.org/ecma-262/7.0/#sec-patterns).
-	 */
-	var reRegExpChar = /[\\^$.*+?()[\]{}|]/g;
-
-	/** Used to detect host constructors (Safari). */
-	var reIsHostCtor = /^\[object .+?Constructor\]$/;
-
-	/** Used for built-in method references. */
-	var funcProto = Function.prototype,
-	    objectProto = Object.prototype;
-
-	/** Used to resolve the decompiled source of functions. */
-	var funcToString = funcProto.toString;
-
-	/** Used to check objects for own properties. */
-	var hasOwnProperty = objectProto.hasOwnProperty;
-
-	/** Used to detect if a method is native. */
-	var reIsNative = RegExp('^' +
-	  funcToString.call(hasOwnProperty).replace(reRegExpChar, '\\$&')
-	  .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$'
-	);
-
-	/**
-	 * The base implementation of `_.isNative` without bad shim checks.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a native function,
-	 *  else `false`.
-	 */
-	function baseIsNative(value) {
-	  if (!isObject(value) || isMasked(value)) {
-	    return false;
-	  }
-	  var pattern = isFunction(value) ? reIsNative : reIsHostCtor;
-	  return pattern.test(toSource(value));
-	}
-
-	module.exports = baseIsNative;
-
-
-/***/ }),
-/* 55 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseGetTag = __webpack_require__(56),
-	    isObject = __webpack_require__(62);
-
-	/** `Object#toString` result references. */
-	var asyncTag = '[object AsyncFunction]',
-	    funcTag = '[object Function]',
-	    genTag = '[object GeneratorFunction]',
-	    proxyTag = '[object Proxy]';
-
-	/**
-	 * Checks if `value` is classified as a `Function` object.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 0.1.0
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a function, else `false`.
-	 * @example
-	 *
-	 * _.isFunction(_);
-	 * // => true
-	 *
-	 * _.isFunction(/abc/);
-	 * // => false
-	 */
-	function isFunction(value) {
-	  if (!isObject(value)) {
-	    return false;
-	  }
-	  // The use of `Object#toString` avoids issues with the `typeof` operator
-	  // in Safari 9 which returns 'object' for typed arrays and other constructors.
-	  var tag = baseGetTag(value);
-	  return tag == funcTag || tag == genTag || tag == asyncTag || tag == proxyTag;
-	}
-
-	module.exports = isFunction;
-
-
-/***/ }),
-/* 56 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var Symbol = __webpack_require__(57),
-	    getRawTag = __webpack_require__(60),
-	    objectToString = __webpack_require__(61);
-
-	/** `Object#toString` result references. */
-	var nullTag = '[object Null]',
-	    undefinedTag = '[object Undefined]';
-
-	/** Built-in value references. */
-	var symToStringTag = Symbol ? Symbol.toStringTag : undefined;
-
-	/**
-	 * The base implementation of `getTag` without fallbacks for buggy environments.
-	 *
-	 * @private
-	 * @param {*} value The value to query.
-	 * @returns {string} Returns the `toStringTag`.
-	 */
-	function baseGetTag(value) {
-	  if (value == null) {
-	    return value === undefined ? undefinedTag : nullTag;
-	  }
-	  return (symToStringTag && symToStringTag in Object(value))
-	    ? getRawTag(value)
-	    : objectToString(value);
-	}
-
-	module.exports = baseGetTag;
-
-
-/***/ }),
-/* 57 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var root = __webpack_require__(58);
-
-	/** Built-in value references. */
-	var Symbol = root.Symbol;
-
-	module.exports = Symbol;
-
-
-/***/ }),
-/* 58 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var freeGlobal = __webpack_require__(59);
-
-	/** Detect free variable `self`. */
-	var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
-
-	/** Used as a reference to the global object. */
-	var root = freeGlobal || freeSelf || Function('return this')();
-
-	module.exports = root;
-
-
-/***/ }),
-/* 59 */
-/***/ (function(module, exports) {
-
-	/* WEBPACK VAR INJECTION */(function(global) {/** Detect free variable `global` from Node.js. */
-	var freeGlobal = typeof global == 'object' && global && global.Object === Object && global;
-
-	module.exports = freeGlobal;
-
-	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
-
-/***/ }),
-/* 60 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var Symbol = __webpack_require__(57);
-
-	/** Used for built-in method references. */
-	var objectProto = Object.prototype;
-
-	/** Used to check objects for own properties. */
-	var hasOwnProperty = objectProto.hasOwnProperty;
-
-	/**
-	 * Used to resolve the
-	 * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
-	 * of values.
-	 */
-	var nativeObjectToString = objectProto.toString;
-
-	/** Built-in value references. */
-	var symToStringTag = Symbol ? Symbol.toStringTag : undefined;
-
-	/**
-	 * A specialized version of `baseGetTag` which ignores `Symbol.toStringTag` values.
-	 *
-	 * @private
-	 * @param {*} value The value to query.
-	 * @returns {string} Returns the raw `toStringTag`.
-	 */
-	function getRawTag(value) {
-	  var isOwn = hasOwnProperty.call(value, symToStringTag),
-	      tag = value[symToStringTag];
-
-	  try {
-	    value[symToStringTag] = undefined;
-	    var unmasked = true;
-	  } catch (e) {}
-
-	  var result = nativeObjectToString.call(value);
-	  if (unmasked) {
-	    if (isOwn) {
-	      value[symToStringTag] = tag;
-	    } else {
-	      delete value[symToStringTag];
-	    }
-	  }
-	  return result;
-	}
-
-	module.exports = getRawTag;
-
-
-/***/ }),
-/* 61 */
-/***/ (function(module, exports) {
-
-	/** Used for built-in method references. */
-	var objectProto = Object.prototype;
-
-	/**
-	 * Used to resolve the
-	 * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
-	 * of values.
-	 */
-	var nativeObjectToString = objectProto.toString;
-
-	/**
-	 * Converts `value` to a string using `Object.prototype.toString`.
-	 *
-	 * @private
-	 * @param {*} value The value to convert.
-	 * @returns {string} Returns the converted string.
-	 */
-	function objectToString(value) {
-	  return nativeObjectToString.call(value);
-	}
-
-	module.exports = objectToString;
-
-
-/***/ }),
-/* 62 */
-/***/ (function(module, exports) {
-
-	/**
-	 * Checks if `value` is the
-	 * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
-	 * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 0.1.0
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is an object, else `false`.
-	 * @example
-	 *
-	 * _.isObject({});
-	 * // => true
-	 *
-	 * _.isObject([1, 2, 3]);
-	 * // => true
-	 *
-	 * _.isObject(_.noop);
-	 * // => true
-	 *
-	 * _.isObject(null);
-	 * // => false
-	 */
-	function isObject(value) {
-	  var type = typeof value;
-	  return value != null && (type == 'object' || type == 'function');
-	}
-
-	module.exports = isObject;
-
-
-/***/ }),
-/* 63 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var coreJsData = __webpack_require__(64);
-
-	/** Used to detect methods masquerading as native. */
-	var maskSrcKey = (function() {
-	  var uid = /[^.]+$/.exec(coreJsData && coreJsData.keys && coreJsData.keys.IE_PROTO || '');
-	  return uid ? ('Symbol(src)_1.' + uid) : '';
-	}());
-
-	/**
-	 * Checks if `func` has its source masked.
-	 *
-	 * @private
-	 * @param {Function} func The function to check.
-	 * @returns {boolean} Returns `true` if `func` is masked, else `false`.
-	 */
-	function isMasked(func) {
-	  return !!maskSrcKey && (maskSrcKey in func);
-	}
-
-	module.exports = isMasked;
-
-
-/***/ }),
-/* 64 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var root = __webpack_require__(58);
-
-	/** Used to detect overreaching core-js shims. */
-	var coreJsData = root['__core-js_shared__'];
-
-	module.exports = coreJsData;
-
-
-/***/ }),
-/* 65 */
-/***/ (function(module, exports) {
-
-	/** Used for built-in method references. */
-	var funcProto = Function.prototype;
-
-	/** Used to resolve the decompiled source of functions. */
-	var funcToString = funcProto.toString;
-
-	/**
-	 * Converts `func` to its source code.
-	 *
-	 * @private
-	 * @param {Function} func The function to convert.
-	 * @returns {string} Returns the source code.
-	 */
-	function toSource(func) {
-	  if (func != null) {
-	    try {
-	      return funcToString.call(func);
-	    } catch (e) {}
-	    try {
-	      return (func + '');
-	    } catch (e) {}
-	  }
-	  return '';
-	}
-
-	module.exports = toSource;
-
-
-/***/ }),
-/* 66 */
-/***/ (function(module, exports) {
-
-	/**
-	 * Gets the value at `key` of `object`.
-	 *
-	 * @private
-	 * @param {Object} [object] The object to query.
-	 * @param {string} key The key of the property to get.
-	 * @returns {*} Returns the property value.
-	 */
-	function getValue(object, key) {
-	  return object == null ? undefined : object[key];
-	}
-
-	module.exports = getValue;
-
-
-/***/ }),
-/* 67 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var mapCacheClear = __webpack_require__(68),
-	    mapCacheDelete = __webpack_require__(76),
-	    mapCacheGet = __webpack_require__(79),
-	    mapCacheHas = __webpack_require__(80),
-	    mapCacheSet = __webpack_require__(81);
-
-	/**
-	 * Creates a map cache object to store key-value pairs.
-	 *
-	 * @private
-	 * @constructor
-	 * @param {Array} [entries] The key-value pairs to cache.
-	 */
-	function MapCache(entries) {
-	  var index = -1,
-	      length = entries == null ? 0 : entries.length;
-
-	  this.clear();
-	  while (++index < length) {
-	    var entry = entries[index];
-	    this.set(entry[0], entry[1]);
-	  }
-	}
-
-	// Add methods to `MapCache`.
-	MapCache.prototype.clear = mapCacheClear;
-	MapCache.prototype['delete'] = mapCacheDelete;
-	MapCache.prototype.get = mapCacheGet;
-	MapCache.prototype.has = mapCacheHas;
-	MapCache.prototype.set = mapCacheSet;
-
-	module.exports = MapCache;
-
-
-/***/ }),
-/* 68 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var Hash = __webpack_require__(69),
-	    ListCache = __webpack_require__(39),
-	    Map = __webpack_require__(52);
-
-	/**
-	 * Removes all key-value entries from the map.
-	 *
-	 * @private
-	 * @name clear
-	 * @memberOf MapCache
-	 */
-	function mapCacheClear() {
-	  this.size = 0;
-	  this.__data__ = {
-	    'hash': new Hash,
-	    'map': new (Map || ListCache),
-	    'string': new Hash
-	  };
-	}
-
-	module.exports = mapCacheClear;
-
-
-/***/ }),
-/* 69 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var hashClear = __webpack_require__(70),
-	    hashDelete = __webpack_require__(72),
-	    hashGet = __webpack_require__(73),
-	    hashHas = __webpack_require__(74),
-	    hashSet = __webpack_require__(75);
-
-	/**
-	 * Creates a hash object.
-	 *
-	 * @private
-	 * @constructor
-	 * @param {Array} [entries] The key-value pairs to cache.
-	 */
-	function Hash(entries) {
-	  var index = -1,
-	      length = entries == null ? 0 : entries.length;
-
-	  this.clear();
-	  while (++index < length) {
-	    var entry = entries[index];
-	    this.set(entry[0], entry[1]);
-	  }
-	}
-
-	// Add methods to `Hash`.
-	Hash.prototype.clear = hashClear;
-	Hash.prototype['delete'] = hashDelete;
-	Hash.prototype.get = hashGet;
-	Hash.prototype.has = hashHas;
-	Hash.prototype.set = hashSet;
-
-	module.exports = Hash;
-
-
-/***/ }),
-/* 70 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var nativeCreate = __webpack_require__(71);
-
-	/**
-	 * Removes all key-value entries from the hash.
-	 *
-	 * @private
-	 * @name clear
-	 * @memberOf Hash
-	 */
-	function hashClear() {
-	  this.__data__ = nativeCreate ? nativeCreate(null) : {};
-	  this.size = 0;
-	}
-
-	module.exports = hashClear;
-
-
-/***/ }),
-/* 71 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var getNative = __webpack_require__(53);
-
-	/* Built-in method references that are verified to be native. */
-	var nativeCreate = getNative(Object, 'create');
-
-	module.exports = nativeCreate;
-
-
-/***/ }),
-/* 72 */
-/***/ (function(module, exports) {
-
-	/**
-	 * Removes `key` and its value from the hash.
-	 *
-	 * @private
-	 * @name delete
-	 * @memberOf Hash
-	 * @param {Object} hash The hash to modify.
-	 * @param {string} key The key of the value to remove.
-	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
-	 */
-	function hashDelete(key) {
-	  var result = this.has(key) && delete this.__data__[key];
-	  this.size -= result ? 1 : 0;
-	  return result;
-	}
-
-	module.exports = hashDelete;
-
-
-/***/ }),
-/* 73 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var nativeCreate = __webpack_require__(71);
-
-	/** Used to stand-in for `undefined` hash values. */
-	var HASH_UNDEFINED = '__lodash_hash_undefined__';
-
-	/** Used for built-in method references. */
-	var objectProto = Object.prototype;
-
-	/** Used to check objects for own properties. */
-	var hasOwnProperty = objectProto.hasOwnProperty;
-
-	/**
-	 * Gets the hash value for `key`.
-	 *
-	 * @private
-	 * @name get
-	 * @memberOf Hash
-	 * @param {string} key The key of the value to get.
-	 * @returns {*} Returns the entry value.
-	 */
-	function hashGet(key) {
-	  var data = this.__data__;
-	  if (nativeCreate) {
-	    var result = data[key];
-	    return result === HASH_UNDEFINED ? undefined : result;
-	  }
-	  return hasOwnProperty.call(data, key) ? data[key] : undefined;
-	}
-
-	module.exports = hashGet;
-
-
-/***/ }),
-/* 74 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var nativeCreate = __webpack_require__(71);
-
-	/** Used for built-in method references. */
-	var objectProto = Object.prototype;
-
-	/** Used to check objects for own properties. */
-	var hasOwnProperty = objectProto.hasOwnProperty;
-
-	/**
-	 * Checks if a hash value for `key` exists.
-	 *
-	 * @private
-	 * @name has
-	 * @memberOf Hash
-	 * @param {string} key The key of the entry to check.
-	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
-	 */
-	function hashHas(key) {
-	  var data = this.__data__;
-	  return nativeCreate ? (data[key] !== undefined) : hasOwnProperty.call(data, key);
-	}
-
-	module.exports = hashHas;
-
-
-/***/ }),
-/* 75 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var nativeCreate = __webpack_require__(71);
-
-	/** Used to stand-in for `undefined` hash values. */
-	var HASH_UNDEFINED = '__lodash_hash_undefined__';
-
-	/**
-	 * Sets the hash `key` to `value`.
-	 *
-	 * @private
-	 * @name set
-	 * @memberOf Hash
-	 * @param {string} key The key of the value to set.
-	 * @param {*} value The value to set.
-	 * @returns {Object} Returns the hash instance.
-	 */
-	function hashSet(key, value) {
-	  var data = this.__data__;
-	  this.size += this.has(key) ? 0 : 1;
-	  data[key] = (nativeCreate && value === undefined) ? HASH_UNDEFINED : value;
-	  return this;
-	}
-
-	module.exports = hashSet;
-
-
-/***/ }),
-/* 76 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var getMapData = __webpack_require__(77);
-
-	/**
-	 * Removes `key` and its value from the map.
-	 *
-	 * @private
-	 * @name delete
-	 * @memberOf MapCache
-	 * @param {string} key The key of the value to remove.
-	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
-	 */
-	function mapCacheDelete(key) {
-	  var result = getMapData(this, key)['delete'](key);
-	  this.size -= result ? 1 : 0;
-	  return result;
-	}
-
-	module.exports = mapCacheDelete;
-
-
-/***/ }),
-/* 77 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var isKeyable = __webpack_require__(78);
-
-	/**
-	 * Gets the data for `map`.
-	 *
-	 * @private
-	 * @param {Object} map The map to query.
-	 * @param {string} key The reference key.
-	 * @returns {*} Returns the map data.
-	 */
-	function getMapData(map, key) {
-	  var data = map.__data__;
-	  return isKeyable(key)
-	    ? data[typeof key == 'string' ? 'string' : 'hash']
-	    : data.map;
-	}
-
-	module.exports = getMapData;
-
-
-/***/ }),
-/* 78 */
-/***/ (function(module, exports) {
-
-	/**
-	 * Checks if `value` is suitable for use as unique object key.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is suitable, else `false`.
-	 */
-	function isKeyable(value) {
-	  var type = typeof value;
-	  return (type == 'string' || type == 'number' || type == 'symbol' || type == 'boolean')
-	    ? (value !== '__proto__')
-	    : (value === null);
-	}
-
-	module.exports = isKeyable;
-
-
-/***/ }),
-/* 79 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var getMapData = __webpack_require__(77);
-
-	/**
-	 * Gets the map value for `key`.
-	 *
-	 * @private
-	 * @name get
-	 * @memberOf MapCache
-	 * @param {string} key The key of the value to get.
-	 * @returns {*} Returns the entry value.
-	 */
-	function mapCacheGet(key) {
-	  return getMapData(this, key).get(key);
-	}
-
-	module.exports = mapCacheGet;
-
-
-/***/ }),
-/* 80 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var getMapData = __webpack_require__(77);
-
-	/**
-	 * Checks if a map value for `key` exists.
-	 *
-	 * @private
-	 * @name has
-	 * @memberOf MapCache
-	 * @param {string} key The key of the entry to check.
-	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
-	 */
-	function mapCacheHas(key) {
-	  return getMapData(this, key).has(key);
-	}
-
-	module.exports = mapCacheHas;
-
-
-/***/ }),
-/* 81 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var getMapData = __webpack_require__(77);
-
-	/**
-	 * Sets the map `key` to `value`.
-	 *
-	 * @private
-	 * @name set
-	 * @memberOf MapCache
-	 * @param {string} key The key of the value to set.
-	 * @param {*} value The value to set.
-	 * @returns {Object} Returns the map cache instance.
-	 */
-	function mapCacheSet(key, value) {
-	  var data = getMapData(this, key),
-	      size = data.size;
-
-	  data.set(key, value);
-	  this.size += data.size == size ? 0 : 1;
-	  return this;
-	}
-
-	module.exports = mapCacheSet;
-
-
-/***/ }),
-/* 82 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseIsEqualDeep = __webpack_require__(83),
-	    isObjectLike = __webpack_require__(107);
-
-	/**
-	 * The base implementation of `_.isEqual` which supports partial comparisons
-	 * and tracks traversed objects.
-	 *
-	 * @private
-	 * @param {*} value The value to compare.
-	 * @param {*} other The other value to compare.
-	 * @param {boolean} bitmask The bitmask flags.
-	 *  1 - Unordered comparison
-	 *  2 - Partial comparison
-	 * @param {Function} [customizer] The function to customize comparisons.
-	 * @param {Object} [stack] Tracks traversed `value` and `other` objects.
-	 * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
-	 */
-	function baseIsEqual(value, other, bitmask, customizer, stack) {
-	  if (value === other) {
-	    return true;
-	  }
-	  if (value == null || other == null || (!isObjectLike(value) && !isObjectLike(other))) {
-	    return value !== value && other !== other;
-	  }
-	  return baseIsEqualDeep(value, other, bitmask, customizer, baseIsEqual, stack);
-	}
-
-	module.exports = baseIsEqual;
-
-
-/***/ }),
-/* 83 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var Stack = __webpack_require__(38),
-	    equalArrays = __webpack_require__(84),
-	    equalByTag = __webpack_require__(90),
-	    equalObjects = __webpack_require__(94),
-	    getTag = __webpack_require__(121),
-	    isArray = __webpack_require__(98),
-	    isBuffer = __webpack_require__(108),
-	    isTypedArray = __webpack_require__(111);
-
-	/** Used to compose bitmasks for value comparisons. */
-	var COMPARE_PARTIAL_FLAG = 1;
-
-	/** `Object#toString` result references. */
-	var argsTag = '[object Arguments]',
-	    arrayTag = '[object Array]',
-	    objectTag = '[object Object]';
-
-	/** Used for built-in method references. */
-	var objectProto = Object.prototype;
-
-	/** Used to check objects for own properties. */
-	var hasOwnProperty = objectProto.hasOwnProperty;
-
-	/**
-	 * A specialized version of `baseIsEqual` for arrays and objects which performs
-	 * deep comparisons and tracks traversed objects enabling objects with circular
-	 * references to be compared.
-	 *
-	 * @private
-	 * @param {Object} object The object to compare.
-	 * @param {Object} other The other object to compare.
-	 * @param {number} bitmask The bitmask flags. See `baseIsEqual` for more details.
-	 * @param {Function} customizer The function to customize comparisons.
-	 * @param {Function} equalFunc The function to determine equivalents of values.
-	 * @param {Object} [stack] Tracks traversed `object` and `other` objects.
-	 * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
-	 */
-	function baseIsEqualDeep(object, other, bitmask, customizer, equalFunc, stack) {
-	  var objIsArr = isArray(object),
-	      othIsArr = isArray(other),
-	      objTag = objIsArr ? arrayTag : getTag(object),
-	      othTag = othIsArr ? arrayTag : getTag(other);
-
-	  objTag = objTag == argsTag ? objectTag : objTag;
-	  othTag = othTag == argsTag ? objectTag : othTag;
-
-	  var objIsObj = objTag == objectTag,
-	      othIsObj = othTag == objectTag,
-	      isSameTag = objTag == othTag;
-
-	  if (isSameTag && isBuffer(object)) {
-	    if (!isBuffer(other)) {
-	      return false;
-	    }
-	    objIsArr = true;
-	    objIsObj = false;
-	  }
-	  if (isSameTag && !objIsObj) {
-	    stack || (stack = new Stack);
-	    return (objIsArr || isTypedArray(object))
-	      ? equalArrays(object, other, bitmask, customizer, equalFunc, stack)
-	      : equalByTag(object, other, objTag, bitmask, customizer, equalFunc, stack);
-	  }
-	  if (!(bitmask & COMPARE_PARTIAL_FLAG)) {
-	    var objIsWrapped = objIsObj && hasOwnProperty.call(object, '__wrapped__'),
-	        othIsWrapped = othIsObj && hasOwnProperty.call(other, '__wrapped__');
-
-	    if (objIsWrapped || othIsWrapped) {
-	      var objUnwrapped = objIsWrapped ? object.value() : object,
-	          othUnwrapped = othIsWrapped ? other.value() : other;
-
-	      stack || (stack = new Stack);
-	      return equalFunc(objUnwrapped, othUnwrapped, bitmask, customizer, stack);
-	    }
-	  }
-	  if (!isSameTag) {
-	    return false;
-	  }
-	  stack || (stack = new Stack);
-	  return equalObjects(object, other, bitmask, customizer, equalFunc, stack);
-	}
-
-	module.exports = baseIsEqualDeep;
-
-
-/***/ }),
-/* 84 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var SetCache = __webpack_require__(85),
-	    arraySome = __webpack_require__(88),
-	    cacheHas = __webpack_require__(89);
-
-	/** Used to compose bitmasks for value comparisons. */
-	var COMPARE_PARTIAL_FLAG = 1,
-	    COMPARE_UNORDERED_FLAG = 2;
-
-	/**
-	 * A specialized version of `baseIsEqualDeep` for arrays with support for
-	 * partial deep comparisons.
-	 *
-	 * @private
-	 * @param {Array} array The array to compare.
-	 * @param {Array} other The other array to compare.
-	 * @param {number} bitmask The bitmask flags. See `baseIsEqual` for more details.
-	 * @param {Function} customizer The function to customize comparisons.
-	 * @param {Function} equalFunc The function to determine equivalents of values.
-	 * @param {Object} stack Tracks traversed `array` and `other` objects.
-	 * @returns {boolean} Returns `true` if the arrays are equivalent, else `false`.
-	 */
-	function equalArrays(array, other, bitmask, customizer, equalFunc, stack) {
-	  var isPartial = bitmask & COMPARE_PARTIAL_FLAG,
-	      arrLength = array.length,
-	      othLength = other.length;
-
-	  if (arrLength != othLength && !(isPartial && othLength > arrLength)) {
-	    return false;
-	  }
-	  // Assume cyclic values are equal.
-	  var stacked = stack.get(array);
-	  if (stacked && stack.get(other)) {
-	    return stacked == other;
-	  }
-	  var index = -1,
-	      result = true,
-	      seen = (bitmask & COMPARE_UNORDERED_FLAG) ? new SetCache : undefined;
-
-	  stack.set(array, other);
-	  stack.set(other, array);
-
-	  // Ignore non-index properties.
-	  while (++index < arrLength) {
-	    var arrValue = array[index],
-	        othValue = other[index];
-
-	    if (customizer) {
-	      var compared = isPartial
-	        ? customizer(othValue, arrValue, index, other, array, stack)
-	        : customizer(arrValue, othValue, index, array, other, stack);
-	    }
-	    if (compared !== undefined) {
-	      if (compared) {
-	        continue;
-	      }
-	      result = false;
-	      break;
-	    }
-	    // Recursively compare arrays (susceptible to call stack limits).
-	    if (seen) {
-	      if (!arraySome(other, function(othValue, othIndex) {
-	            if (!cacheHas(seen, othIndex) &&
-	                (arrValue === othValue || equalFunc(arrValue, othValue, bitmask, customizer, stack))) {
-	              return seen.push(othIndex);
-	            }
-	          })) {
-	        result = false;
-	        break;
-	      }
-	    } else if (!(
-	          arrValue === othValue ||
-	            equalFunc(arrValue, othValue, bitmask, customizer, stack)
-	        )) {
-	      result = false;
-	      break;
-	    }
-	  }
-	  stack['delete'](array);
-	  stack['delete'](other);
-	  return result;
-	}
-
-	module.exports = equalArrays;
-
-
-/***/ }),
-/* 85 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var MapCache = __webpack_require__(67),
-	    setCacheAdd = __webpack_require__(86),
-	    setCacheHas = __webpack_require__(87);
-
-	/**
-	 *
-	 * Creates an array cache object to store unique values.
-	 *
-	 * @private
-	 * @constructor
-	 * @param {Array} [values] The values to cache.
-	 */
-	function SetCache(values) {
-	  var index = -1,
-	      length = values == null ? 0 : values.length;
-
-	  this.__data__ = new MapCache;
-	  while (++index < length) {
-	    this.add(values[index]);
-	  }
-	}
-
-	// Add methods to `SetCache`.
-	SetCache.prototype.add = SetCache.prototype.push = setCacheAdd;
-	SetCache.prototype.has = setCacheHas;
-
-	module.exports = SetCache;
-
-
-/***/ }),
-/* 86 */
-/***/ (function(module, exports) {
-
-	/** Used to stand-in for `undefined` hash values. */
-	var HASH_UNDEFINED = '__lodash_hash_undefined__';
-
-	/**
-	 * Adds `value` to the array cache.
-	 *
-	 * @private
-	 * @name add
-	 * @memberOf SetCache
-	 * @alias push
-	 * @param {*} value The value to cache.
-	 * @returns {Object} Returns the cache instance.
-	 */
-	function setCacheAdd(value) {
-	  this.__data__.set(value, HASH_UNDEFINED);
-	  return this;
-	}
-
-	module.exports = setCacheAdd;
-
-
-/***/ }),
-/* 87 */
-/***/ (function(module, exports) {
-
-	/**
-	 * Checks if `value` is in the array cache.
-	 *
-	 * @private
-	 * @name has
-	 * @memberOf SetCache
-	 * @param {*} value The value to search for.
-	 * @returns {number} Returns `true` if `value` is found, else `false`.
-	 */
-	function setCacheHas(value) {
-	  return this.__data__.has(value);
-	}
-
-	module.exports = setCacheHas;
-
-
-/***/ }),
-/* 88 */
-/***/ (function(module, exports) {
-
-	/**
-	 * A specialized version of `_.some` for arrays without support for iteratee
-	 * shorthands.
-	 *
-	 * @private
-	 * @param {Array} [array] The array to iterate over.
-	 * @param {Function} predicate The function invoked per iteration.
-	 * @returns {boolean} Returns `true` if any element passes the predicate check,
-	 *  else `false`.
-	 */
-	function arraySome(array, predicate) {
-	  var index = -1,
-	      length = array == null ? 0 : array.length;
-
-	  while (++index < length) {
-	    if (predicate(array[index], index, array)) {
-	      return true;
-	    }
-	  }
-	  return false;
-	}
-
-	module.exports = arraySome;
-
-
-/***/ }),
-/* 89 */
-/***/ (function(module, exports) {
-
-	/**
-	 * Checks if a `cache` value for `key` exists.
-	 *
-	 * @private
-	 * @param {Object} cache The cache to query.
-	 * @param {string} key The key of the entry to check.
-	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
-	 */
-	function cacheHas(cache, key) {
-	  return cache.has(key);
-	}
-
-	module.exports = cacheHas;
-
-
-/***/ }),
-/* 90 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var Symbol = __webpack_require__(57),
-	    Uint8Array = __webpack_require__(91),
-	    eq = __webpack_require__(43),
-	    equalArrays = __webpack_require__(84),
-	    mapToArray = __webpack_require__(92),
-	    setToArray = __webpack_require__(93);
-
-	/** Used to compose bitmasks for value comparisons. */
-	var COMPARE_PARTIAL_FLAG = 1,
-	    COMPARE_UNORDERED_FLAG = 2;
-
-	/** `Object#toString` result references. */
-	var boolTag = '[object Boolean]',
-	    dateTag = '[object Date]',
-	    errorTag = '[object Error]',
-	    mapTag = '[object Map]',
-	    numberTag = '[object Number]',
-	    regexpTag = '[object RegExp]',
-	    setTag = '[object Set]',
-	    stringTag = '[object String]',
-	    symbolTag = '[object Symbol]';
-
-	var arrayBufferTag = '[object ArrayBuffer]',
-	    dataViewTag = '[object DataView]';
-
-	/** Used to convert symbols to primitives and strings. */
-	var symbolProto = Symbol ? Symbol.prototype : undefined,
-	    symbolValueOf = symbolProto ? symbolProto.valueOf : undefined;
-
-	/**
-	 * A specialized version of `baseIsEqualDeep` for comparing objects of
-	 * the same `toStringTag`.
-	 *
-	 * **Note:** This function only supports comparing values with tags of
-	 * `Boolean`, `Date`, `Error`, `Number`, `RegExp`, or `String`.
-	 *
-	 * @private
-	 * @param {Object} object The object to compare.
-	 * @param {Object} other The other object to compare.
-	 * @param {string} tag The `toStringTag` of the objects to compare.
-	 * @param {number} bitmask The bitmask flags. See `baseIsEqual` for more details.
-	 * @param {Function} customizer The function to customize comparisons.
-	 * @param {Function} equalFunc The function to determine equivalents of values.
-	 * @param {Object} stack Tracks traversed `object` and `other` objects.
-	 * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
-	 */
-	function equalByTag(object, other, tag, bitmask, customizer, equalFunc, stack) {
-	  switch (tag) {
-	    case dataViewTag:
-	      if ((object.byteLength != other.byteLength) ||
-	          (object.byteOffset != other.byteOffset)) {
-	        return false;
-	      }
-	      object = object.buffer;
-	      other = other.buffer;
-
-	    case arrayBufferTag:
-	      if ((object.byteLength != other.byteLength) ||
-	          !equalFunc(new Uint8Array(object), new Uint8Array(other))) {
-	        return false;
-	      }
-	      return true;
-
-	    case boolTag:
-	    case dateTag:
-	    case numberTag:
-	      // Coerce booleans to `1` or `0` and dates to milliseconds.
-	      // Invalid dates are coerced to `NaN`.
-	      return eq(+object, +other);
-
-	    case errorTag:
-	      return object.name == other.name && object.message == other.message;
-
-	    case regexpTag:
-	    case stringTag:
-	      // Coerce regexes to strings and treat strings, primitives and objects,
-	      // as equal. See http://www.ecma-international.org/ecma-262/7.0/#sec-regexp.prototype.tostring
-	      // for more details.
-	      return object == (other + '');
-
-	    case mapTag:
-	      var convert = mapToArray;
-
-	    case setTag:
-	      var isPartial = bitmask & COMPARE_PARTIAL_FLAG;
-	      convert || (convert = setToArray);
-
-	      if (object.size != other.size && !isPartial) {
-	        return false;
-	      }
-	      // Assume cyclic values are equal.
-	      var stacked = stack.get(object);
-	      if (stacked) {
-	        return stacked == other;
-	      }
-	      bitmask |= COMPARE_UNORDERED_FLAG;
-
-	      // Recursively compare objects (susceptible to call stack limits).
-	      stack.set(object, other);
-	      var result = equalArrays(convert(object), convert(other), bitmask, customizer, equalFunc, stack);
-	      stack['delete'](object);
-	      return result;
-
-	    case symbolTag:
-	      if (symbolValueOf) {
-	        return symbolValueOf.call(object) == symbolValueOf.call(other);
-	      }
-	  }
-	  return false;
-	}
-
-	module.exports = equalByTag;
-
-
-/***/ }),
-/* 91 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var root = __webpack_require__(58);
-
-	/** Built-in value references. */
-	var Uint8Array = root.Uint8Array;
-
-	module.exports = Uint8Array;
-
-
-/***/ }),
-/* 92 */
-/***/ (function(module, exports) {
-
-	/**
-	 * Converts `map` to its key-value pairs.
-	 *
-	 * @private
-	 * @param {Object} map The map to convert.
-	 * @returns {Array} Returns the key-value pairs.
-	 */
-	function mapToArray(map) {
-	  var index = -1,
-	      result = Array(map.size);
-
-	  map.forEach(function(value, key) {
-	    result[++index] = [key, value];
-	  });
-	  return result;
-	}
-
-	module.exports = mapToArray;
-
-
-/***/ }),
-/* 93 */
-/***/ (function(module, exports) {
-
-	/**
-	 * Converts `set` to an array of its values.
-	 *
-	 * @private
-	 * @param {Object} set The set to convert.
-	 * @returns {Array} Returns the values.
-	 */
-	function setToArray(set) {
-	  var index = -1,
-	      result = Array(set.size);
-
-	  set.forEach(function(value) {
-	    result[++index] = value;
-	  });
-	  return result;
-	}
-
-	module.exports = setToArray;
-
-
-/***/ }),
-/* 94 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var getAllKeys = __webpack_require__(95);
-
-	/** Used to compose bitmasks for value comparisons. */
-	var COMPARE_PARTIAL_FLAG = 1;
-
-	/** Used for built-in method references. */
-	var objectProto = Object.prototype;
-
-	/** Used to check objects for own properties. */
-	var hasOwnProperty = objectProto.hasOwnProperty;
-
-	/**
-	 * A specialized version of `baseIsEqualDeep` for objects with support for
-	 * partial deep comparisons.
-	 *
-	 * @private
-	 * @param {Object} object The object to compare.
-	 * @param {Object} other The other object to compare.
-	 * @param {number} bitmask The bitmask flags. See `baseIsEqual` for more details.
-	 * @param {Function} customizer The function to customize comparisons.
-	 * @param {Function} equalFunc The function to determine equivalents of values.
-	 * @param {Object} stack Tracks traversed `object` and `other` objects.
-	 * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
-	 */
-	function equalObjects(object, other, bitmask, customizer, equalFunc, stack) {
-	  var isPartial = bitmask & COMPARE_PARTIAL_FLAG,
-	      objProps = getAllKeys(object),
-	      objLength = objProps.length,
-	      othProps = getAllKeys(other),
-	      othLength = othProps.length;
-
-	  if (objLength != othLength && !isPartial) {
-	    return false;
-	  }
-	  var index = objLength;
-	  while (index--) {
-	    var key = objProps[index];
-	    if (!(isPartial ? key in other : hasOwnProperty.call(other, key))) {
-	      return false;
-	    }
-	  }
-	  // Assume cyclic values are equal.
-	  var stacked = stack.get(object);
-	  if (stacked && stack.get(other)) {
-	    return stacked == other;
-	  }
-	  var result = true;
-	  stack.set(object, other);
-	  stack.set(other, object);
-
-	  var skipCtor = isPartial;
-	  while (++index < objLength) {
-	    key = objProps[index];
-	    var objValue = object[key],
-	        othValue = other[key];
-
-	    if (customizer) {
-	      var compared = isPartial
-	        ? customizer(othValue, objValue, key, other, object, stack)
-	        : customizer(objValue, othValue, key, object, other, stack);
-	    }
-	    // Recursively compare objects (susceptible to call stack limits).
-	    if (!(compared === undefined
-	          ? (objValue === othValue || equalFunc(objValue, othValue, bitmask, customizer, stack))
-	          : compared
-	        )) {
-	      result = false;
-	      break;
-	    }
-	    skipCtor || (skipCtor = key == 'constructor');
-	  }
-	  if (result && !skipCtor) {
-	    var objCtor = object.constructor,
-	        othCtor = other.constructor;
-
-	    // Non `Object` object instances with different constructors are not equal.
-	    if (objCtor != othCtor &&
-	        ('constructor' in object && 'constructor' in other) &&
-	        !(typeof objCtor == 'function' && objCtor instanceof objCtor &&
-	          typeof othCtor == 'function' && othCtor instanceof othCtor)) {
-	      result = false;
-	    }
-	  }
-	  stack['delete'](object);
-	  stack['delete'](other);
-	  return result;
-	}
-
-	module.exports = equalObjects;
-
-
-/***/ }),
-/* 95 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseGetAllKeys = __webpack_require__(96),
-	    getSymbols = __webpack_require__(99),
-	    keys = __webpack_require__(102);
-
-	/**
-	 * Creates an array of own enumerable property names and symbols of `object`.
-	 *
-	 * @private
-	 * @param {Object} object The object to query.
-	 * @returns {Array} Returns the array of property names and symbols.
-	 */
-	function getAllKeys(object) {
-	  return baseGetAllKeys(object, keys, getSymbols);
-	}
-
-	module.exports = getAllKeys;
-
-
-/***/ }),
-/* 96 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var arrayPush = __webpack_require__(97),
-	    isArray = __webpack_require__(98);
-
-	/**
-	 * The base implementation of `getAllKeys` and `getAllKeysIn` which uses
-	 * `keysFunc` and `symbolsFunc` to get the enumerable property names and
-	 * symbols of `object`.
-	 *
-	 * @private
-	 * @param {Object} object The object to query.
-	 * @param {Function} keysFunc The function to get the keys of `object`.
-	 * @param {Function} symbolsFunc The function to get the symbols of `object`.
-	 * @returns {Array} Returns the array of property names and symbols.
-	 */
-	function baseGetAllKeys(object, keysFunc, symbolsFunc) {
-	  var result = keysFunc(object);
-	  return isArray(object) ? result : arrayPush(result, symbolsFunc(object));
-	}
-
-	module.exports = baseGetAllKeys;
-
-
-/***/ }),
-/* 97 */
-/***/ (function(module, exports) {
-
-	/**
-	 * Appends the elements of `values` to `array`.
-	 *
-	 * @private
-	 * @param {Array} array The array to modify.
-	 * @param {Array} values The values to append.
-	 * @returns {Array} Returns `array`.
-	 */
-	function arrayPush(array, values) {
-	  var index = -1,
-	      length = values.length,
-	      offset = array.length;
-
-	  while (++index < length) {
-	    array[offset + index] = values[index];
-	  }
-	  return array;
-	}
-
-	module.exports = arrayPush;
-
-
-/***/ }),
-/* 98 */
-/***/ (function(module, exports) {
-
-	/**
-	 * Checks if `value` is classified as an `Array` object.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 0.1.0
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is an array, else `false`.
-	 * @example
-	 *
-	 * _.isArray([1, 2, 3]);
-	 * // => true
-	 *
-	 * _.isArray(document.body.children);
-	 * // => false
-	 *
-	 * _.isArray('abc');
-	 * // => false
-	 *
-	 * _.isArray(_.noop);
-	 * // => false
-	 */
-	var isArray = Array.isArray;
-
-	module.exports = isArray;
-
-
-/***/ }),
-/* 99 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var arrayFilter = __webpack_require__(100),
-	    stubArray = __webpack_require__(101);
-
-	/** Used for built-in method references. */
-	var objectProto = Object.prototype;
-
-	/** Built-in value references. */
-	var propertyIsEnumerable = objectProto.propertyIsEnumerable;
-
-	/* Built-in method references for those with the same name as other `lodash` methods. */
-	var nativeGetSymbols = Object.getOwnPropertySymbols;
-
-	/**
-	 * Creates an array of the own enumerable symbols of `object`.
-	 *
-	 * @private
-	 * @param {Object} object The object to query.
-	 * @returns {Array} Returns the array of symbols.
-	 */
-	var getSymbols = !nativeGetSymbols ? stubArray : function(object) {
-	  if (object == null) {
-	    return [];
-	  }
-	  object = Object(object);
-	  return arrayFilter(nativeGetSymbols(object), function(symbol) {
-	    return propertyIsEnumerable.call(object, symbol);
-	  });
-	};
-
-	module.exports = getSymbols;
-
-
-/***/ }),
-/* 100 */
-/***/ (function(module, exports) {
-
-	/**
-	 * A specialized version of `_.filter` for arrays without support for
-	 * iteratee shorthands.
-	 *
-	 * @private
-	 * @param {Array} [array] The array to iterate over.
-	 * @param {Function} predicate The function invoked per iteration.
-	 * @returns {Array} Returns the new filtered array.
-	 */
-	function arrayFilter(array, predicate) {
-	  var index = -1,
-	      length = array == null ? 0 : array.length,
-	      resIndex = 0,
-	      result = [];
-
-	  while (++index < length) {
-	    var value = array[index];
-	    if (predicate(value, index, array)) {
-	      result[resIndex++] = value;
-	    }
-	  }
-	  return result;
-	}
-
-	module.exports = arrayFilter;
-
-
-/***/ }),
-/* 101 */
-/***/ (function(module, exports) {
-
-	/**
-	 * This method returns a new empty array.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.13.0
-	 * @category Util
-	 * @returns {Array} Returns the new empty array.
-	 * @example
-	 *
-	 * var arrays = _.times(2, _.stubArray);
-	 *
-	 * console.log(arrays);
-	 * // => [[], []]
-	 *
-	 * console.log(arrays[0] === arrays[1]);
-	 * // => false
-	 */
-	function stubArray() {
-	  return [];
-	}
-
-	module.exports = stubArray;
-
-
-/***/ }),
-/* 102 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var arrayLikeKeys = __webpack_require__(103),
-	    baseKeys = __webpack_require__(116),
-	    isArrayLike = __webpack_require__(120);
-
-	/**
-	 * Creates an array of the own enumerable property names of `object`.
-	 *
-	 * **Note:** Non-object values are coerced to objects. See the
-	 * [ES spec](http://ecma-international.org/ecma-262/7.0/#sec-object.keys)
-	 * for more details.
-	 *
-	 * @static
-	 * @since 0.1.0
-	 * @memberOf _
-	 * @category Object
-	 * @param {Object} object The object to query.
-	 * @returns {Array} Returns the array of property names.
-	 * @example
-	 *
-	 * function Foo() {
-	 *   this.a = 1;
-	 *   this.b = 2;
-	 * }
-	 *
-	 * Foo.prototype.c = 3;
-	 *
-	 * _.keys(new Foo);
-	 * // => ['a', 'b'] (iteration order is not guaranteed)
-	 *
-	 * _.keys('hi');
-	 * // => ['0', '1']
-	 */
-	function keys(object) {
-	  return isArrayLike(object) ? arrayLikeKeys(object) : baseKeys(object);
-	}
-
-	module.exports = keys;
-
-
-/***/ }),
-/* 103 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseTimes = __webpack_require__(104),
-	    isArguments = __webpack_require__(105),
-	    isArray = __webpack_require__(98),
-	    isBuffer = __webpack_require__(108),
-	    isIndex = __webpack_require__(110),
-	    isTypedArray = __webpack_require__(111);
-
-	/** Used for built-in method references. */
-	var objectProto = Object.prototype;
-
-	/** Used to check objects for own properties. */
-	var hasOwnProperty = objectProto.hasOwnProperty;
-
-	/**
-	 * Creates an array of the enumerable property names of the array-like `value`.
-	 *
-	 * @private
-	 * @param {*} value The value to query.
-	 * @param {boolean} inherited Specify returning inherited property names.
-	 * @returns {Array} Returns the array of property names.
-	 */
-	function arrayLikeKeys(value, inherited) {
-	  var isArr = isArray(value),
-	      isArg = !isArr && isArguments(value),
-	      isBuff = !isArr && !isArg && isBuffer(value),
-	      isType = !isArr && !isArg && !isBuff && isTypedArray(value),
-	      skipIndexes = isArr || isArg || isBuff || isType,
-	      result = skipIndexes ? baseTimes(value.length, String) : [],
-	      length = result.length;
-
-	  for (var key in value) {
-	    if ((inherited || hasOwnProperty.call(value, key)) &&
-	        !(skipIndexes && (
-	           // Safari 9 has enumerable `arguments.length` in strict mode.
-	           key == 'length' ||
-	           // Node.js 0.10 has enumerable non-index properties on buffers.
-	           (isBuff && (key == 'offset' || key == 'parent')) ||
-	           // PhantomJS 2 has enumerable non-index properties on typed arrays.
-	           (isType && (key == 'buffer' || key == 'byteLength' || key == 'byteOffset')) ||
-	           // Skip index properties.
-	           isIndex(key, length)
-	        ))) {
-	      result.push(key);
-	    }
-	  }
-	  return result;
-	}
-
-	module.exports = arrayLikeKeys;
-
-
-/***/ }),
-/* 104 */
-/***/ (function(module, exports) {
-
-	/**
-	 * The base implementation of `_.times` without support for iteratee shorthands
-	 * or max array length checks.
-	 *
-	 * @private
-	 * @param {number} n The number of times to invoke `iteratee`.
-	 * @param {Function} iteratee The function invoked per iteration.
-	 * @returns {Array} Returns the array of results.
-	 */
-	function baseTimes(n, iteratee) {
-	  var index = -1,
-	      result = Array(n);
-
-	  while (++index < n) {
-	    result[index] = iteratee(index);
-	  }
-	  return result;
-	}
-
-	module.exports = baseTimes;
-
-
-/***/ }),
-/* 105 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseIsArguments = __webpack_require__(106),
-	    isObjectLike = __webpack_require__(107);
-
-	/** Used for built-in method references. */
-	var objectProto = Object.prototype;
-
-	/** Used to check objects for own properties. */
-	var hasOwnProperty = objectProto.hasOwnProperty;
-
-	/** Built-in value references. */
-	var propertyIsEnumerable = objectProto.propertyIsEnumerable;
-
-	/**
-	 * Checks if `value` is likely an `arguments` object.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 0.1.0
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is an `arguments` object,
-	 *  else `false`.
-	 * @example
-	 *
-	 * _.isArguments(function() { return arguments; }());
-	 * // => true
-	 *
-	 * _.isArguments([1, 2, 3]);
-	 * // => false
-	 */
-	var isArguments = baseIsArguments(function() { return arguments; }()) ? baseIsArguments : function(value) {
-	  return isObjectLike(value) && hasOwnProperty.call(value, 'callee') &&
-	    !propertyIsEnumerable.call(value, 'callee');
-	};
-
-	module.exports = isArguments;
-
-
-/***/ }),
-/* 106 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseGetTag = __webpack_require__(56),
-	    isObjectLike = __webpack_require__(107);
-
-	/** `Object#toString` result references. */
-	var argsTag = '[object Arguments]';
-
-	/**
-	 * The base implementation of `_.isArguments`.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is an `arguments` object,
-	 */
-	function baseIsArguments(value) {
-	  return isObjectLike(value) && baseGetTag(value) == argsTag;
-	}
-
-	module.exports = baseIsArguments;
-
-
-/***/ }),
-/* 107 */
-/***/ (function(module, exports) {
-
-	/**
-	 * Checks if `value` is object-like. A value is object-like if it's not `null`
-	 * and has a `typeof` result of "object".
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.0.0
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
-	 * @example
-	 *
-	 * _.isObjectLike({});
-	 * // => true
-	 *
-	 * _.isObjectLike([1, 2, 3]);
-	 * // => true
-	 *
-	 * _.isObjectLike(_.noop);
-	 * // => false
-	 *
-	 * _.isObjectLike(null);
-	 * // => false
-	 */
-	function isObjectLike(value) {
-	  return value != null && typeof value == 'object';
-	}
-
-	module.exports = isObjectLike;
-
-
-/***/ }),
-/* 108 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(58),
-	    stubFalse = __webpack_require__(109);
-
-	/** Detect free variable `exports`. */
-	var freeExports = typeof exports == 'object' && exports && !exports.nodeType && exports;
-
-	/** Detect free variable `module`. */
-	var freeModule = freeExports && typeof module == 'object' && module && !module.nodeType && module;
-
-	/** Detect the popular CommonJS extension `module.exports`. */
-	var moduleExports = freeModule && freeModule.exports === freeExports;
-
-	/** Built-in value references. */
-	var Buffer = moduleExports ? root.Buffer : undefined;
-
-	/* Built-in method references for those with the same name as other `lodash` methods. */
-	var nativeIsBuffer = Buffer ? Buffer.isBuffer : undefined;
-
-	/**
-	 * Checks if `value` is a buffer.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.3.0
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a buffer, else `false`.
-	 * @example
-	 *
-	 * _.isBuffer(new Buffer(2));
-	 * // => true
-	 *
-	 * _.isBuffer(new Uint8Array(2));
-	 * // => false
-	 */
-	var isBuffer = nativeIsBuffer || stubFalse;
-
-	module.exports = isBuffer;
-
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
-
-/***/ }),
-/* 109 */
-/***/ (function(module, exports) {
-
-	/**
-	 * This method returns `false`.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.13.0
-	 * @category Util
-	 * @returns {boolean} Returns `false`.
-	 * @example
-	 *
-	 * _.times(2, _.stubFalse);
-	 * // => [false, false]
-	 */
-	function stubFalse() {
-	  return false;
-	}
-
-	module.exports = stubFalse;
-
-
-/***/ }),
-/* 110 */
-/***/ (function(module, exports) {
-
-	/** Used as references for various `Number` constants. */
-	var MAX_SAFE_INTEGER = 9007199254740991;
-
-	/** Used to detect unsigned integer values. */
-	var reIsUint = /^(?:0|[1-9]\d*)$/;
-
-	/**
-	 * Checks if `value` is a valid array-like index.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @param {number} [length=MAX_SAFE_INTEGER] The upper bounds of a valid index.
-	 * @returns {boolean} Returns `true` if `value` is a valid index, else `false`.
-	 */
-	function isIndex(value, length) {
-	  length = length == null ? MAX_SAFE_INTEGER : length;
-	  return !!length &&
-	    (typeof value == 'number' || reIsUint.test(value)) &&
-	    (value > -1 && value % 1 == 0 && value < length);
-	}
-
-	module.exports = isIndex;
-
-
-/***/ }),
-/* 111 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseIsTypedArray = __webpack_require__(112),
-	    baseUnary = __webpack_require__(114),
-	    nodeUtil = __webpack_require__(115);
-
-	/* Node.js helper references. */
-	var nodeIsTypedArray = nodeUtil && nodeUtil.isTypedArray;
-
-	/**
-	 * Checks if `value` is classified as a typed array.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 3.0.0
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a typed array, else `false`.
-	 * @example
-	 *
-	 * _.isTypedArray(new Uint8Array);
-	 * // => true
-	 *
-	 * _.isTypedArray([]);
-	 * // => false
-	 */
-	var isTypedArray = nodeIsTypedArray ? baseUnary(nodeIsTypedArray) : baseIsTypedArray;
-
-	module.exports = isTypedArray;
-
-
-/***/ }),
-/* 112 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseGetTag = __webpack_require__(56),
-	    isLength = __webpack_require__(113),
-	    isObjectLike = __webpack_require__(107);
-
-	/** `Object#toString` result references. */
-	var argsTag = '[object Arguments]',
-	    arrayTag = '[object Array]',
-	    boolTag = '[object Boolean]',
-	    dateTag = '[object Date]',
-	    errorTag = '[object Error]',
-	    funcTag = '[object Function]',
-	    mapTag = '[object Map]',
-	    numberTag = '[object Number]',
-	    objectTag = '[object Object]',
-	    regexpTag = '[object RegExp]',
-	    setTag = '[object Set]',
-	    stringTag = '[object String]',
-	    weakMapTag = '[object WeakMap]';
-
-	var arrayBufferTag = '[object ArrayBuffer]',
-	    dataViewTag = '[object DataView]',
-	    float32Tag = '[object Float32Array]',
-	    float64Tag = '[object Float64Array]',
-	    int8Tag = '[object Int8Array]',
-	    int16Tag = '[object Int16Array]',
-	    int32Tag = '[object Int32Array]',
-	    uint8Tag = '[object Uint8Array]',
-	    uint8ClampedTag = '[object Uint8ClampedArray]',
-	    uint16Tag = '[object Uint16Array]',
-	    uint32Tag = '[object Uint32Array]';
-
-	/** Used to identify `toStringTag` values of typed arrays. */
-	var typedArrayTags = {};
-	typedArrayTags[float32Tag] = typedArrayTags[float64Tag] =
-	typedArrayTags[int8Tag] = typedArrayTags[int16Tag] =
-	typedArrayTags[int32Tag] = typedArrayTags[uint8Tag] =
-	typedArrayTags[uint8ClampedTag] = typedArrayTags[uint16Tag] =
-	typedArrayTags[uint32Tag] = true;
-	typedArrayTags[argsTag] = typedArrayTags[arrayTag] =
-	typedArrayTags[arrayBufferTag] = typedArrayTags[boolTag] =
-	typedArrayTags[dataViewTag] = typedArrayTags[dateTag] =
-	typedArrayTags[errorTag] = typedArrayTags[funcTag] =
-	typedArrayTags[mapTag] = typedArrayTags[numberTag] =
-	typedArrayTags[objectTag] = typedArrayTags[regexpTag] =
-	typedArrayTags[setTag] = typedArrayTags[stringTag] =
-	typedArrayTags[weakMapTag] = false;
-
-	/**
-	 * The base implementation of `_.isTypedArray` without Node.js optimizations.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a typed array, else `false`.
-	 */
-	function baseIsTypedArray(value) {
-	  return isObjectLike(value) &&
-	    isLength(value.length) && !!typedArrayTags[baseGetTag(value)];
-	}
-
-	module.exports = baseIsTypedArray;
-
-
-/***/ }),
-/* 113 */
-/***/ (function(module, exports) {
-
-	/** Used as references for various `Number` constants. */
-	var MAX_SAFE_INTEGER = 9007199254740991;
-
-	/**
-	 * Checks if `value` is a valid array-like length.
-	 *
-	 * **Note:** This method is loosely based on
-	 * [`ToLength`](http://ecma-international.org/ecma-262/7.0/#sec-tolength).
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.0.0
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
-	 * @example
-	 *
-	 * _.isLength(3);
-	 * // => true
-	 *
-	 * _.isLength(Number.MIN_VALUE);
-	 * // => false
-	 *
-	 * _.isLength(Infinity);
-	 * // => false
-	 *
-	 * _.isLength('3');
-	 * // => false
-	 */
-	function isLength(value) {
-	  return typeof value == 'number' &&
-	    value > -1 && value % 1 == 0 && value <= MAX_SAFE_INTEGER;
-	}
-
-	module.exports = isLength;
-
-
-/***/ }),
-/* 114 */
-/***/ (function(module, exports) {
-
-	/**
-	 * The base implementation of `_.unary` without support for storing metadata.
-	 *
-	 * @private
-	 * @param {Function} func The function to cap arguments for.
-	 * @returns {Function} Returns the new capped function.
-	 */
-	function baseUnary(func) {
-	  return function(value) {
-	    return func(value);
-	  };
-	}
-
-	module.exports = baseUnary;
-
-
-/***/ }),
-/* 115 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(module) {var freeGlobal = __webpack_require__(59);
-
-	/** Detect free variable `exports`. */
-	var freeExports = typeof exports == 'object' && exports && !exports.nodeType && exports;
-
-	/** Detect free variable `module`. */
-	var freeModule = freeExports && typeof module == 'object' && module && !module.nodeType && module;
-
-	/** Detect the popular CommonJS extension `module.exports`. */
-	var moduleExports = freeModule && freeModule.exports === freeExports;
-
-	/** Detect free variable `process` from Node.js. */
-	var freeProcess = moduleExports && freeGlobal.process;
-
-	/** Used to access faster Node.js helpers. */
-	var nodeUtil = (function() {
-	  try {
-	    return freeProcess && freeProcess.binding && freeProcess.binding('util');
-	  } catch (e) {}
-	}());
-
-	module.exports = nodeUtil;
-
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
-
-/***/ }),
-/* 116 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var isPrototype = __webpack_require__(117),
-	    nativeKeys = __webpack_require__(118);
-
-	/** Used for built-in method references. */
-	var objectProto = Object.prototype;
-
-	/** Used to check objects for own properties. */
-	var hasOwnProperty = objectProto.hasOwnProperty;
-
-	/**
-	 * The base implementation of `_.keys` which doesn't treat sparse arrays as dense.
-	 *
-	 * @private
-	 * @param {Object} object The object to query.
-	 * @returns {Array} Returns the array of property names.
-	 */
-	function baseKeys(object) {
-	  if (!isPrototype(object)) {
-	    return nativeKeys(object);
-	  }
-	  var result = [];
-	  for (var key in Object(object)) {
-	    if (hasOwnProperty.call(object, key) && key != 'constructor') {
-	      result.push(key);
-	    }
-	  }
-	  return result;
-	}
-
-	module.exports = baseKeys;
-
-
-/***/ }),
-/* 117 */
-/***/ (function(module, exports) {
-
-	/** Used for built-in method references. */
-	var objectProto = Object.prototype;
-
-	/**
-	 * Checks if `value` is likely a prototype object.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a prototype, else `false`.
-	 */
-	function isPrototype(value) {
-	  var Ctor = value && value.constructor,
-	      proto = (typeof Ctor == 'function' && Ctor.prototype) || objectProto;
-
-	  return value === proto;
-	}
-
-	module.exports = isPrototype;
-
-
-/***/ }),
-/* 118 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var overArg = __webpack_require__(119);
-
-	/* Built-in method references for those with the same name as other `lodash` methods. */
-	var nativeKeys = overArg(Object.keys, Object);
-
-	module.exports = nativeKeys;
-
-
-/***/ }),
-/* 119 */
-/***/ (function(module, exports) {
-
-	/**
-	 * Creates a unary function that invokes `func` with its argument transformed.
-	 *
-	 * @private
-	 * @param {Function} func The function to wrap.
-	 * @param {Function} transform The argument transform.
-	 * @returns {Function} Returns the new function.
-	 */
-	function overArg(func, transform) {
-	  return function(arg) {
-	    return func(transform(arg));
-	  };
-	}
-
-	module.exports = overArg;
-
-
-/***/ }),
-/* 120 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var isFunction = __webpack_require__(55),
-	    isLength = __webpack_require__(113);
-
-	/**
-	 * Checks if `value` is array-like. A value is considered array-like if it's
-	 * not a function and has a `value.length` that's an integer greater than or
-	 * equal to `0` and less than or equal to `Number.MAX_SAFE_INTEGER`.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.0.0
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is array-like, else `false`.
-	 * @example
-	 *
-	 * _.isArrayLike([1, 2, 3]);
-	 * // => true
-	 *
-	 * _.isArrayLike(document.body.children);
-	 * // => true
-	 *
-	 * _.isArrayLike('abc');
-	 * // => true
-	 *
-	 * _.isArrayLike(_.noop);
-	 * // => false
-	 */
-	function isArrayLike(value) {
-	  return value != null && isLength(value.length) && !isFunction(value);
-	}
-
-	module.exports = isArrayLike;
-
-
-/***/ }),
-/* 121 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var DataView = __webpack_require__(122),
-	    Map = __webpack_require__(52),
-	    Promise = __webpack_require__(123),
-	    Set = __webpack_require__(124),
-	    WeakMap = __webpack_require__(125),
-	    baseGetTag = __webpack_require__(56),
-	    toSource = __webpack_require__(65);
-
-	/** `Object#toString` result references. */
-	var mapTag = '[object Map]',
-	    objectTag = '[object Object]',
-	    promiseTag = '[object Promise]',
-	    setTag = '[object Set]',
-	    weakMapTag = '[object WeakMap]';
-
-	var dataViewTag = '[object DataView]';
-
-	/** Used to detect maps, sets, and weakmaps. */
-	var dataViewCtorString = toSource(DataView),
-	    mapCtorString = toSource(Map),
-	    promiseCtorString = toSource(Promise),
-	    setCtorString = toSource(Set),
-	    weakMapCtorString = toSource(WeakMap);
-
-	/**
-	 * Gets the `toStringTag` of `value`.
-	 *
-	 * @private
-	 * @param {*} value The value to query.
-	 * @returns {string} Returns the `toStringTag`.
-	 */
-	var getTag = baseGetTag;
-
-	// Fallback for data views, maps, sets, and weak maps in IE 11 and promises in Node.js < 6.
-	if ((DataView && getTag(new DataView(new ArrayBuffer(1))) != dataViewTag) ||
-	    (Map && getTag(new Map) != mapTag) ||
-	    (Promise && getTag(Promise.resolve()) != promiseTag) ||
-	    (Set && getTag(new Set) != setTag) ||
-	    (WeakMap && getTag(new WeakMap) != weakMapTag)) {
-	  getTag = function(value) {
-	    var result = baseGetTag(value),
-	        Ctor = result == objectTag ? value.constructor : undefined,
-	        ctorString = Ctor ? toSource(Ctor) : '';
-
-	    if (ctorString) {
-	      switch (ctorString) {
-	        case dataViewCtorString: return dataViewTag;
-	        case mapCtorString: return mapTag;
-	        case promiseCtorString: return promiseTag;
-	        case setCtorString: return setTag;
-	        case weakMapCtorString: return weakMapTag;
-	      }
-	    }
-	    return result;
-	  };
-	}
-
-	module.exports = getTag;
-
-
-/***/ }),
-/* 122 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var getNative = __webpack_require__(53),
-	    root = __webpack_require__(58);
-
-	/* Built-in method references that are verified to be native. */
-	var DataView = getNative(root, 'DataView');
-
-	module.exports = DataView;
-
-
-/***/ }),
-/* 123 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var getNative = __webpack_require__(53),
-	    root = __webpack_require__(58);
-
-	/* Built-in method references that are verified to be native. */
-	var Promise = getNative(root, 'Promise');
-
-	module.exports = Promise;
-
-
-/***/ }),
-/* 124 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var getNative = __webpack_require__(53),
-	    root = __webpack_require__(58);
-
-	/* Built-in method references that are verified to be native. */
-	var Set = getNative(root, 'Set');
-
-	module.exports = Set;
-
-
-/***/ }),
-/* 125 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var getNative = __webpack_require__(53),
-	    root = __webpack_require__(58);
-
-	/* Built-in method references that are verified to be native. */
-	var WeakMap = getNative(root, 'WeakMap');
-
-	module.exports = WeakMap;
-
-
-/***/ }),
-/* 126 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var isStrictComparable = __webpack_require__(127),
-	    keys = __webpack_require__(102);
-
-	/**
-	 * Gets the property names, values, and compare flags of `object`.
-	 *
-	 * @private
-	 * @param {Object} object The object to query.
-	 * @returns {Array} Returns the match data of `object`.
-	 */
-	function getMatchData(object) {
-	  var result = keys(object),
-	      length = result.length;
-
-	  while (length--) {
-	    var key = result[length],
-	        value = object[key];
-
-	    result[length] = [key, value, isStrictComparable(value)];
-	  }
-	  return result;
-	}
-
-	module.exports = getMatchData;
-
-
-/***/ }),
-/* 127 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var isObject = __webpack_require__(62);
-
-	/**
-	 * Checks if `value` is suitable for strict equality comparisons, i.e. `===`.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` if suitable for strict
-	 *  equality comparisons, else `false`.
-	 */
-	function isStrictComparable(value) {
-	  return value === value && !isObject(value);
-	}
-
-	module.exports = isStrictComparable;
-
-
-/***/ }),
-/* 128 */
-/***/ (function(module, exports) {
-
-	/**
-	 * A specialized version of `matchesProperty` for source values suitable
-	 * for strict equality comparisons, i.e. `===`.
-	 *
-	 * @private
-	 * @param {string} key The key of the property to get.
-	 * @param {*} srcValue The value to match.
-	 * @returns {Function} Returns the new spec function.
-	 */
-	function matchesStrictComparable(key, srcValue) {
-	  return function(object) {
-	    if (object == null) {
-	      return false;
-	    }
-	    return object[key] === srcValue &&
-	      (srcValue !== undefined || (key in Object(object)));
-	  };
-	}
-
-	module.exports = matchesStrictComparable;
-
-
-/***/ }),
-/* 129 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseIsEqual = __webpack_require__(82),
-	    get = __webpack_require__(130),
-	    hasIn = __webpack_require__(142),
-	    isKey = __webpack_require__(133),
-	    isStrictComparable = __webpack_require__(127),
-	    matchesStrictComparable = __webpack_require__(128),
-	    toKey = __webpack_require__(141);
-
-	/** Used to compose bitmasks for value comparisons. */
-	var COMPARE_PARTIAL_FLAG = 1,
-	    COMPARE_UNORDERED_FLAG = 2;
-
-	/**
-	 * The base implementation of `_.matchesProperty` which doesn't clone `srcValue`.
-	 *
-	 * @private
-	 * @param {string} path The path of the property to get.
-	 * @param {*} srcValue The value to match.
-	 * @returns {Function} Returns the new spec function.
-	 */
-	function baseMatchesProperty(path, srcValue) {
-	  if (isKey(path) && isStrictComparable(srcValue)) {
-	    return matchesStrictComparable(toKey(path), srcValue);
-	  }
-	  return function(object) {
-	    var objValue = get(object, path);
-	    return (objValue === undefined && objValue === srcValue)
-	      ? hasIn(object, path)
-	      : baseIsEqual(srcValue, objValue, COMPARE_PARTIAL_FLAG | COMPARE_UNORDERED_FLAG);
-	  };
-	}
-
-	module.exports = baseMatchesProperty;
-
-
-/***/ }),
-/* 130 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseGet = __webpack_require__(131);
-
-	/**
-	 * Gets the value at `path` of `object`. If the resolved value is
-	 * `undefined`, the `defaultValue` is returned in its place.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 3.7.0
-	 * @category Object
-	 * @param {Object} object The object to query.
-	 * @param {Array|string} path The path of the property to get.
-	 * @param {*} [defaultValue] The value returned for `undefined` resolved values.
-	 * @returns {*} Returns the resolved value.
-	 * @example
-	 *
-	 * var object = { 'a': [{ 'b': { 'c': 3 } }] };
-	 *
-	 * _.get(object, 'a[0].b.c');
-	 * // => 3
-	 *
-	 * _.get(object, ['a', '0', 'b', 'c']);
-	 * // => 3
-	 *
-	 * _.get(object, 'a.b.c', 'default');
-	 * // => 'default'
-	 */
-	function get(object, path, defaultValue) {
-	  var result = object == null ? undefined : baseGet(object, path);
-	  return result === undefined ? defaultValue : result;
-	}
-
-	module.exports = get;
-
-
-/***/ }),
-/* 131 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var castPath = __webpack_require__(132),
-	    toKey = __webpack_require__(141);
-
-	/**
-	 * The base implementation of `_.get` without support for default values.
-	 *
-	 * @private
-	 * @param {Object} object The object to query.
-	 * @param {Array|string} path The path of the property to get.
-	 * @returns {*} Returns the resolved value.
-	 */
-	function baseGet(object, path) {
-	  path = castPath(path, object);
-
-	  var index = 0,
-	      length = path.length;
-
-	  while (object != null && index < length) {
-	    object = object[toKey(path[index++])];
-	  }
-	  return (index && index == length) ? object : undefined;
-	}
-
-	module.exports = baseGet;
-
-
-/***/ }),
-/* 132 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var isArray = __webpack_require__(98),
-	    isKey = __webpack_require__(133),
-	    stringToPath = __webpack_require__(135),
-	    toString = __webpack_require__(138);
-
-	/**
-	 * Casts `value` to a path array if it's not one.
-	 *
-	 * @private
-	 * @param {*} value The value to inspect.
-	 * @param {Object} [object] The object to query keys on.
-	 * @returns {Array} Returns the cast property path array.
-	 */
-	function castPath(value, object) {
-	  if (isArray(value)) {
-	    return value;
-	  }
-	  return isKey(value, object) ? [value] : stringToPath(toString(value));
-	}
-
-	module.exports = castPath;
-
-
-/***/ }),
-/* 133 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var isArray = __webpack_require__(98),
-	    isSymbol = __webpack_require__(134);
-
-	/** Used to match property names within property paths. */
-	var reIsDeepProp = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,
-	    reIsPlainProp = /^\w*$/;
-
-	/**
-	 * Checks if `value` is a property name and not a property path.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @param {Object} [object] The object to query keys on.
-	 * @returns {boolean} Returns `true` if `value` is a property name, else `false`.
-	 */
-	function isKey(value, object) {
-	  if (isArray(value)) {
-	    return false;
-	  }
-	  var type = typeof value;
-	  if (type == 'number' || type == 'symbol' || type == 'boolean' ||
-	      value == null || isSymbol(value)) {
-	    return true;
-	  }
-	  return reIsPlainProp.test(value) || !reIsDeepProp.test(value) ||
-	    (object != null && value in Object(object));
-	}
-
-	module.exports = isKey;
-
-
-/***/ }),
-/* 134 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseGetTag = __webpack_require__(56),
-	    isObjectLike = __webpack_require__(107);
-
-	/** `Object#toString` result references. */
-	var symbolTag = '[object Symbol]';
-
-	/**
-	 * Checks if `value` is classified as a `Symbol` primitive or object.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.0.0
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a symbol, else `false`.
-	 * @example
-	 *
-	 * _.isSymbol(Symbol.iterator);
-	 * // => true
-	 *
-	 * _.isSymbol('abc');
-	 * // => false
-	 */
-	function isSymbol(value) {
-	  return typeof value == 'symbol' ||
-	    (isObjectLike(value) && baseGetTag(value) == symbolTag);
-	}
-
-	module.exports = isSymbol;
-
-
-/***/ }),
-/* 135 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var memoizeCapped = __webpack_require__(136);
-
-	/** Used to match property names within property paths. */
-	var reLeadingDot = /^\./,
-	    rePropName = /[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;
-
-	/** Used to match backslashes in property paths. */
-	var reEscapeChar = /\\(\\)?/g;
-
-	/**
-	 * Converts `string` to a property path array.
-	 *
-	 * @private
-	 * @param {string} string The string to convert.
-	 * @returns {Array} Returns the property path array.
-	 */
-	var stringToPath = memoizeCapped(function(string) {
-	  var result = [];
-	  if (reLeadingDot.test(string)) {
-	    result.push('');
-	  }
-	  string.replace(rePropName, function(match, number, quote, string) {
-	    result.push(quote ? string.replace(reEscapeChar, '$1') : (number || match));
-	  });
-	  return result;
-	});
-
-	module.exports = stringToPath;
-
-
-/***/ }),
-/* 136 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var memoize = __webpack_require__(137);
-
-	/** Used as the maximum memoize cache size. */
-	var MAX_MEMOIZE_SIZE = 500;
-
-	/**
-	 * A specialized version of `_.memoize` which clears the memoized function's
-	 * cache when it exceeds `MAX_MEMOIZE_SIZE`.
-	 *
-	 * @private
-	 * @param {Function} func The function to have its output memoized.
-	 * @returns {Function} Returns the new memoized function.
-	 */
-	function memoizeCapped(func) {
-	  var result = memoize(func, function(key) {
-	    if (cache.size === MAX_MEMOIZE_SIZE) {
-	      cache.clear();
-	    }
-	    return key;
-	  });
-
-	  var cache = result.cache;
-	  return result;
-	}
-
-	module.exports = memoizeCapped;
-
-
-/***/ }),
-/* 137 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var MapCache = __webpack_require__(67);
-
-	/** Error message constants. */
-	var FUNC_ERROR_TEXT = 'Expected a function';
-
-	/**
-	 * Creates a function that memoizes the result of `func`. If `resolver` is
-	 * provided, it determines the cache key for storing the result based on the
-	 * arguments provided to the memoized function. By default, the first argument
-	 * provided to the memoized function is used as the map cache key. The `func`
-	 * is invoked with the `this` binding of the memoized function.
-	 *
-	 * **Note:** The cache is exposed as the `cache` property on the memoized
-	 * function. Its creation may be customized by replacing the `_.memoize.Cache`
-	 * constructor with one whose instances implement the
-	 * [`Map`](http://ecma-international.org/ecma-262/7.0/#sec-properties-of-the-map-prototype-object)
-	 * method interface of `clear`, `delete`, `get`, `has`, and `set`.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 0.1.0
-	 * @category Function
-	 * @param {Function} func The function to have its output memoized.
-	 * @param {Function} [resolver] The function to resolve the cache key.
-	 * @returns {Function} Returns the new memoized function.
-	 * @example
-	 *
-	 * var object = { 'a': 1, 'b': 2 };
-	 * var other = { 'c': 3, 'd': 4 };
-	 *
-	 * var values = _.memoize(_.values);
-	 * values(object);
-	 * // => [1, 2]
-	 *
-	 * values(other);
-	 * // => [3, 4]
-	 *
-	 * object.a = 2;
-	 * values(object);
-	 * // => [1, 2]
-	 *
-	 * // Modify the result cache.
-	 * values.cache.set(object, ['a', 'b']);
-	 * values(object);
-	 * // => ['a', 'b']
-	 *
-	 * // Replace `_.memoize.Cache`.
-	 * _.memoize.Cache = WeakMap;
-	 */
-	function memoize(func, resolver) {
-	  if (typeof func != 'function' || (resolver != null && typeof resolver != 'function')) {
-	    throw new TypeError(FUNC_ERROR_TEXT);
-	  }
-	  var memoized = function() {
-	    var args = arguments,
-	        key = resolver ? resolver.apply(this, args) : args[0],
-	        cache = memoized.cache;
-
-	    if (cache.has(key)) {
-	      return cache.get(key);
-	    }
-	    var result = func.apply(this, args);
-	    memoized.cache = cache.set(key, result) || cache;
-	    return result;
-	  };
-	  memoized.cache = new (memoize.Cache || MapCache);
-	  return memoized;
-	}
-
-	// Expose `MapCache`.
-	memoize.Cache = MapCache;
-
-	module.exports = memoize;
-
-
-/***/ }),
-/* 138 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseToString = __webpack_require__(139);
-
-	/**
-	 * Converts `value` to a string. An empty string is returned for `null`
-	 * and `undefined` values. The sign of `-0` is preserved.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.0.0
-	 * @category Lang
-	 * @param {*} value The value to convert.
-	 * @returns {string} Returns the converted string.
-	 * @example
-	 *
-	 * _.toString(null);
-	 * // => ''
-	 *
-	 * _.toString(-0);
-	 * // => '-0'
-	 *
-	 * _.toString([1, 2, 3]);
-	 * // => '1,2,3'
-	 */
-	function toString(value) {
-	  return value == null ? '' : baseToString(value);
-	}
-
-	module.exports = toString;
-
-
-/***/ }),
-/* 139 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var Symbol = __webpack_require__(57),
-	    arrayMap = __webpack_require__(140),
-	    isArray = __webpack_require__(98),
-	    isSymbol = __webpack_require__(134);
-
-	/** Used as references for various `Number` constants. */
-	var INFINITY = 1 / 0;
-
-	/** Used to convert symbols to primitives and strings. */
-	var symbolProto = Symbol ? Symbol.prototype : undefined,
-	    symbolToString = symbolProto ? symbolProto.toString : undefined;
-
-	/**
-	 * The base implementation of `_.toString` which doesn't convert nullish
-	 * values to empty strings.
-	 *
-	 * @private
-	 * @param {*} value The value to process.
-	 * @returns {string} Returns the string.
-	 */
-	function baseToString(value) {
-	  // Exit early for strings to avoid a performance hit in some environments.
-	  if (typeof value == 'string') {
-	    return value;
-	  }
-	  if (isArray(value)) {
-	    // Recursively convert values (susceptible to call stack limits).
-	    return arrayMap(value, baseToString) + '';
-	  }
-	  if (isSymbol(value)) {
-	    return symbolToString ? symbolToString.call(value) : '';
-	  }
-	  var result = (value + '');
-	  return (result == '0' && (1 / value) == -INFINITY) ? '-0' : result;
-	}
-
-	module.exports = baseToString;
-
-
-/***/ }),
-/* 140 */
-/***/ (function(module, exports) {
-
-	/**
-	 * A specialized version of `_.map` for arrays without support for iteratee
-	 * shorthands.
-	 *
-	 * @private
-	 * @param {Array} [array] The array to iterate over.
-	 * @param {Function} iteratee The function invoked per iteration.
-	 * @returns {Array} Returns the new mapped array.
-	 */
-	function arrayMap(array, iteratee) {
-	  var index = -1,
-	      length = array == null ? 0 : array.length,
-	      result = Array(length);
-
-	  while (++index < length) {
-	    result[index] = iteratee(array[index], index, array);
-	  }
-	  return result;
-	}
-
-	module.exports = arrayMap;
-
-
-/***/ }),
-/* 141 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var isSymbol = __webpack_require__(134);
-
-	/** Used as references for various `Number` constants. */
-	var INFINITY = 1 / 0;
-
-	/**
-	 * Converts `value` to a string key if it's not a string or symbol.
-	 *
-	 * @private
-	 * @param {*} value The value to inspect.
-	 * @returns {string|symbol} Returns the key.
-	 */
-	function toKey(value) {
-	  if (typeof value == 'string' || isSymbol(value)) {
-	    return value;
-	  }
-	  var result = (value + '');
-	  return (result == '0' && (1 / value) == -INFINITY) ? '-0' : result;
-	}
-
-	module.exports = toKey;
-
-
-/***/ }),
-/* 142 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseHasIn = __webpack_require__(143),
-	    hasPath = __webpack_require__(144);
-
-	/**
-	 * Checks if `path` is a direct or inherited property of `object`.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.0.0
-	 * @category Object
-	 * @param {Object} object The object to query.
-	 * @param {Array|string} path The path to check.
-	 * @returns {boolean} Returns `true` if `path` exists, else `false`.
-	 * @example
-	 *
-	 * var object = _.create({ 'a': _.create({ 'b': 2 }) });
-	 *
-	 * _.hasIn(object, 'a');
-	 * // => true
-	 *
-	 * _.hasIn(object, 'a.b');
-	 * // => true
-	 *
-	 * _.hasIn(object, ['a', 'b']);
-	 * // => true
-	 *
-	 * _.hasIn(object, 'b');
-	 * // => false
-	 */
-	function hasIn(object, path) {
-	  return object != null && hasPath(object, path, baseHasIn);
-	}
-
-	module.exports = hasIn;
-
-
-/***/ }),
-/* 143 */
-/***/ (function(module, exports) {
-
-	/**
-	 * The base implementation of `_.hasIn` without support for deep paths.
-	 *
-	 * @private
-	 * @param {Object} [object] The object to query.
-	 * @param {Array|string} key The key to check.
-	 * @returns {boolean} Returns `true` if `key` exists, else `false`.
-	 */
-	function baseHasIn(object, key) {
-	  return object != null && key in Object(object);
-	}
-
-	module.exports = baseHasIn;
-
-
-/***/ }),
-/* 144 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var castPath = __webpack_require__(132),
-	    isArguments = __webpack_require__(105),
-	    isArray = __webpack_require__(98),
-	    isIndex = __webpack_require__(110),
-	    isLength = __webpack_require__(113),
-	    toKey = __webpack_require__(141);
-
-	/**
-	 * Checks if `path` exists on `object`.
-	 *
-	 * @private
-	 * @param {Object} object The object to query.
-	 * @param {Array|string} path The path to check.
-	 * @param {Function} hasFunc The function to check properties.
-	 * @returns {boolean} Returns `true` if `path` exists, else `false`.
-	 */
-	function hasPath(object, path, hasFunc) {
-	  path = castPath(path, object);
-
-	  var index = -1,
-	      length = path.length,
-	      result = false;
-
-	  while (++index < length) {
-	    var key = toKey(path[index]);
-	    if (!(result = object != null && hasFunc(object, key))) {
-	      break;
-	    }
-	    object = object[key];
-	  }
-	  if (result || ++index != length) {
-	    return result;
-	  }
-	  length = object == null ? 0 : object.length;
-	  return !!length && isLength(length) && isIndex(key, length) &&
-	    (isArray(object) || isArguments(object));
-	}
-
-	module.exports = hasPath;
-
-
-/***/ }),
-/* 145 */
-/***/ (function(module, exports) {
-
-	/**
-	 * This method returns the first argument it receives.
-	 *
-	 * @static
-	 * @since 0.1.0
-	 * @memberOf _
-	 * @category Util
-	 * @param {*} value Any value.
-	 * @returns {*} Returns `value`.
-	 * @example
-	 *
-	 * var object = { 'a': 1 };
-	 *
-	 * console.log(_.identity(object) === object);
-	 * // => true
-	 */
-	function identity(value) {
-	  return value;
-	}
-
-	module.exports = identity;
-
-
-/***/ }),
-/* 146 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseProperty = __webpack_require__(147),
-	    basePropertyDeep = __webpack_require__(148),
-	    isKey = __webpack_require__(133),
-	    toKey = __webpack_require__(141);
-
-	/**
-	 * Creates a function that returns the value at `path` of a given object.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 2.4.0
-	 * @category Util
-	 * @param {Array|string} path The path of the property to get.
-	 * @returns {Function} Returns the new accessor function.
-	 * @example
-	 *
-	 * var objects = [
-	 *   { 'a': { 'b': 2 } },
-	 *   { 'a': { 'b': 1 } }
-	 * ];
-	 *
-	 * _.map(objects, _.property('a.b'));
-	 * // => [2, 1]
-	 *
-	 * _.map(_.sortBy(objects, _.property(['a', 'b'])), 'a.b');
-	 * // => [1, 2]
-	 */
-	function property(path) {
-	  return isKey(path) ? baseProperty(toKey(path)) : basePropertyDeep(path);
-	}
-
-	module.exports = property;
-
-
-/***/ }),
-/* 147 */
-/***/ (function(module, exports) {
-
-	/**
-	 * The base implementation of `_.property` without support for deep paths.
-	 *
-	 * @private
-	 * @param {string} key The key of the property to get.
-	 * @returns {Function} Returns the new accessor function.
-	 */
-	function baseProperty(key) {
-	  return function(object) {
-	    return object == null ? undefined : object[key];
-	  };
-	}
-
-	module.exports = baseProperty;
-
-
-/***/ }),
-/* 148 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseGet = __webpack_require__(131);
-
-	/**
-	 * A specialized version of `baseProperty` which supports deep paths.
-	 *
-	 * @private
-	 * @param {Array|string} path The path of the property to get.
-	 * @returns {Function} Returns the new accessor function.
-	 */
-	function basePropertyDeep(path) {
-	  return function(object) {
-	    return baseGet(object, path);
-	  };
-	}
-
-	module.exports = basePropertyDeep;
-
-
-/***/ }),
-/* 149 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseFindIndex = __webpack_require__(150),
-	    baseIteratee = __webpack_require__(35),
-	    toInteger = __webpack_require__(151);
-
-	/* Built-in method references for those with the same name as other `lodash` methods. */
-	var nativeMax = Math.max;
-
-	/**
-	 * This method is like `_.find` except that it returns the index of the first
-	 * element `predicate` returns truthy for instead of the element itself.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 1.1.0
-	 * @category Array
-	 * @param {Array} array The array to inspect.
-	 * @param {Function} [predicate=_.identity] The function invoked per iteration.
-	 * @param {number} [fromIndex=0] The index to search from.
-	 * @returns {number} Returns the index of the found element, else `-1`.
-	 * @example
-	 *
-	 * var users = [
-	 *   { 'user': 'barney',  'active': false },
-	 *   { 'user': 'fred',    'active': false },
-	 *   { 'user': 'pebbles', 'active': true }
-	 * ];
-	 *
-	 * _.findIndex(users, function(o) { return o.user == 'barney'; });
-	 * // => 0
-	 *
-	 * // The `_.matches` iteratee shorthand.
-	 * _.findIndex(users, { 'user': 'fred', 'active': false });
-	 * // => 1
-	 *
-	 * // The `_.matchesProperty` iteratee shorthand.
-	 * _.findIndex(users, ['active', false]);
-	 * // => 0
-	 *
-	 * // The `_.property` iteratee shorthand.
-	 * _.findIndex(users, 'active');
-	 * // => 2
-	 */
-	function findIndex(array, predicate, fromIndex) {
-	  var length = array == null ? 0 : array.length;
-	  if (!length) {
-	    return -1;
-	  }
-	  var index = fromIndex == null ? 0 : toInteger(fromIndex);
-	  if (index < 0) {
-	    index = nativeMax(length + index, 0);
-	  }
-	  return baseFindIndex(array, baseIteratee(predicate, 3), index);
-	}
-
-	module.exports = findIndex;
-
-
-/***/ }),
-/* 150 */
-/***/ (function(module, exports) {
-
-	/**
-	 * The base implementation of `_.findIndex` and `_.findLastIndex` without
-	 * support for iteratee shorthands.
-	 *
-	 * @private
-	 * @param {Array} array The array to inspect.
-	 * @param {Function} predicate The function invoked per iteration.
-	 * @param {number} fromIndex The index to search from.
-	 * @param {boolean} [fromRight] Specify iterating from right to left.
-	 * @returns {number} Returns the index of the matched value, else `-1`.
-	 */
-	function baseFindIndex(array, predicate, fromIndex, fromRight) {
-	  var length = array.length,
-	      index = fromIndex + (fromRight ? 1 : -1);
-
-	  while ((fromRight ? index-- : ++index < length)) {
-	    if (predicate(array[index], index, array)) {
-	      return index;
-	    }
-	  }
-	  return -1;
-	}
-
-	module.exports = baseFindIndex;
-
-
-/***/ }),
-/* 151 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var toFinite = __webpack_require__(152);
-
-	/**
-	 * Converts `value` to an integer.
-	 *
-	 * **Note:** This method is loosely based on
-	 * [`ToInteger`](http://www.ecma-international.org/ecma-262/7.0/#sec-tointeger).
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.0.0
-	 * @category Lang
-	 * @param {*} value The value to convert.
-	 * @returns {number} Returns the converted integer.
-	 * @example
-	 *
-	 * _.toInteger(3.2);
-	 * // => 3
-	 *
-	 * _.toInteger(Number.MIN_VALUE);
-	 * // => 0
-	 *
-	 * _.toInteger(Infinity);
-	 * // => 1.7976931348623157e+308
-	 *
-	 * _.toInteger('3.2');
-	 * // => 3
-	 */
-	function toInteger(value) {
-	  var result = toFinite(value),
-	      remainder = result % 1;
-
-	  return result === result ? (remainder ? result - remainder : result) : 0;
-	}
-
-	module.exports = toInteger;
-
-
-/***/ }),
-/* 152 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var toNumber = __webpack_require__(153);
-
-	/** Used as references for various `Number` constants. */
-	var INFINITY = 1 / 0,
-	    MAX_INTEGER = 1.7976931348623157e+308;
-
-	/**
-	 * Converts `value` to a finite number.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.12.0
-	 * @category Lang
-	 * @param {*} value The value to convert.
-	 * @returns {number} Returns the converted number.
-	 * @example
-	 *
-	 * _.toFinite(3.2);
-	 * // => 3.2
-	 *
-	 * _.toFinite(Number.MIN_VALUE);
-	 * // => 5e-324
-	 *
-	 * _.toFinite(Infinity);
-	 * // => 1.7976931348623157e+308
-	 *
-	 * _.toFinite('3.2');
-	 * // => 3.2
-	 */
-	function toFinite(value) {
-	  if (!value) {
-	    return value === 0 ? value : 0;
-	  }
-	  value = toNumber(value);
-	  if (value === INFINITY || value === -INFINITY) {
-	    var sign = (value < 0 ? -1 : 1);
-	    return sign * MAX_INTEGER;
-	  }
-	  return value === value ? value : 0;
-	}
-
-	module.exports = toFinite;
-
-
-/***/ }),
-/* 153 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var isObject = __webpack_require__(62),
-	    isSymbol = __webpack_require__(134);
-
-	/** Used as references for various `Number` constants. */
-	var NAN = 0 / 0;
-
-	/** Used to match leading and trailing whitespace. */
-	var reTrim = /^\s+|\s+$/g;
-
-	/** Used to detect bad signed hexadecimal string values. */
-	var reIsBadHex = /^[-+]0x[0-9a-f]+$/i;
-
-	/** Used to detect binary string values. */
-	var reIsBinary = /^0b[01]+$/i;
-
-	/** Used to detect octal string values. */
-	var reIsOctal = /^0o[0-7]+$/i;
-
-	/** Built-in method references without a dependency on `root`. */
-	var freeParseInt = parseInt;
-
-	/**
-	 * Converts `value` to a number.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.0.0
-	 * @category Lang
-	 * @param {*} value The value to process.
-	 * @returns {number} Returns the number.
-	 * @example
-	 *
-	 * _.toNumber(3.2);
-	 * // => 3.2
-	 *
-	 * _.toNumber(Number.MIN_VALUE);
-	 * // => 5e-324
-	 *
-	 * _.toNumber(Infinity);
-	 * // => Infinity
-	 *
-	 * _.toNumber('3.2');
-	 * // => 3.2
-	 */
-	function toNumber(value) {
-	  if (typeof value == 'number') {
-	    return value;
-	  }
-	  if (isSymbol(value)) {
-	    return NAN;
-	  }
-	  if (isObject(value)) {
-	    var other = typeof value.valueOf == 'function' ? value.valueOf() : value;
-	    value = isObject(other) ? (other + '') : other;
-	  }
-	  if (typeof value != 'string') {
-	    return value === 0 ? value : +value;
-	  }
-	  value = value.replace(reTrim, '');
-	  var isBinary = reIsBinary.test(value);
-	  return (isBinary || reIsOctal.test(value))
-	    ? freeParseInt(value.slice(2), isBinary ? 2 : 8)
-	    : (reIsBadHex.test(value) ? NAN : +value);
-	}
-
-	module.exports = toNumber;
-
-
-/***/ }),
-/* 154 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.default = createPrototypeProxy;
-
-	var _assign = __webpack_require__(155);
-
-	var _assign2 = _interopRequireDefault(_assign);
-
-	var _difference = __webpack_require__(169);
-
-	var _difference2 = _interopRequireDefault(_difference);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function createPrototypeProxy() {
-	  var proxy = {};
-	  var current = null;
-	  var mountedInstances = [];
-
-	  /**
-	   * Creates a proxied toString() method pointing to the current version's toString().
-	   */
-	  function proxyToString(name) {
-	    // Wrap to always call the current version
-	    return function toString() {
-	      if (typeof current[name] === 'function') {
-	        return current[name].toString();
-	      } else {
-	        return '<method was deleted>';
-	      }
-	    };
-	  }
-
-	  /**
-	   * Creates a proxied method that calls the current version, whenever available.
-	   */
-	  function proxyMethod(name) {
-	    // Wrap to always call the current version
-	    var proxiedMethod = function proxiedMethod() {
-	      if (typeof current[name] === 'function') {
-	        return current[name].apply(this, arguments);
-	      }
-	    };
-
-	    // Copy properties of the original function, if any
-	    (0, _assign2.default)(proxiedMethod, current[name]);
-	    proxiedMethod.toString = proxyToString(name);
-
-	    return proxiedMethod;
-	  }
-
-	  /**
-	   * Augments the original componentDidMount with instance tracking.
-	   */
-	  function proxiedComponentDidMount() {
-	    mountedInstances.push(this);
-	    if (typeof current.componentDidMount === 'function') {
-	      return current.componentDidMount.apply(this, arguments);
-	    }
-	  }
-	  proxiedComponentDidMount.toString = proxyToString('componentDidMount');
-
-	  /**
-	   * Augments the original componentWillUnmount with instance tracking.
-	   */
-	  function proxiedComponentWillUnmount() {
-	    var index = mountedInstances.indexOf(this);
-	    // Unless we're in a weird environment without componentDidMount
-	    if (index !== -1) {
-	      mountedInstances.splice(index, 1);
-	    }
-	    if (typeof current.componentWillUnmount === 'function') {
-	      return current.componentWillUnmount.apply(this, arguments);
-	    }
-	  }
-	  proxiedComponentWillUnmount.toString = proxyToString('componentWillUnmount');
-
-	  /**
-	   * Defines a property on the proxy.
-	   */
-	  function defineProxyProperty(name, descriptor) {
-	    Object.defineProperty(proxy, name, descriptor);
-	  }
-
-	  /**
-	   * Defines a property, attempting to keep the original descriptor configuration.
-	   */
-	  function defineProxyPropertyWithValue(name, value) {
-	    var _ref = Object.getOwnPropertyDescriptor(current, name) || {};
-
-	    var _ref$enumerable = _ref.enumerable;
-	    var enumerable = _ref$enumerable === undefined ? false : _ref$enumerable;
-	    var _ref$writable = _ref.writable;
-	    var writable = _ref$writable === undefined ? true : _ref$writable;
-
-
-	    defineProxyProperty(name, {
-	      configurable: true,
-	      enumerable: enumerable,
-	      writable: writable,
-	      value: value
-	    });
-	  }
-
-	  /**
-	   * Creates an auto-bind map mimicking the original map, but directed at proxy.
-	   */
-	  function createAutoBindMap() {
-	    if (!current.__reactAutoBindMap) {
-	      return;
-	    }
-
-	    var __reactAutoBindMap = {};
-	    for (var name in current.__reactAutoBindMap) {
-	      if (typeof proxy[name] === 'function' && current.__reactAutoBindMap.hasOwnProperty(name)) {
-	        __reactAutoBindMap[name] = proxy[name];
-	      }
-	    }
-
-	    return __reactAutoBindMap;
-	  }
-
-	  /**
-	   * Creates an auto-bind map mimicking the original map, but directed at proxy.
-	   */
-	  function createAutoBindPairs() {
-	    var __reactAutoBindPairs = [];
-
-	    for (var i = 0; i < current.__reactAutoBindPairs.length; i += 2) {
-	      var name = current.__reactAutoBindPairs[i];
-	      var method = proxy[name];
-
-	      if (typeof method === 'function') {
-	        __reactAutoBindPairs.push(name, method);
-	      }
-	    }
-
-	    return __reactAutoBindPairs;
-	  }
-
-	  /**
-	   * Applies the updated prototype.
-	   */
-	  function update(next) {
-	    // Save current source of truth
-	    current = next;
-
-	    // Find changed property names
-	    var currentNames = Object.getOwnPropertyNames(current);
-	    var previousName = Object.getOwnPropertyNames(proxy);
-	    var removedNames = (0, _difference2.default)(previousName, currentNames);
-
-	    // Remove properties and methods that are no longer there
-	    removedNames.forEach(function (name) {
-	      delete proxy[name];
-	    });
-
-	    // Copy every descriptor
-	    currentNames.forEach(function (name) {
-	      var descriptor = Object.getOwnPropertyDescriptor(current, name);
-	      if (typeof descriptor.value === 'function') {
-	        // Functions require additional wrapping so they can be bound later
-	        defineProxyPropertyWithValue(name, proxyMethod(name));
-	      } else {
-	        // Other values can be copied directly
-	        defineProxyProperty(name, descriptor);
-	      }
-	    });
-
-	    // Track mounting and unmounting
-	    defineProxyPropertyWithValue('componentDidMount', proxiedComponentDidMount);
-	    defineProxyPropertyWithValue('componentWillUnmount', proxiedComponentWillUnmount);
-
-	    if (current.hasOwnProperty('__reactAutoBindMap')) {
-	      defineProxyPropertyWithValue('__reactAutoBindMap', createAutoBindMap());
-	    }
-
-	    if (current.hasOwnProperty('__reactAutoBindPairs')) {
-	      defineProxyPropertyWithValue('__reactAutoBindPairs', createAutoBindPairs());
-	    }
-
-	    // Set up the prototype chain
-	    proxy.__proto__ = next;
-
-	    return mountedInstances;
-	  }
-
-	  /**
-	   * Returns the up-to-date proxy prototype.
-	   */
-	  function get() {
-	    return proxy;
-	  }
-
-	  return {
-	    update: update,
-	    get: get
-	  };
-	};
-
-/***/ }),
-/* 155 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var assignValue = __webpack_require__(156),
-	    copyObject = __webpack_require__(159),
-	    createAssigner = __webpack_require__(160),
-	    isArrayLike = __webpack_require__(120),
-	    isPrototype = __webpack_require__(117),
-	    keys = __webpack_require__(102);
-
-	/** Used for built-in method references. */
-	var objectProto = Object.prototype;
-
-	/** Used to check objects for own properties. */
-	var hasOwnProperty = objectProto.hasOwnProperty;
-
-	/**
-	 * Assigns own enumerable string keyed properties of source objects to the
-	 * destination object. Source objects are applied from left to right.
-	 * Subsequent sources overwrite property assignments of previous sources.
-	 *
-	 * **Note:** This method mutates `object` and is loosely based on
-	 * [`Object.assign`](https://mdn.io/Object/assign).
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 0.10.0
-	 * @category Object
-	 * @param {Object} object The destination object.
-	 * @param {...Object} [sources] The source objects.
-	 * @returns {Object} Returns `object`.
-	 * @see _.assignIn
-	 * @example
-	 *
-	 * function Foo() {
-	 *   this.a = 1;
-	 * }
-	 *
-	 * function Bar() {
-	 *   this.c = 3;
-	 * }
-	 *
-	 * Foo.prototype.b = 2;
-	 * Bar.prototype.d = 4;
-	 *
-	 * _.assign({ 'a': 0 }, new Foo, new Bar);
-	 * // => { 'a': 1, 'c': 3 }
-	 */
-	var assign = createAssigner(function(object, source) {
-	  if (isPrototype(source) || isArrayLike(source)) {
-	    copyObject(source, keys(source), object);
-	    return;
-	  }
-	  for (var key in source) {
-	    if (hasOwnProperty.call(source, key)) {
-	      assignValue(object, key, source[key]);
-	    }
-	  }
-	});
-
-	module.exports = assign;
-
-
-/***/ }),
-/* 156 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseAssignValue = __webpack_require__(157),
-	    eq = __webpack_require__(43);
-
-	/** Used for built-in method references. */
-	var objectProto = Object.prototype;
-
-	/** Used to check objects for own properties. */
-	var hasOwnProperty = objectProto.hasOwnProperty;
-
-	/**
-	 * Assigns `value` to `key` of `object` if the existing value is not equivalent
-	 * using [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
-	 * for equality comparisons.
-	 *
-	 * @private
-	 * @param {Object} object The object to modify.
-	 * @param {string} key The key of the property to assign.
-	 * @param {*} value The value to assign.
-	 */
-	function assignValue(object, key, value) {
-	  var objValue = object[key];
-	  if (!(hasOwnProperty.call(object, key) && eq(objValue, value)) ||
-	      (value === undefined && !(key in object))) {
-	    baseAssignValue(object, key, value);
-	  }
-	}
-
-	module.exports = assignValue;
-
-
-/***/ }),
-/* 157 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var defineProperty = __webpack_require__(158);
-
-	/**
-	 * The base implementation of `assignValue` and `assignMergeValue` without
-	 * value checks.
-	 *
-	 * @private
-	 * @param {Object} object The object to modify.
-	 * @param {string} key The key of the property to assign.
-	 * @param {*} value The value to assign.
-	 */
-	function baseAssignValue(object, key, value) {
-	  if (key == '__proto__' && defineProperty) {
-	    defineProperty(object, key, {
-	      'configurable': true,
-	      'enumerable': true,
-	      'value': value,
-	      'writable': true
-	    });
-	  } else {
-	    object[key] = value;
-	  }
-	}
-
-	module.exports = baseAssignValue;
-
-
-/***/ }),
-/* 158 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var getNative = __webpack_require__(53);
-
-	var defineProperty = (function() {
-	  try {
-	    var func = getNative(Object, 'defineProperty');
-	    func({}, '', {});
-	    return func;
-	  } catch (e) {}
-	}());
-
-	module.exports = defineProperty;
-
-
-/***/ }),
-/* 159 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var assignValue = __webpack_require__(156),
-	    baseAssignValue = __webpack_require__(157);
-
-	/**
-	 * Copies properties of `source` to `object`.
-	 *
-	 * @private
-	 * @param {Object} source The object to copy properties from.
-	 * @param {Array} props The property identifiers to copy.
-	 * @param {Object} [object={}] The object to copy properties to.
-	 * @param {Function} [customizer] The function to customize copied values.
-	 * @returns {Object} Returns `object`.
-	 */
-	function copyObject(source, props, object, customizer) {
-	  var isNew = !object;
-	  object || (object = {});
-
-	  var index = -1,
-	      length = props.length;
-
-	  while (++index < length) {
-	    var key = props[index];
-
-	    var newValue = customizer
-	      ? customizer(object[key], source[key], key, object, source)
-	      : undefined;
-
-	    if (newValue === undefined) {
-	      newValue = source[key];
-	    }
-	    if (isNew) {
-	      baseAssignValue(object, key, newValue);
-	    } else {
-	      assignValue(object, key, newValue);
-	    }
-	  }
-	  return object;
-	}
-
-	module.exports = copyObject;
-
-
-/***/ }),
-/* 160 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseRest = __webpack_require__(161),
-	    isIterateeCall = __webpack_require__(168);
-
-	/**
-	 * Creates a function like `_.assign`.
-	 *
-	 * @private
-	 * @param {Function} assigner The function to assign values.
-	 * @returns {Function} Returns the new assigner function.
-	 */
-	function createAssigner(assigner) {
-	  return baseRest(function(object, sources) {
-	    var index = -1,
-	        length = sources.length,
-	        customizer = length > 1 ? sources[length - 1] : undefined,
-	        guard = length > 2 ? sources[2] : undefined;
-
-	    customizer = (assigner.length > 3 && typeof customizer == 'function')
-	      ? (length--, customizer)
-	      : undefined;
-
-	    if (guard && isIterateeCall(sources[0], sources[1], guard)) {
-	      customizer = length < 3 ? undefined : customizer;
-	      length = 1;
-	    }
-	    object = Object(object);
-	    while (++index < length) {
-	      var source = sources[index];
-	      if (source) {
-	        assigner(object, source, index, customizer);
-	      }
-	    }
-	    return object;
-	  });
-	}
-
-	module.exports = createAssigner;
-
-
-/***/ }),
-/* 161 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var identity = __webpack_require__(145),
-	    overRest = __webpack_require__(162),
-	    setToString = __webpack_require__(164);
-
-	/**
-	 * The base implementation of `_.rest` which doesn't validate or coerce arguments.
-	 *
-	 * @private
-	 * @param {Function} func The function to apply a rest parameter to.
-	 * @param {number} [start=func.length-1] The start position of the rest parameter.
-	 * @returns {Function} Returns the new function.
-	 */
-	function baseRest(func, start) {
-	  return setToString(overRest(func, start, identity), func + '');
-	}
-
-	module.exports = baseRest;
-
-
-/***/ }),
-/* 162 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var apply = __webpack_require__(163);
-
-	/* Built-in method references for those with the same name as other `lodash` methods. */
-	var nativeMax = Math.max;
-
-	/**
-	 * A specialized version of `baseRest` which transforms the rest array.
-	 *
-	 * @private
-	 * @param {Function} func The function to apply a rest parameter to.
-	 * @param {number} [start=func.length-1] The start position of the rest parameter.
-	 * @param {Function} transform The rest array transform.
-	 * @returns {Function} Returns the new function.
-	 */
-	function overRest(func, start, transform) {
-	  start = nativeMax(start === undefined ? (func.length - 1) : start, 0);
-	  return function() {
-	    var args = arguments,
-	        index = -1,
-	        length = nativeMax(args.length - start, 0),
-	        array = Array(length);
-
-	    while (++index < length) {
-	      array[index] = args[start + index];
-	    }
-	    index = -1;
-	    var otherArgs = Array(start + 1);
-	    while (++index < start) {
-	      otherArgs[index] = args[index];
-	    }
-	    otherArgs[start] = transform(array);
-	    return apply(func, this, otherArgs);
-	  };
-	}
-
-	module.exports = overRest;
-
-
-/***/ }),
-/* 163 */
-/***/ (function(module, exports) {
-
-	/**
-	 * A faster alternative to `Function#apply`, this function invokes `func`
-	 * with the `this` binding of `thisArg` and the arguments of `args`.
-	 *
-	 * @private
-	 * @param {Function} func The function to invoke.
-	 * @param {*} thisArg The `this` binding of `func`.
-	 * @param {Array} args The arguments to invoke `func` with.
-	 * @returns {*} Returns the result of `func`.
-	 */
-	function apply(func, thisArg, args) {
-	  switch (args.length) {
-	    case 0: return func.call(thisArg);
-	    case 1: return func.call(thisArg, args[0]);
-	    case 2: return func.call(thisArg, args[0], args[1]);
-	    case 3: return func.call(thisArg, args[0], args[1], args[2]);
-	  }
-	  return func.apply(thisArg, args);
-	}
-
-	module.exports = apply;
-
-
-/***/ }),
-/* 164 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseSetToString = __webpack_require__(165),
-	    shortOut = __webpack_require__(167);
-
-	/**
-	 * Sets the `toString` method of `func` to return `string`.
-	 *
-	 * @private
-	 * @param {Function} func The function to modify.
-	 * @param {Function} string The `toString` result.
-	 * @returns {Function} Returns `func`.
-	 */
-	var setToString = shortOut(baseSetToString);
-
-	module.exports = setToString;
-
-
-/***/ }),
-/* 165 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var constant = __webpack_require__(166),
-	    defineProperty = __webpack_require__(158),
-	    identity = __webpack_require__(145);
-
-	/**
-	 * The base implementation of `setToString` without support for hot loop shorting.
-	 *
-	 * @private
-	 * @param {Function} func The function to modify.
-	 * @param {Function} string The `toString` result.
-	 * @returns {Function} Returns `func`.
-	 */
-	var baseSetToString = !defineProperty ? identity : function(func, string) {
-	  return defineProperty(func, 'toString', {
-	    'configurable': true,
-	    'enumerable': false,
-	    'value': constant(string),
-	    'writable': true
-	  });
-	};
-
-	module.exports = baseSetToString;
-
-
-/***/ }),
-/* 166 */
-/***/ (function(module, exports) {
-
-	/**
-	 * Creates a function that returns `value`.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 2.4.0
-	 * @category Util
-	 * @param {*} value The value to return from the new function.
-	 * @returns {Function} Returns the new constant function.
-	 * @example
-	 *
-	 * var objects = _.times(2, _.constant({ 'a': 1 }));
-	 *
-	 * console.log(objects);
-	 * // => [{ 'a': 1 }, { 'a': 1 }]
-	 *
-	 * console.log(objects[0] === objects[1]);
-	 * // => true
-	 */
-	function constant(value) {
-	  return function() {
-	    return value;
-	  };
-	}
-
-	module.exports = constant;
-
-
-/***/ }),
-/* 167 */
-/***/ (function(module, exports) {
-
-	/** Used to detect hot functions by number of calls within a span of milliseconds. */
-	var HOT_COUNT = 800,
-	    HOT_SPAN = 16;
-
-	/* Built-in method references for those with the same name as other `lodash` methods. */
-	var nativeNow = Date.now;
-
-	/**
-	 * Creates a function that'll short out and invoke `identity` instead
-	 * of `func` when it's called `HOT_COUNT` or more times in `HOT_SPAN`
-	 * milliseconds.
-	 *
-	 * @private
-	 * @param {Function} func The function to restrict.
-	 * @returns {Function} Returns the new shortable function.
-	 */
-	function shortOut(func) {
-	  var count = 0,
-	      lastCalled = 0;
-
-	  return function() {
-	    var stamp = nativeNow(),
-	        remaining = HOT_SPAN - (stamp - lastCalled);
-
-	    lastCalled = stamp;
-	    if (remaining > 0) {
-	      if (++count >= HOT_COUNT) {
-	        return arguments[0];
-	      }
-	    } else {
-	      count = 0;
-	    }
-	    return func.apply(undefined, arguments);
-	  };
-	}
-
-	module.exports = shortOut;
-
-
-/***/ }),
-/* 168 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var eq = __webpack_require__(43),
-	    isArrayLike = __webpack_require__(120),
-	    isIndex = __webpack_require__(110),
-	    isObject = __webpack_require__(62);
-
-	/**
-	 * Checks if the given arguments are from an iteratee call.
-	 *
-	 * @private
-	 * @param {*} value The potential iteratee value argument.
-	 * @param {*} index The potential iteratee index or key argument.
-	 * @param {*} object The potential iteratee object argument.
-	 * @returns {boolean} Returns `true` if the arguments are from an iteratee call,
-	 *  else `false`.
-	 */
-	function isIterateeCall(value, index, object) {
-	  if (!isObject(object)) {
-	    return false;
-	  }
-	  var type = typeof index;
-	  if (type == 'number'
-	        ? (isArrayLike(object) && isIndex(index, object.length))
-	        : (type == 'string' && index in object)
-	      ) {
-	    return eq(object[index], value);
-	  }
-	  return false;
-	}
-
-	module.exports = isIterateeCall;
-
-
-/***/ }),
-/* 169 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseDifference = __webpack_require__(170),
-	    baseFlatten = __webpack_require__(176),
-	    baseRest = __webpack_require__(161),
-	    isArrayLikeObject = __webpack_require__(178);
-
-	/**
-	 * Creates an array of `array` values not included in the other given arrays
-	 * using [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
-	 * for equality comparisons. The order and references of result values are
-	 * determined by the first array.
-	 *
-	 * **Note:** Unlike `_.pullAll`, this method returns a new array.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 0.1.0
-	 * @category Array
-	 * @param {Array} array The array to inspect.
-	 * @param {...Array} [values] The values to exclude.
-	 * @returns {Array} Returns the new array of filtered values.
-	 * @see _.without, _.xor
-	 * @example
-	 *
-	 * _.difference([2, 1], [2, 3]);
-	 * // => [1]
-	 */
-	var difference = baseRest(function(array, values) {
-	  return isArrayLikeObject(array)
-	    ? baseDifference(array, baseFlatten(values, 1, isArrayLikeObject, true))
-	    : [];
-	});
-
-	module.exports = difference;
-
-
-/***/ }),
-/* 170 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var SetCache = __webpack_require__(85),
-	    arrayIncludes = __webpack_require__(171),
-	    arrayIncludesWith = __webpack_require__(175),
-	    arrayMap = __webpack_require__(140),
-	    baseUnary = __webpack_require__(114),
-	    cacheHas = __webpack_require__(89);
-
-	/** Used as the size to enable large array optimizations. */
-	var LARGE_ARRAY_SIZE = 200;
-
-	/**
-	 * The base implementation of methods like `_.difference` without support
-	 * for excluding multiple arrays or iteratee shorthands.
-	 *
-	 * @private
-	 * @param {Array} array The array to inspect.
-	 * @param {Array} values The values to exclude.
-	 * @param {Function} [iteratee] The iteratee invoked per element.
-	 * @param {Function} [comparator] The comparator invoked per element.
-	 * @returns {Array} Returns the new array of filtered values.
-	 */
-	function baseDifference(array, values, iteratee, comparator) {
-	  var index = -1,
-	      includes = arrayIncludes,
-	      isCommon = true,
-	      length = array.length,
-	      result = [],
-	      valuesLength = values.length;
-
-	  if (!length) {
-	    return result;
-	  }
-	  if (iteratee) {
-	    values = arrayMap(values, baseUnary(iteratee));
-	  }
-	  if (comparator) {
-	    includes = arrayIncludesWith;
-	    isCommon = false;
-	  }
-	  else if (values.length >= LARGE_ARRAY_SIZE) {
-	    includes = cacheHas;
-	    isCommon = false;
-	    values = new SetCache(values);
-	  }
-	  outer:
-	  while (++index < length) {
-	    var value = array[index],
-	        computed = iteratee == null ? value : iteratee(value);
-
-	    value = (comparator || value !== 0) ? value : 0;
-	    if (isCommon && computed === computed) {
-	      var valuesIndex = valuesLength;
-	      while (valuesIndex--) {
-	        if (values[valuesIndex] === computed) {
-	          continue outer;
-	        }
-	      }
-	      result.push(value);
-	    }
-	    else if (!includes(values, computed, comparator)) {
-	      result.push(value);
-	    }
-	  }
-	  return result;
-	}
-
-	module.exports = baseDifference;
-
-
-/***/ }),
-/* 171 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseIndexOf = __webpack_require__(172);
-
-	/**
-	 * A specialized version of `_.includes` for arrays without support for
-	 * specifying an index to search from.
-	 *
-	 * @private
-	 * @param {Array} [array] The array to inspect.
-	 * @param {*} target The value to search for.
-	 * @returns {boolean} Returns `true` if `target` is found, else `false`.
-	 */
-	function arrayIncludes(array, value) {
-	  var length = array == null ? 0 : array.length;
-	  return !!length && baseIndexOf(array, value, 0) > -1;
-	}
-
-	module.exports = arrayIncludes;
-
-
-/***/ }),
-/* 172 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var baseFindIndex = __webpack_require__(150),
-	    baseIsNaN = __webpack_require__(173),
-	    strictIndexOf = __webpack_require__(174);
-
-	/**
-	 * The base implementation of `_.indexOf` without `fromIndex` bounds checks.
-	 *
-	 * @private
-	 * @param {Array} array The array to inspect.
-	 * @param {*} value The value to search for.
-	 * @param {number} fromIndex The index to search from.
-	 * @returns {number} Returns the index of the matched value, else `-1`.
-	 */
-	function baseIndexOf(array, value, fromIndex) {
-	  return value === value
-	    ? strictIndexOf(array, value, fromIndex)
-	    : baseFindIndex(array, baseIsNaN, fromIndex);
-	}
-
-	module.exports = baseIndexOf;
-
-
-/***/ }),
-/* 173 */
-/***/ (function(module, exports) {
-
-	/**
-	 * The base implementation of `_.isNaN` without support for number objects.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is `NaN`, else `false`.
-	 */
-	function baseIsNaN(value) {
-	  return value !== value;
-	}
-
-	module.exports = baseIsNaN;
-
-
-/***/ }),
-/* 174 */
-/***/ (function(module, exports) {
-
-	/**
-	 * A specialized version of `_.indexOf` which performs strict equality
-	 * comparisons of values, i.e. `===`.
-	 *
-	 * @private
-	 * @param {Array} array The array to inspect.
-	 * @param {*} value The value to search for.
-	 * @param {number} fromIndex The index to search from.
-	 * @returns {number} Returns the index of the matched value, else `-1`.
-	 */
-	function strictIndexOf(array, value, fromIndex) {
-	  var index = fromIndex - 1,
-	      length = array.length;
-
-	  while (++index < length) {
-	    if (array[index] === value) {
-	      return index;
-	    }
-	  }
-	  return -1;
-	}
-
-	module.exports = strictIndexOf;
-
-
-/***/ }),
-/* 175 */
-/***/ (function(module, exports) {
-
-	/**
-	 * This function is like `arrayIncludes` except that it accepts a comparator.
-	 *
-	 * @private
-	 * @param {Array} [array] The array to inspect.
-	 * @param {*} target The value to search for.
-	 * @param {Function} comparator The comparator invoked per element.
-	 * @returns {boolean} Returns `true` if `target` is found, else `false`.
-	 */
-	function arrayIncludesWith(array, value, comparator) {
-	  var index = -1,
-	      length = array == null ? 0 : array.length;
-
-	  while (++index < length) {
-	    if (comparator(value, array[index])) {
-	      return true;
-	    }
-	  }
-	  return false;
-	}
-
-	module.exports = arrayIncludesWith;
-
-
-/***/ }),
-/* 176 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var arrayPush = __webpack_require__(97),
-	    isFlattenable = __webpack_require__(177);
-
-	/**
-	 * The base implementation of `_.flatten` with support for restricting flattening.
-	 *
-	 * @private
-	 * @param {Array} array The array to flatten.
-	 * @param {number} depth The maximum recursion depth.
-	 * @param {boolean} [predicate=isFlattenable] The function invoked per iteration.
-	 * @param {boolean} [isStrict] Restrict to values that pass `predicate` checks.
-	 * @param {Array} [result=[]] The initial result value.
-	 * @returns {Array} Returns the new flattened array.
-	 */
-	function baseFlatten(array, depth, predicate, isStrict, result) {
-	  var index = -1,
-	      length = array.length;
-
-	  predicate || (predicate = isFlattenable);
-	  result || (result = []);
-
-	  while (++index < length) {
-	    var value = array[index];
-	    if (depth > 0 && predicate(value)) {
-	      if (depth > 1) {
-	        // Recursively flatten arrays (susceptible to call stack limits).
-	        baseFlatten(value, depth - 1, predicate, isStrict, result);
-	      } else {
-	        arrayPush(result, value);
-	      }
-	    } else if (!isStrict) {
-	      result[result.length] = value;
-	    }
-	  }
-	  return result;
-	}
-
-	module.exports = baseFlatten;
-
-
-/***/ }),
-/* 177 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var Symbol = __webpack_require__(57),
-	    isArguments = __webpack_require__(105),
-	    isArray = __webpack_require__(98);
-
-	/** Built-in value references. */
-	var spreadableSymbol = Symbol ? Symbol.isConcatSpreadable : undefined;
-
-	/**
-	 * Checks if `value` is a flattenable `arguments` object or array.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is flattenable, else `false`.
-	 */
-	function isFlattenable(value) {
-	  return isArray(value) || isArguments(value) ||
-	    !!(spreadableSymbol && value && value[spreadableSymbol]);
-	}
-
-	module.exports = isFlattenable;
-
-
-/***/ }),
-/* 178 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var isArrayLike = __webpack_require__(120),
-	    isObjectLike = __webpack_require__(107);
-
-	/**
-	 * This method is like `_.isArrayLike` except that it also checks if `value`
-	 * is an object.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.0.0
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is an array-like object,
-	 *  else `false`.
-	 * @example
-	 *
-	 * _.isArrayLikeObject([1, 2, 3]);
-	 * // => true
-	 *
-	 * _.isArrayLikeObject(document.body.children);
-	 * // => true
-	 *
-	 * _.isArrayLikeObject('abc');
-	 * // => false
-	 *
-	 * _.isArrayLikeObject(_.noop);
-	 * // => false
-	 */
-	function isArrayLikeObject(value) {
-	  return isObjectLike(value) && isArrayLike(value);
-	}
-
-	module.exports = isArrayLikeObject;
-
-
-/***/ }),
-/* 179 */
-/***/ (function(module, exports) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.default = bindAutoBindMethods;
-	/**
-	 * Copyright 2013-2015, Facebook, Inc.
-	 * All rights reserved.
-	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of React source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
-	 *
-	 * Original:
-	 * https://github.com/facebook/react/blob/6508b1ad273a6f371e8d90ae676e5390199461b4/src/isomorphic/classic/class/ReactClass.js#L650-L713
-	 */
-
-	function bindAutoBindMethod(component, method) {
-	  var boundMethod = method.bind(component);
-
-	  boundMethod.__reactBoundContext = component;
-	  boundMethod.__reactBoundMethod = method;
-	  boundMethod.__reactBoundArguments = null;
-
-	  var componentName = component.constructor.displayName,
-	      _bind = boundMethod.bind;
-
-	  boundMethod.bind = function (newThis) {
-	    var args = Array.prototype.slice.call(arguments, 1);
-	    if (newThis !== component && newThis !== null) {
-	      console.warn('bind(): React component methods may only be bound to the ' + 'component instance. See ' + componentName);
-	    } else if (!args.length) {
-	      console.warn('bind(): You are binding a component method to the component. ' + 'React does this for you automatically in a high-performance ' + 'way, so you can safely remove this call. See ' + componentName);
-	      return boundMethod;
-	    }
-
-	    var reboundMethod = _bind.apply(boundMethod, arguments);
-	    reboundMethod.__reactBoundContext = component;
-	    reboundMethod.__reactBoundMethod = method;
-	    reboundMethod.__reactBoundArguments = args;
-
-	    return reboundMethod;
-	  };
-
-	  return boundMethod;
-	}
-
-	function bindAutoBindMethodsFromMap(component) {
-	  for (var autoBindKey in component.__reactAutoBindMap) {
-	    if (!component.__reactAutoBindMap.hasOwnProperty(autoBindKey)) {
-	      return;
-	    }
-
-	    // Tweak: skip methods that are already bound.
-	    // This is to preserve method reference in case it is used
-	    // as a subscription handler that needs to be detached later.
-	    if (component.hasOwnProperty(autoBindKey) && component[autoBindKey].__reactBoundContext === component) {
-	      continue;
-	    }
-
-	    var method = component.__reactAutoBindMap[autoBindKey];
-	    component[autoBindKey] = bindAutoBindMethod(component, method);
-	  }
-	}
-
-	function bindAutoBindMethods(component) {
-	  if (component.__reactAutoBindPairs) {
-	    bindAutoBindMethodsFromArray(component);
-	  } else if (component.__reactAutoBindMap) {
-	    bindAutoBindMethodsFromMap(component);
-	  }
-	}
-
-	function bindAutoBindMethodsFromArray(component) {
-	  var pairs = component.__reactAutoBindPairs;
-
-	  if (!pairs) {
-	    return;
-	  }
-
-	  for (var i = 0; i < pairs.length; i += 2) {
-	    var autoBindKey = pairs[i];
-
-	    if (component.hasOwnProperty(autoBindKey) && component[autoBindKey].__reactBoundContext === component) {
-	      continue;
-	    }
-
-	    var method = pairs[i + 1];
-
-	    component[autoBindKey] = bindAutoBindMethod(component, method);
-	  }
-	}
-
-/***/ }),
-/* 180 */
-/***/ (function(module, exports) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.default = deleteUnknownAutoBindMethods;
-	function shouldDeleteClassicInstanceMethod(component, name) {
-	  if (component.__reactAutoBindMap && component.__reactAutoBindMap.hasOwnProperty(name)) {
-	    // It's a known autobound function, keep it
-	    return false;
-	  }
-
-	  if (component.__reactAutoBindPairs && component.__reactAutoBindPairs.indexOf(name) >= 0) {
-	    // It's a known autobound function, keep it
-	    return false;
-	  }
-
-	  if (component[name].__reactBoundArguments !== null) {
-	    // It's a function bound to specific args, keep it
-	    return false;
-	  }
-
-	  // It's a cached bound method for a function
-	  // that was deleted by user, so we delete it from component.
-	  return true;
-	}
-
-	function shouldDeleteModernInstanceMethod(component, name) {
-	  var prototype = component.constructor.prototype;
-
-	  var prototypeDescriptor = Object.getOwnPropertyDescriptor(prototype, name);
-
-	  if (!prototypeDescriptor || !prototypeDescriptor.get) {
-	    // This is definitely not an autobinding getter
-	    return false;
-	  }
-
-	  if (prototypeDescriptor.get().length !== component[name].length) {
-	    // The length doesn't match, bail out
-	    return false;
-	  }
-
-	  // This seems like a method bound using an autobinding getter on the prototype
-	  // Hopefully we won't run into too many false positives.
-	  return true;
-	}
-
-	function shouldDeleteInstanceMethod(component, name) {
-	  var descriptor = Object.getOwnPropertyDescriptor(component, name);
-	  if (typeof descriptor.value !== 'function') {
-	    // Not a function, or something fancy: bail out
-	    return;
-	  }
-
-	  if (component.__reactAutoBindMap || component.__reactAutoBindPairs) {
-	    // Classic
-	    return shouldDeleteClassicInstanceMethod(component, name);
-	  } else {
-	    // Modern
-	    return shouldDeleteModernInstanceMethod(component, name);
-	  }
-	}
-
-	/**
-	 * Deletes autobound methods from the instance.
-	 *
-	 * For classic React classes, we only delete the methods that no longer exist in map.
-	 * This means the user actually deleted them in code.
-	 *
-	 * For modern classes, we delete methods that exist on prototype with the same length,
-	 * and which have getters on prototype, but are normal values on the instance.
-	 * This is usually an indication that an autobinding decorator is being used,
-	 * and the getter will re-generate the memoized handler on next access.
-	 */
-	function deleteUnknownAutoBindMethods(component) {
-	  var names = Object.getOwnPropertyNames(component);
-
-	  names.forEach(function (name) {
-	    if (shouldDeleteInstanceMethod(component, name)) {
-	      delete component[name];
-	    }
-	  });
-	}
-
-/***/ }),
-/* 181 */
-/***/ (function(module, exports) {
-
-	
-	// Constant to identify a React Component. It's been extracted from ReactTypeOfWork
-	// (https://github.com/facebook/react/blob/master/src/shared/ReactTypeOfWork.js#L20)
-	'use strict';
-
-	exports.__esModule = true;
-	exports['default'] = getForceUpdate;
-	var ReactClassComponent = 2;
-
-	function traverseRenderedChildren(internalInstance, callback, argument) {
-	  callback(internalInstance, argument);
-
-	  if (internalInstance._renderedComponent) {
-	    traverseRenderedChildren(internalInstance._renderedComponent, callback, argument);
-	  } else {
-	    for (var key in internalInstance._renderedChildren) {
-	      if (internalInstance._renderedChildren.hasOwnProperty(key)) {
-	        traverseRenderedChildren(internalInstance._renderedChildren[key], callback, argument);
-	      }
-	    }
-	  }
-	}
-
-	function setPendingForceUpdate(internalInstance) {
-	  if (internalInstance._pendingForceUpdate === false) {
-	    internalInstance._pendingForceUpdate = true;
-	  }
-	}
-
-	function forceUpdateIfPending(internalInstance, React) {
-	  if (internalInstance._pendingForceUpdate === true) {
-	    var publicInstance = internalInstance._instance;
-	    React.Component.prototype.forceUpdate.call(publicInstance);
-	  }
-	}
-
-	function deepForceUpdateStack(instance, React) {
-	  var internalInstance = instance._reactInternalInstance;
-	  traverseRenderedChildren(internalInstance, setPendingForceUpdate);
-	  traverseRenderedChildren(internalInstance, forceUpdateIfPending, React);
-	}
-
-	function deepForceUpdate(instance, React) {
-	  var root = instance._reactInternalFiber || instance._reactInternalInstance;
-	  if (typeof root.tag !== 'number') {
-	    // Traverse stack-based React tree.
-	    return deepForceUpdateStack(instance, React);
-	  }
-
-	  var node = root;
-	  while (true) {
-	    if (node.tag === ReactClassComponent) {
-	      var publicInstance = node.stateNode;
-	      var updater = publicInstance.updater;
-
-	      if (typeof publicInstance.forceUpdate === 'function') {
-	        publicInstance.forceUpdate();
-	      } else if (updater && typeof updater.enqueueForceUpdate === 'function') {
-	        updater.enqueueForceUpdate(publicInstance);
-	      }
-	    }
-	    if (node.child) {
-	      node.child['return'] = node;
-	      node = node.child;
-	      continue;
-	    }
-	    if (node === root) {
-	      return undefined;
-	    }
-	    while (!node.sibling) {
-	      if (!node['return'] || node['return'] === root) {
-	        return undefined;
-	      }
-	      node = node['return'];
-	    }
-	    node.sibling['return'] = node['return'];
-	    node = node.sibling;
-	  }
-	}
-
-	function getForceUpdate(React) {
-	  return function (instance) {
-	    deepForceUpdate(instance, React);
-	  };
-	}
-
-	module.exports = exports['default'];
-
-/***/ }),
-/* 182 */
-/***/ (function(module, exports) {
-
-	/* WEBPACK VAR INJECTION */(function(global) {var win;
-
-	if (typeof window !== "undefined") {
-	    win = window;
-	} else if (typeof global !== "undefined") {
-	    win = global;
-	} else if (typeof self !== "undefined"){
-	    win = self;
-	} else {
-	    win = {};
-	}
-
-	module.exports = win;
-
-	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
-
-/***/ }),
-/* 183 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _react2 = __webpack_require__(2);
-
-	var _react3 = _interopRequireDefault(_react2);
-
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _highlight = __webpack_require__(184);
+	var _highlight = __webpack_require__(29);
 
 	var _highlight2 = _interopRequireDefault(_highlight);
 
-	var _default = __webpack_require__(362);
+	var _default = __webpack_require__(207);
 
 	var _default2 = _interopRequireDefault(_default);
 
-	var _code_example_component = __webpack_require__(500);
+	var _code_example_component = __webpack_require__(346);
 
 	var _code_example_component2 = _interopRequireDefault(_code_example_component);
 
-	var _custom_date_format = __webpack_require__(501);
+	var _custom_date_format = __webpack_require__(347);
 
 	var _custom_date_format2 = _interopRequireDefault(_custom_date_format);
 
-	var _custom_class_name = __webpack_require__(502);
+	var _custom_class_name = __webpack_require__(348);
 
 	var _custom_class_name2 = _interopRequireDefault(_custom_class_name);
 
-	var _placeholder_text = __webpack_require__(503);
+	var _placeholder_text = __webpack_require__(349);
 
 	var _placeholder_text2 = _interopRequireDefault(_placeholder_text);
 
-	var _specific_date_range = __webpack_require__(504);
+	var _specific_date_range = __webpack_require__(350);
 
 	var _specific_date_range2 = _interopRequireDefault(_specific_date_range);
 
-	var _locale = __webpack_require__(505);
+	var _locale = __webpack_require__(351);
 
 	var _locale2 = _interopRequireDefault(_locale);
 
-	var _exclude_dates = __webpack_require__(506);
+	var _exclude_dates = __webpack_require__(352);
 
 	var _exclude_dates2 = _interopRequireDefault(_exclude_dates);
 
-	var _include_dates = __webpack_require__(507);
+	var _include_dates = __webpack_require__(353);
 
 	var _include_dates2 = _interopRequireDefault(_include_dates);
 
-	var _filter_dates = __webpack_require__(508);
+	var _filter_dates = __webpack_require__(354);
 
 	var _filter_dates2 = _interopRequireDefault(_filter_dates);
 
-	var _disabled = __webpack_require__(509);
+	var _disabled = __webpack_require__(355);
 
 	var _disabled2 = _interopRequireDefault(_disabled);
 
-	var _clear_input = __webpack_require__(510);
+	var _clear_input = __webpack_require__(356);
 
 	var _clear_input2 = _interopRequireDefault(_clear_input);
 
-	var _on_blur_callbacks = __webpack_require__(511);
+	var _on_blur_callbacks = __webpack_require__(357);
 
 	var _on_blur_callbacks2 = _interopRequireDefault(_on_blur_callbacks);
 
-	var _placement = __webpack_require__(512);
+	var _placement = __webpack_require__(358);
 
 	var _placement2 = _interopRequireDefault(_placement);
 
-	var _date_range = __webpack_require__(513);
+	var _date_range = __webpack_require__(359);
 
 	var _date_range2 = _interopRequireDefault(_date_range);
 
-	var _tab_index = __webpack_require__(514);
+	var _tab_index = __webpack_require__(360);
 
 	var _tab_index2 = _interopRequireDefault(_tab_index);
 
-	var _year_dropdown = __webpack_require__(515);
+	var _year_dropdown = __webpack_require__(361);
 
 	var _year_dropdown2 = _interopRequireDefault(_year_dropdown);
 
-	var _today = __webpack_require__(516);
+	var _today = __webpack_require__(362);
 
 	var _today2 = _interopRequireDefault(_today);
 
-	var _inline = __webpack_require__(517);
+	var _inline = __webpack_require__(363);
 
 	var _inline2 = _interopRequireDefault(_inline);
 
-	var _open_to_date = __webpack_require__(518);
+	var _open_to_date = __webpack_require__(364);
 
 	var _open_to_date2 = _interopRequireDefault(_open_to_date);
 
-	var _fixed_calendar = __webpack_require__(519);
+	var _fixed_calendar = __webpack_require__(365);
 
 	var _fixed_calendar2 = _interopRequireDefault(_fixed_calendar);
 
-	__webpack_require__(520);
+	__webpack_require__(366);
 
-	__webpack_require__(521);
+	__webpack_require__(367);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  exampleComponents: {
-	    displayName: 'exampleComponents'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/example_components.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('exampleComponents')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'exampleComponents',
 
 	  componentDidMount: function componentDidMount() {
@@ -24110,69 +18294,69 @@
 
 	  examples: [{
 	    title: 'Default',
-	    component: _react3.default.createElement(_default2.default, null)
+	    component: _react2.default.createElement(_default2.default, null)
 	  }, {
 	    title: 'Custom date format',
-	    component: _react3.default.createElement(_custom_date_format2.default, null)
+	    component: _react2.default.createElement(_custom_date_format2.default, null)
 	  }, {
 	    title: 'Custom class name',
-	    component: _react3.default.createElement(_custom_class_name2.default, null)
+	    component: _react2.default.createElement(_custom_class_name2.default, null)
 	  }, {
 	    title: 'Today button',
-	    component: _react3.default.createElement(_today2.default, null)
+	    component: _react2.default.createElement(_today2.default, null)
 	  }, {
 	    title: 'Placeholder text',
-	    component: _react3.default.createElement(_placeholder_text2.default, null)
+	    component: _react2.default.createElement(_placeholder_text2.default, null)
 	  }, {
 	    title: 'Specific date range',
-	    component: _react3.default.createElement(_specific_date_range2.default, null)
+	    component: _react2.default.createElement(_specific_date_range2.default, null)
 	  }, {
 	    title: 'Locale',
-	    component: _react3.default.createElement(_locale2.default, null)
+	    component: _react2.default.createElement(_locale2.default, null)
 	  }, {
 	    title: 'Exclude dates',
-	    component: _react3.default.createElement(_exclude_dates2.default, null)
+	    component: _react2.default.createElement(_exclude_dates2.default, null)
 	  }, {
 	    title: 'Include dates',
-	    component: _react3.default.createElement(_include_dates2.default, null)
+	    component: _react2.default.createElement(_include_dates2.default, null)
 	  }, {
 	    title: 'Filter dates',
-	    component: _react3.default.createElement(_filter_dates2.default, null)
+	    component: _react2.default.createElement(_filter_dates2.default, null)
 	  }, {
 	    title: 'Date Range',
-	    component: _react3.default.createElement(_date_range2.default, null)
+	    component: _react2.default.createElement(_date_range2.default, null)
 	  }, {
 	    title: 'Disable datepicker',
-	    component: _react3.default.createElement(_disabled2.default, null)
+	    component: _react2.default.createElement(_disabled2.default, null)
 	  }, {
 	    title: 'Clear datepicker input',
-	    component: _react3.default.createElement(_clear_input2.default, null)
+	    component: _react2.default.createElement(_clear_input2.default, null)
 	  }, {
 	    title: 'onBlur callbacks in console',
-	    component: _react3.default.createElement(_on_blur_callbacks2.default, null)
+	    component: _react2.default.createElement(_on_blur_callbacks2.default, null)
 	  }, {
 	    title: 'Configure Popover Placement',
-	    component: _react3.default.createElement(_placement2.default, null)
+	    component: _react2.default.createElement(_placement2.default, null)
 	  }, {
 	    title: 'TabIndex',
-	    component: _react3.default.createElement(_tab_index2.default, null)
+	    component: _react2.default.createElement(_tab_index2.default, null)
 	  }, {
 	    title: 'Year dropdown',
-	    component: _react3.default.createElement(_year_dropdown2.default, null)
+	    component: _react2.default.createElement(_year_dropdown2.default, null)
 	  }, {
 	    title: 'Inline version',
-	    component: _react3.default.createElement(_inline2.default, null)
+	    component: _react2.default.createElement(_inline2.default, null)
 	  }, {
 	    title: 'Open to date',
-	    component: _react3.default.createElement(_open_to_date2.default, null)
+	    component: _react2.default.createElement(_open_to_date2.default, null)
 	  }, {
 	    title: 'Fixed height of Calendar',
-	    component: _react3.default.createElement(_fixed_calendar2.default, null)
+	    component: _react2.default.createElement(_fixed_calendar2.default, null)
 	  }],
 
 	  renderExamples: function renderExamples() {
 	    return this.examples.map(function (example, index) {
-	      return _react3.default.createElement(
+	      return _react2.default.createElement(
 	        _code_example_component2.default,
 	        { key: 'example-' + index, id: index, title: example.title },
 	        example.component
@@ -24181,10 +18365,10 @@
 	  },
 	  renderLeftColumn: function renderLeftColumn() {
 	    return this.examples.map(function (example, index) {
-	      return _react3.default.createElement(
+	      return _react2.default.createElement(
 	        'li',
 	        { className: 'examples__navigation-item', key: 'link-' + index },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'a',
 	          { href: '#example-' + index },
 	          example.title
@@ -24193,216 +18377,215 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      null,
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'h1',
 	        null,
 	        'Examples'
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'ul',
 	        { className: 'examples__navigation' },
 	        this.renderLeftColumn()
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'examples' },
 	        this.renderExamples()
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
-/* 184 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var hljs = __webpack_require__(185);
+	var hljs = __webpack_require__(30);
 
-	hljs.registerLanguage('1c', __webpack_require__(186));
-	hljs.registerLanguage('abnf', __webpack_require__(187));
-	hljs.registerLanguage('accesslog', __webpack_require__(188));
-	hljs.registerLanguage('actionscript', __webpack_require__(189));
-	hljs.registerLanguage('ada', __webpack_require__(190));
-	hljs.registerLanguage('apache', __webpack_require__(191));
-	hljs.registerLanguage('applescript', __webpack_require__(192));
-	hljs.registerLanguage('cpp', __webpack_require__(193));
-	hljs.registerLanguage('arduino', __webpack_require__(194));
-	hljs.registerLanguage('armasm', __webpack_require__(195));
-	hljs.registerLanguage('xml', __webpack_require__(196));
-	hljs.registerLanguage('asciidoc', __webpack_require__(197));
-	hljs.registerLanguage('aspectj', __webpack_require__(198));
-	hljs.registerLanguage('autohotkey', __webpack_require__(199));
-	hljs.registerLanguage('autoit', __webpack_require__(200));
-	hljs.registerLanguage('avrasm', __webpack_require__(201));
-	hljs.registerLanguage('awk', __webpack_require__(202));
-	hljs.registerLanguage('axapta', __webpack_require__(203));
-	hljs.registerLanguage('bash', __webpack_require__(204));
-	hljs.registerLanguage('basic', __webpack_require__(205));
-	hljs.registerLanguage('bnf', __webpack_require__(206));
-	hljs.registerLanguage('brainfuck', __webpack_require__(207));
-	hljs.registerLanguage('cal', __webpack_require__(208));
-	hljs.registerLanguage('capnproto', __webpack_require__(209));
-	hljs.registerLanguage('ceylon', __webpack_require__(210));
-	hljs.registerLanguage('clean', __webpack_require__(211));
-	hljs.registerLanguage('clojure', __webpack_require__(212));
-	hljs.registerLanguage('clojure-repl', __webpack_require__(213));
-	hljs.registerLanguage('cmake', __webpack_require__(214));
-	hljs.registerLanguage('coffeescript', __webpack_require__(215));
-	hljs.registerLanguage('coq', __webpack_require__(216));
-	hljs.registerLanguage('cos', __webpack_require__(217));
-	hljs.registerLanguage('crmsh', __webpack_require__(218));
-	hljs.registerLanguage('crystal', __webpack_require__(219));
-	hljs.registerLanguage('cs', __webpack_require__(220));
-	hljs.registerLanguage('csp', __webpack_require__(221));
-	hljs.registerLanguage('css', __webpack_require__(222));
-	hljs.registerLanguage('d', __webpack_require__(223));
-	hljs.registerLanguage('markdown', __webpack_require__(224));
-	hljs.registerLanguage('dart', __webpack_require__(225));
-	hljs.registerLanguage('delphi', __webpack_require__(226));
-	hljs.registerLanguage('diff', __webpack_require__(227));
-	hljs.registerLanguage('django', __webpack_require__(228));
-	hljs.registerLanguage('dns', __webpack_require__(229));
-	hljs.registerLanguage('dockerfile', __webpack_require__(230));
-	hljs.registerLanguage('dos', __webpack_require__(231));
-	hljs.registerLanguage('dsconfig', __webpack_require__(232));
-	hljs.registerLanguage('dts', __webpack_require__(233));
-	hljs.registerLanguage('dust', __webpack_require__(234));
-	hljs.registerLanguage('ebnf', __webpack_require__(235));
-	hljs.registerLanguage('elixir', __webpack_require__(236));
-	hljs.registerLanguage('elm', __webpack_require__(237));
-	hljs.registerLanguage('ruby', __webpack_require__(238));
-	hljs.registerLanguage('erb', __webpack_require__(239));
-	hljs.registerLanguage('erlang-repl', __webpack_require__(240));
-	hljs.registerLanguage('erlang', __webpack_require__(241));
-	hljs.registerLanguage('excel', __webpack_require__(242));
-	hljs.registerLanguage('fix', __webpack_require__(243));
-	hljs.registerLanguage('flix', __webpack_require__(244));
-	hljs.registerLanguage('fortran', __webpack_require__(245));
-	hljs.registerLanguage('fsharp', __webpack_require__(246));
-	hljs.registerLanguage('gams', __webpack_require__(247));
-	hljs.registerLanguage('gauss', __webpack_require__(248));
-	hljs.registerLanguage('gcode', __webpack_require__(249));
-	hljs.registerLanguage('gherkin', __webpack_require__(250));
-	hljs.registerLanguage('glsl', __webpack_require__(251));
-	hljs.registerLanguage('go', __webpack_require__(252));
-	hljs.registerLanguage('golo', __webpack_require__(253));
-	hljs.registerLanguage('gradle', __webpack_require__(254));
-	hljs.registerLanguage('groovy', __webpack_require__(255));
-	hljs.registerLanguage('haml', __webpack_require__(256));
-	hljs.registerLanguage('handlebars', __webpack_require__(257));
-	hljs.registerLanguage('haskell', __webpack_require__(258));
-	hljs.registerLanguage('haxe', __webpack_require__(259));
-	hljs.registerLanguage('hsp', __webpack_require__(260));
-	hljs.registerLanguage('htmlbars', __webpack_require__(261));
-	hljs.registerLanguage('http', __webpack_require__(262));
-	hljs.registerLanguage('hy', __webpack_require__(263));
-	hljs.registerLanguage('inform7', __webpack_require__(264));
-	hljs.registerLanguage('ini', __webpack_require__(265));
-	hljs.registerLanguage('irpf90', __webpack_require__(266));
-	hljs.registerLanguage('java', __webpack_require__(267));
-	hljs.registerLanguage('javascript', __webpack_require__(268));
-	hljs.registerLanguage('jboss-cli', __webpack_require__(269));
-	hljs.registerLanguage('json', __webpack_require__(270));
-	hljs.registerLanguage('julia', __webpack_require__(271));
-	hljs.registerLanguage('julia-repl', __webpack_require__(272));
-	hljs.registerLanguage('kotlin', __webpack_require__(273));
-	hljs.registerLanguage('lasso', __webpack_require__(274));
-	hljs.registerLanguage('ldif', __webpack_require__(275));
-	hljs.registerLanguage('leaf', __webpack_require__(276));
-	hljs.registerLanguage('less', __webpack_require__(277));
-	hljs.registerLanguage('lisp', __webpack_require__(278));
-	hljs.registerLanguage('livecodeserver', __webpack_require__(279));
-	hljs.registerLanguage('livescript', __webpack_require__(280));
-	hljs.registerLanguage('llvm', __webpack_require__(281));
-	hljs.registerLanguage('lsl', __webpack_require__(282));
-	hljs.registerLanguage('lua', __webpack_require__(283));
-	hljs.registerLanguage('makefile', __webpack_require__(284));
-	hljs.registerLanguage('mathematica', __webpack_require__(285));
-	hljs.registerLanguage('matlab', __webpack_require__(286));
-	hljs.registerLanguage('maxima', __webpack_require__(287));
-	hljs.registerLanguage('mel', __webpack_require__(288));
-	hljs.registerLanguage('mercury', __webpack_require__(289));
-	hljs.registerLanguage('mipsasm', __webpack_require__(290));
-	hljs.registerLanguage('mizar', __webpack_require__(291));
-	hljs.registerLanguage('perl', __webpack_require__(292));
-	hljs.registerLanguage('mojolicious', __webpack_require__(293));
-	hljs.registerLanguage('monkey', __webpack_require__(294));
-	hljs.registerLanguage('moonscript', __webpack_require__(295));
-	hljs.registerLanguage('n1ql', __webpack_require__(296));
-	hljs.registerLanguage('nginx', __webpack_require__(297));
-	hljs.registerLanguage('nimrod', __webpack_require__(298));
-	hljs.registerLanguage('nix', __webpack_require__(299));
-	hljs.registerLanguage('nsis', __webpack_require__(300));
-	hljs.registerLanguage('objectivec', __webpack_require__(301));
-	hljs.registerLanguage('ocaml', __webpack_require__(302));
-	hljs.registerLanguage('openscad', __webpack_require__(303));
-	hljs.registerLanguage('oxygene', __webpack_require__(304));
-	hljs.registerLanguage('parser3', __webpack_require__(305));
-	hljs.registerLanguage('pf', __webpack_require__(306));
-	hljs.registerLanguage('php', __webpack_require__(307));
-	hljs.registerLanguage('pony', __webpack_require__(308));
-	hljs.registerLanguage('powershell', __webpack_require__(309));
-	hljs.registerLanguage('processing', __webpack_require__(310));
-	hljs.registerLanguage('profile', __webpack_require__(311));
-	hljs.registerLanguage('prolog', __webpack_require__(312));
-	hljs.registerLanguage('protobuf', __webpack_require__(313));
-	hljs.registerLanguage('puppet', __webpack_require__(314));
-	hljs.registerLanguage('purebasic', __webpack_require__(315));
-	hljs.registerLanguage('python', __webpack_require__(316));
-	hljs.registerLanguage('q', __webpack_require__(317));
-	hljs.registerLanguage('qml', __webpack_require__(318));
-	hljs.registerLanguage('r', __webpack_require__(319));
-	hljs.registerLanguage('rib', __webpack_require__(320));
-	hljs.registerLanguage('roboconf', __webpack_require__(321));
-	hljs.registerLanguage('routeros', __webpack_require__(322));
-	hljs.registerLanguage('rsl', __webpack_require__(323));
-	hljs.registerLanguage('ruleslanguage', __webpack_require__(324));
-	hljs.registerLanguage('rust', __webpack_require__(325));
-	hljs.registerLanguage('scala', __webpack_require__(326));
-	hljs.registerLanguage('scheme', __webpack_require__(327));
-	hljs.registerLanguage('scilab', __webpack_require__(328));
-	hljs.registerLanguage('scss', __webpack_require__(329));
-	hljs.registerLanguage('shell', __webpack_require__(330));
-	hljs.registerLanguage('smali', __webpack_require__(331));
-	hljs.registerLanguage('smalltalk', __webpack_require__(332));
-	hljs.registerLanguage('sml', __webpack_require__(333));
-	hljs.registerLanguage('sqf', __webpack_require__(334));
-	hljs.registerLanguage('sql', __webpack_require__(335));
-	hljs.registerLanguage('stan', __webpack_require__(336));
-	hljs.registerLanguage('stata', __webpack_require__(337));
-	hljs.registerLanguage('step21', __webpack_require__(338));
-	hljs.registerLanguage('stylus', __webpack_require__(339));
-	hljs.registerLanguage('subunit', __webpack_require__(340));
-	hljs.registerLanguage('swift', __webpack_require__(341));
-	hljs.registerLanguage('taggerscript', __webpack_require__(342));
-	hljs.registerLanguage('yaml', __webpack_require__(343));
-	hljs.registerLanguage('tap', __webpack_require__(344));
-	hljs.registerLanguage('tcl', __webpack_require__(345));
-	hljs.registerLanguage('tex', __webpack_require__(346));
-	hljs.registerLanguage('thrift', __webpack_require__(347));
-	hljs.registerLanguage('tp', __webpack_require__(348));
-	hljs.registerLanguage('twig', __webpack_require__(349));
-	hljs.registerLanguage('typescript', __webpack_require__(350));
-	hljs.registerLanguage('vala', __webpack_require__(351));
-	hljs.registerLanguage('vbnet', __webpack_require__(352));
-	hljs.registerLanguage('vbscript', __webpack_require__(353));
-	hljs.registerLanguage('vbscript-html', __webpack_require__(354));
-	hljs.registerLanguage('verilog', __webpack_require__(355));
-	hljs.registerLanguage('vhdl', __webpack_require__(356));
-	hljs.registerLanguage('vim', __webpack_require__(357));
-	hljs.registerLanguage('x86asm', __webpack_require__(358));
-	hljs.registerLanguage('xl', __webpack_require__(359));
-	hljs.registerLanguage('xquery', __webpack_require__(360));
-	hljs.registerLanguage('zephir', __webpack_require__(361));
+	hljs.registerLanguage('1c', __webpack_require__(31));
+	hljs.registerLanguage('abnf', __webpack_require__(32));
+	hljs.registerLanguage('accesslog', __webpack_require__(33));
+	hljs.registerLanguage('actionscript', __webpack_require__(34));
+	hljs.registerLanguage('ada', __webpack_require__(35));
+	hljs.registerLanguage('apache', __webpack_require__(36));
+	hljs.registerLanguage('applescript', __webpack_require__(37));
+	hljs.registerLanguage('cpp', __webpack_require__(38));
+	hljs.registerLanguage('arduino', __webpack_require__(39));
+	hljs.registerLanguage('armasm', __webpack_require__(40));
+	hljs.registerLanguage('xml', __webpack_require__(41));
+	hljs.registerLanguage('asciidoc', __webpack_require__(42));
+	hljs.registerLanguage('aspectj', __webpack_require__(43));
+	hljs.registerLanguage('autohotkey', __webpack_require__(44));
+	hljs.registerLanguage('autoit', __webpack_require__(45));
+	hljs.registerLanguage('avrasm', __webpack_require__(46));
+	hljs.registerLanguage('awk', __webpack_require__(47));
+	hljs.registerLanguage('axapta', __webpack_require__(48));
+	hljs.registerLanguage('bash', __webpack_require__(49));
+	hljs.registerLanguage('basic', __webpack_require__(50));
+	hljs.registerLanguage('bnf', __webpack_require__(51));
+	hljs.registerLanguage('brainfuck', __webpack_require__(52));
+	hljs.registerLanguage('cal', __webpack_require__(53));
+	hljs.registerLanguage('capnproto', __webpack_require__(54));
+	hljs.registerLanguage('ceylon', __webpack_require__(55));
+	hljs.registerLanguage('clean', __webpack_require__(56));
+	hljs.registerLanguage('clojure', __webpack_require__(57));
+	hljs.registerLanguage('clojure-repl', __webpack_require__(58));
+	hljs.registerLanguage('cmake', __webpack_require__(59));
+	hljs.registerLanguage('coffeescript', __webpack_require__(60));
+	hljs.registerLanguage('coq', __webpack_require__(61));
+	hljs.registerLanguage('cos', __webpack_require__(62));
+	hljs.registerLanguage('crmsh', __webpack_require__(63));
+	hljs.registerLanguage('crystal', __webpack_require__(64));
+	hljs.registerLanguage('cs', __webpack_require__(65));
+	hljs.registerLanguage('csp', __webpack_require__(66));
+	hljs.registerLanguage('css', __webpack_require__(67));
+	hljs.registerLanguage('d', __webpack_require__(68));
+	hljs.registerLanguage('markdown', __webpack_require__(69));
+	hljs.registerLanguage('dart', __webpack_require__(70));
+	hljs.registerLanguage('delphi', __webpack_require__(71));
+	hljs.registerLanguage('diff', __webpack_require__(72));
+	hljs.registerLanguage('django', __webpack_require__(73));
+	hljs.registerLanguage('dns', __webpack_require__(74));
+	hljs.registerLanguage('dockerfile', __webpack_require__(75));
+	hljs.registerLanguage('dos', __webpack_require__(76));
+	hljs.registerLanguage('dsconfig', __webpack_require__(77));
+	hljs.registerLanguage('dts', __webpack_require__(78));
+	hljs.registerLanguage('dust', __webpack_require__(79));
+	hljs.registerLanguage('ebnf', __webpack_require__(80));
+	hljs.registerLanguage('elixir', __webpack_require__(81));
+	hljs.registerLanguage('elm', __webpack_require__(82));
+	hljs.registerLanguage('ruby', __webpack_require__(83));
+	hljs.registerLanguage('erb', __webpack_require__(84));
+	hljs.registerLanguage('erlang-repl', __webpack_require__(85));
+	hljs.registerLanguage('erlang', __webpack_require__(86));
+	hljs.registerLanguage('excel', __webpack_require__(87));
+	hljs.registerLanguage('fix', __webpack_require__(88));
+	hljs.registerLanguage('flix', __webpack_require__(89));
+	hljs.registerLanguage('fortran', __webpack_require__(90));
+	hljs.registerLanguage('fsharp', __webpack_require__(91));
+	hljs.registerLanguage('gams', __webpack_require__(92));
+	hljs.registerLanguage('gauss', __webpack_require__(93));
+	hljs.registerLanguage('gcode', __webpack_require__(94));
+	hljs.registerLanguage('gherkin', __webpack_require__(95));
+	hljs.registerLanguage('glsl', __webpack_require__(96));
+	hljs.registerLanguage('go', __webpack_require__(97));
+	hljs.registerLanguage('golo', __webpack_require__(98));
+	hljs.registerLanguage('gradle', __webpack_require__(99));
+	hljs.registerLanguage('groovy', __webpack_require__(100));
+	hljs.registerLanguage('haml', __webpack_require__(101));
+	hljs.registerLanguage('handlebars', __webpack_require__(102));
+	hljs.registerLanguage('haskell', __webpack_require__(103));
+	hljs.registerLanguage('haxe', __webpack_require__(104));
+	hljs.registerLanguage('hsp', __webpack_require__(105));
+	hljs.registerLanguage('htmlbars', __webpack_require__(106));
+	hljs.registerLanguage('http', __webpack_require__(107));
+	hljs.registerLanguage('hy', __webpack_require__(108));
+	hljs.registerLanguage('inform7', __webpack_require__(109));
+	hljs.registerLanguage('ini', __webpack_require__(110));
+	hljs.registerLanguage('irpf90', __webpack_require__(111));
+	hljs.registerLanguage('java', __webpack_require__(112));
+	hljs.registerLanguage('javascript', __webpack_require__(113));
+	hljs.registerLanguage('jboss-cli', __webpack_require__(114));
+	hljs.registerLanguage('json', __webpack_require__(115));
+	hljs.registerLanguage('julia', __webpack_require__(116));
+	hljs.registerLanguage('julia-repl', __webpack_require__(117));
+	hljs.registerLanguage('kotlin', __webpack_require__(118));
+	hljs.registerLanguage('lasso', __webpack_require__(119));
+	hljs.registerLanguage('ldif', __webpack_require__(120));
+	hljs.registerLanguage('leaf', __webpack_require__(121));
+	hljs.registerLanguage('less', __webpack_require__(122));
+	hljs.registerLanguage('lisp', __webpack_require__(123));
+	hljs.registerLanguage('livecodeserver', __webpack_require__(124));
+	hljs.registerLanguage('livescript', __webpack_require__(125));
+	hljs.registerLanguage('llvm', __webpack_require__(126));
+	hljs.registerLanguage('lsl', __webpack_require__(127));
+	hljs.registerLanguage('lua', __webpack_require__(128));
+	hljs.registerLanguage('makefile', __webpack_require__(129));
+	hljs.registerLanguage('mathematica', __webpack_require__(130));
+	hljs.registerLanguage('matlab', __webpack_require__(131));
+	hljs.registerLanguage('maxima', __webpack_require__(132));
+	hljs.registerLanguage('mel', __webpack_require__(133));
+	hljs.registerLanguage('mercury', __webpack_require__(134));
+	hljs.registerLanguage('mipsasm', __webpack_require__(135));
+	hljs.registerLanguage('mizar', __webpack_require__(136));
+	hljs.registerLanguage('perl', __webpack_require__(137));
+	hljs.registerLanguage('mojolicious', __webpack_require__(138));
+	hljs.registerLanguage('monkey', __webpack_require__(139));
+	hljs.registerLanguage('moonscript', __webpack_require__(140));
+	hljs.registerLanguage('n1ql', __webpack_require__(141));
+	hljs.registerLanguage('nginx', __webpack_require__(142));
+	hljs.registerLanguage('nimrod', __webpack_require__(143));
+	hljs.registerLanguage('nix', __webpack_require__(144));
+	hljs.registerLanguage('nsis', __webpack_require__(145));
+	hljs.registerLanguage('objectivec', __webpack_require__(146));
+	hljs.registerLanguage('ocaml', __webpack_require__(147));
+	hljs.registerLanguage('openscad', __webpack_require__(148));
+	hljs.registerLanguage('oxygene', __webpack_require__(149));
+	hljs.registerLanguage('parser3', __webpack_require__(150));
+	hljs.registerLanguage('pf', __webpack_require__(151));
+	hljs.registerLanguage('php', __webpack_require__(152));
+	hljs.registerLanguage('pony', __webpack_require__(153));
+	hljs.registerLanguage('powershell', __webpack_require__(154));
+	hljs.registerLanguage('processing', __webpack_require__(155));
+	hljs.registerLanguage('profile', __webpack_require__(156));
+	hljs.registerLanguage('prolog', __webpack_require__(157));
+	hljs.registerLanguage('protobuf', __webpack_require__(158));
+	hljs.registerLanguage('puppet', __webpack_require__(159));
+	hljs.registerLanguage('purebasic', __webpack_require__(160));
+	hljs.registerLanguage('python', __webpack_require__(161));
+	hljs.registerLanguage('q', __webpack_require__(162));
+	hljs.registerLanguage('qml', __webpack_require__(163));
+	hljs.registerLanguage('r', __webpack_require__(164));
+	hljs.registerLanguage('rib', __webpack_require__(165));
+	hljs.registerLanguage('roboconf', __webpack_require__(166));
+	hljs.registerLanguage('routeros', __webpack_require__(167));
+	hljs.registerLanguage('rsl', __webpack_require__(168));
+	hljs.registerLanguage('ruleslanguage', __webpack_require__(169));
+	hljs.registerLanguage('rust', __webpack_require__(170));
+	hljs.registerLanguage('scala', __webpack_require__(171));
+	hljs.registerLanguage('scheme', __webpack_require__(172));
+	hljs.registerLanguage('scilab', __webpack_require__(173));
+	hljs.registerLanguage('scss', __webpack_require__(174));
+	hljs.registerLanguage('shell', __webpack_require__(175));
+	hljs.registerLanguage('smali', __webpack_require__(176));
+	hljs.registerLanguage('smalltalk', __webpack_require__(177));
+	hljs.registerLanguage('sml', __webpack_require__(178));
+	hljs.registerLanguage('sqf', __webpack_require__(179));
+	hljs.registerLanguage('sql', __webpack_require__(180));
+	hljs.registerLanguage('stan', __webpack_require__(181));
+	hljs.registerLanguage('stata', __webpack_require__(182));
+	hljs.registerLanguage('step21', __webpack_require__(183));
+	hljs.registerLanguage('stylus', __webpack_require__(184));
+	hljs.registerLanguage('subunit', __webpack_require__(185));
+	hljs.registerLanguage('swift', __webpack_require__(186));
+	hljs.registerLanguage('taggerscript', __webpack_require__(187));
+	hljs.registerLanguage('yaml', __webpack_require__(188));
+	hljs.registerLanguage('tap', __webpack_require__(189));
+	hljs.registerLanguage('tcl', __webpack_require__(190));
+	hljs.registerLanguage('tex', __webpack_require__(191));
+	hljs.registerLanguage('thrift', __webpack_require__(192));
+	hljs.registerLanguage('tp', __webpack_require__(193));
+	hljs.registerLanguage('twig', __webpack_require__(194));
+	hljs.registerLanguage('typescript', __webpack_require__(195));
+	hljs.registerLanguage('vala', __webpack_require__(196));
+	hljs.registerLanguage('vbnet', __webpack_require__(197));
+	hljs.registerLanguage('vbscript', __webpack_require__(198));
+	hljs.registerLanguage('vbscript-html', __webpack_require__(199));
+	hljs.registerLanguage('verilog', __webpack_require__(200));
+	hljs.registerLanguage('vhdl', __webpack_require__(201));
+	hljs.registerLanguage('vim', __webpack_require__(202));
+	hljs.registerLanguage('x86asm', __webpack_require__(203));
+	hljs.registerLanguage('xl', __webpack_require__(204));
+	hljs.registerLanguage('xquery', __webpack_require__(205));
+	hljs.registerLanguage('zephir', __webpack_require__(206));
 
 	module.exports = hljs;
 
 /***/ }),
-/* 185 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/*
@@ -25224,7 +19407,7 @@
 
 
 /***/ }),
-/* 186 */
+/* 31 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs){
@@ -25738,7 +19921,7 @@
 	};
 
 /***/ }),
-/* 187 */
+/* 32 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -25813,7 +19996,7 @@
 	};
 
 /***/ }),
-/* 188 */
+/* 33 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -25855,7 +20038,7 @@
 	};
 
 /***/ }),
-/* 189 */
+/* 34 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -25933,7 +20116,7 @@
 	};
 
 /***/ }),
-/* 190 */
+/* 35 */
 /***/ (function(module, exports) {
 
 	module.exports = // We try to support full Ada2012
@@ -26110,7 +20293,7 @@
 	};
 
 /***/ }),
-/* 191 */
+/* 36 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -26160,7 +20343,7 @@
 	};
 
 /***/ }),
-/* 192 */
+/* 37 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -26250,7 +20433,7 @@
 	};
 
 /***/ }),
-/* 193 */
+/* 38 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -26429,7 +20612,7 @@
 	};
 
 /***/ }),
-/* 194 */
+/* 39 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -26533,7 +20716,7 @@
 	};
 
 /***/ }),
-/* 195 */
+/* 40 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -26629,7 +20812,7 @@
 	};
 
 /***/ }),
-/* 196 */
+/* 41 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -26736,7 +20919,7 @@
 	};
 
 /***/ }),
-/* 197 */
+/* 42 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -26928,7 +21111,7 @@
 	};
 
 /***/ }),
-/* 198 */
+/* 43 */
 /***/ (function(module, exports) {
 
 	module.exports = function (hljs) {
@@ -27077,7 +21260,7 @@
 	};
 
 /***/ }),
-/* 199 */
+/* 44 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -27140,7 +21323,7 @@
 	};
 
 /***/ }),
-/* 200 */
+/* 45 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -27280,7 +21463,7 @@
 	};
 
 /***/ }),
-/* 201 */
+/* 46 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -27346,7 +21529,7 @@
 	};
 
 /***/ }),
-/* 202 */
+/* 47 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -27403,7 +21586,7 @@
 	};
 
 /***/ }),
-/* 203 */
+/* 48 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -27438,7 +21621,7 @@
 	};
 
 /***/ }),
-/* 204 */
+/* 49 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -27517,7 +21700,7 @@
 	};
 
 /***/ }),
-/* 205 */
+/* 50 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -27572,7 +21755,7 @@
 	};
 
 /***/ }),
-/* 206 */
+/* 51 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs){
@@ -27605,7 +21788,7 @@
 	};
 
 /***/ }),
-/* 207 */
+/* 52 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs){
@@ -27646,7 +21829,7 @@
 	};
 
 /***/ }),
-/* 208 */
+/* 53 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -27730,7 +21913,7 @@
 	};
 
 /***/ }),
-/* 209 */
+/* 54 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -27783,7 +21966,7 @@
 	};
 
 /***/ }),
-/* 210 */
+/* 55 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -27854,7 +22037,7 @@
 	};
 
 /***/ }),
-/* 211 */
+/* 56 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -27883,7 +22066,7 @@
 	};
 
 /***/ }),
-/* 212 */
+/* 57 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -27983,7 +22166,7 @@
 	};
 
 /***/ }),
-/* 213 */
+/* 58 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -28002,7 +22185,7 @@
 	};
 
 /***/ }),
-/* 214 */
+/* 59 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -28044,7 +22227,7 @@
 	};
 
 /***/ }),
-/* 215 */
+/* 60 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -28194,7 +22377,7 @@
 	};
 
 /***/ }),
-/* 216 */
+/* 61 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -28265,7 +22448,7 @@
 	};
 
 /***/ }),
-/* 217 */
+/* 62 */
 /***/ (function(module, exports) {
 
 	module.exports = function cos (hljs) {
@@ -28393,7 +22576,7 @@
 	};
 
 /***/ }),
-/* 218 */
+/* 63 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -28491,7 +22674,7 @@
 	};
 
 /***/ }),
-/* 219 */
+/* 64 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -28689,7 +22872,7 @@
 	};
 
 /***/ }),
-/* 220 */
+/* 65 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -28870,7 +23053,7 @@
 	};
 
 /***/ }),
-/* 221 */
+/* 66 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -28896,7 +23079,7 @@
 	};
 
 /***/ }),
-/* 222 */
+/* 67 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -29005,7 +23188,7 @@
 	};
 
 /***/ }),
-/* 223 */
+/* 68 */
 /***/ (function(module, exports) {
 
 	module.exports = /**
@@ -29267,7 +23450,7 @@
 	};
 
 /***/ }),
-/* 224 */
+/* 69 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -29379,7 +23562,7 @@
 	};
 
 /***/ }),
-/* 225 */
+/* 70 */
 /***/ (function(module, exports) {
 
 	module.exports = function (hljs) {
@@ -29484,7 +23667,7 @@
 	};
 
 /***/ }),
-/* 226 */
+/* 71 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -29557,7 +23740,7 @@
 	};
 
 /***/ }),
-/* 227 */
+/* 72 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -29601,7 +23784,7 @@
 	};
 
 /***/ }),
-/* 228 */
+/* 73 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -29669,7 +23852,7 @@
 	};
 
 /***/ }),
-/* 229 */
+/* 74 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -29702,7 +23885,7 @@
 	};
 
 /***/ }),
-/* 230 */
+/* 75 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -29728,7 +23911,7 @@
 	};
 
 /***/ }),
-/* 231 */
+/* 76 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -29784,7 +23967,7 @@
 	};
 
 /***/ }),
-/* 232 */
+/* 77 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -29835,7 +24018,7 @@
 	};
 
 /***/ }),
-/* 233 */
+/* 78 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -29963,7 +24146,7 @@
 	};
 
 /***/ }),
-/* 234 */
+/* 79 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -29999,7 +24182,7 @@
 	};
 
 /***/ }),
-/* 235 */
+/* 80 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -30036,7 +24219,7 @@
 	};
 
 /***/ }),
-/* 236 */
+/* 81 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -30137,7 +24320,7 @@
 	};
 
 /***/ }),
-/* 237 */
+/* 82 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -30225,7 +24408,7 @@
 	};
 
 /***/ }),
-/* 238 */
+/* 83 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -30406,7 +24589,7 @@
 	};
 
 /***/ }),
-/* 239 */
+/* 84 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -30425,7 +24608,7 @@
 	};
 
 /***/ }),
-/* 240 */
+/* 85 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -30475,7 +24658,7 @@
 	};
 
 /***/ }),
-/* 241 */
+/* 86 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -30625,7 +24808,7 @@
 	};
 
 /***/ }),
-/* 242 */
+/* 87 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -30677,7 +24860,7 @@
 	};
 
 /***/ }),
-/* 243 */
+/* 88 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -30710,7 +24893,7 @@
 	};
 
 /***/ }),
-/* 244 */
+/* 89 */
 /***/ (function(module, exports) {
 
 	module.exports = function (hljs) {
@@ -30759,7 +24942,7 @@
 	};
 
 /***/ }),
-/* 245 */
+/* 90 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -30834,7 +25017,7 @@
 	};
 
 /***/ }),
-/* 246 */
+/* 91 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -30897,7 +25080,7 @@
 	};
 
 /***/ }),
-/* 247 */
+/* 92 */
 /***/ (function(module, exports) {
 
 	module.exports = function (hljs) {
@@ -31055,7 +25238,7 @@
 	};
 
 /***/ }),
-/* 248 */
+/* 93 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -31283,7 +25466,7 @@
 	};
 
 /***/ }),
-/* 249 */
+/* 94 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -31354,7 +25537,7 @@
 	};
 
 /***/ }),
-/* 250 */
+/* 95 */
 /***/ (function(module, exports) {
 
 	module.exports = function (hljs) {
@@ -31395,7 +25578,7 @@
 	};
 
 /***/ }),
-/* 251 */
+/* 96 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -31516,7 +25699,7 @@
 	};
 
 /***/ }),
-/* 252 */
+/* 97 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -31574,7 +25757,7 @@
 	};
 
 /***/ }),
-/* 253 */
+/* 98 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -31601,7 +25784,7 @@
 	};
 
 /***/ }),
-/* 254 */
+/* 99 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -31640,7 +25823,7 @@
 	};
 
 /***/ }),
-/* 255 */
+/* 100 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -31738,7 +25921,7 @@
 	};
 
 /***/ }),
-/* 256 */
+/* 101 */
 /***/ (function(module, exports) {
 
 	module.exports = // TODO support filter tags like :javascript, support inline HTML
@@ -31849,7 +26032,7 @@
 	};
 
 /***/ }),
-/* 257 */
+/* 102 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -31887,7 +26070,7 @@
 	};
 
 /***/ }),
-/* 258 */
+/* 103 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -32013,7 +26196,7 @@
 	};
 
 /***/ }),
-/* 259 */
+/* 104 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -32129,7 +26312,7 @@
 	};
 
 /***/ }),
-/* 260 */
+/* 105 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -32179,7 +26362,7 @@
 	};
 
 /***/ }),
-/* 261 */
+/* 106 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -32254,7 +26437,7 @@
 	};
 
 /***/ }),
-/* 262 */
+/* 107 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -32299,7 +26482,7 @@
 	};
 
 /***/ }),
-/* 263 */
+/* 108 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -32405,7 +26588,7 @@
 	};
 
 /***/ }),
-/* 264 */
+/* 109 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -32466,7 +26649,7 @@
 	};
 
 /***/ }),
-/* 265 */
+/* 110 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -32536,7 +26719,7 @@
 	};
 
 /***/ }),
-/* 266 */
+/* 111 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -32616,7 +26799,7 @@
 	};
 
 /***/ }),
-/* 267 */
+/* 112 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -32728,7 +26911,7 @@
 	};
 
 /***/ }),
-/* 268 */
+/* 113 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -32903,7 +27086,7 @@
 	};
 
 /***/ }),
-/* 269 */
+/* 114 */
 /***/ (function(module, exports) {
 
 	module.exports = function (hljs) {
@@ -32954,7 +27137,7 @@
 	};
 
 /***/ }),
-/* 270 */
+/* 115 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -32995,7 +27178,7 @@
 	};
 
 /***/ }),
-/* 271 */
+/* 116 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -33161,7 +27344,7 @@
 	};
 
 /***/ }),
-/* 272 */
+/* 117 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -33189,7 +27372,7 @@
 	};
 
 /***/ }),
-/* 273 */
+/* 118 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -33367,7 +27550,7 @@
 	};
 
 /***/ }),
-/* 274 */
+/* 119 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -33534,7 +27717,7 @@
 	};
 
 /***/ }),
-/* 275 */
+/* 120 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -33561,7 +27744,7 @@
 	};
 
 /***/ }),
-/* 276 */
+/* 121 */
 /***/ (function(module, exports) {
 
 	module.exports = function (hljs) {
@@ -33605,7 +27788,7 @@
 	};
 
 /***/ }),
-/* 277 */
+/* 122 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -33749,7 +27932,7 @@
 	};
 
 /***/ }),
-/* 278 */
+/* 123 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -33856,7 +28039,7 @@
 	};
 
 /***/ }),
-/* 279 */
+/* 124 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -34017,7 +28200,7 @@
 	};
 
 /***/ }),
-/* 280 */
+/* 125 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -34170,7 +28353,7 @@
 	};
 
 /***/ }),
-/* 281 */
+/* 126 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -34263,7 +28446,7 @@
 	};
 
 /***/ }),
-/* 282 */
+/* 127 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -34350,7 +28533,7 @@
 	};
 
 /***/ }),
-/* 283 */
+/* 128 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -34420,7 +28603,7 @@
 	};
 
 /***/ }),
-/* 284 */
+/* 129 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -34505,7 +28688,7 @@
 	};
 
 /***/ }),
-/* 285 */
+/* 130 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -34567,7 +28750,7 @@
 	};
 
 /***/ }),
-/* 286 */
+/* 131 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -34659,7 +28842,7 @@
 	};
 
 /***/ }),
-/* 287 */
+/* 132 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -35069,7 +29252,7 @@
 	};
 
 /***/ }),
-/* 288 */
+/* 133 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -35298,7 +29481,7 @@
 	};
 
 /***/ }),
-/* 289 */
+/* 134 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -35384,7 +29567,7 @@
 	};
 
 /***/ }),
-/* 290 */
+/* 135 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -35474,7 +29657,7 @@
 	};
 
 /***/ }),
-/* 291 */
+/* 136 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -35497,7 +29680,7 @@
 	};
 
 /***/ }),
-/* 292 */
+/* 137 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -35658,7 +29841,7 @@
 	};
 
 /***/ }),
-/* 293 */
+/* 138 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -35687,7 +29870,7 @@
 	};
 
 /***/ }),
-/* 294 */
+/* 139 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -35766,7 +29949,7 @@
 	};
 
 /***/ }),
-/* 295 */
+/* 140 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -35882,7 +30065,7 @@
 	};
 
 /***/ }),
-/* 296 */
+/* 141 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -35955,7 +30138,7 @@
 	};
 
 /***/ }),
-/* 297 */
+/* 142 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -36052,7 +30235,7 @@
 	};
 
 /***/ }),
-/* 298 */
+/* 143 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -36111,7 +30294,7 @@
 	};
 
 /***/ }),
-/* 299 */
+/* 144 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -36164,7 +30347,7 @@
 	};
 
 /***/ }),
-/* 300 */
+/* 145 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -36274,7 +30457,7 @@
 	};
 
 /***/ }),
-/* 301 */
+/* 146 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -36369,7 +30552,7 @@
 	};
 
 /***/ }),
-/* 302 */
+/* 147 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -36444,7 +30627,7 @@
 	};
 
 /***/ }),
-/* 303 */
+/* 148 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -36505,7 +30688,7 @@
 	};
 
 /***/ }),
-/* 304 */
+/* 149 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -36579,7 +30762,7 @@
 	};
 
 /***/ }),
-/* 305 */
+/* 150 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -36631,7 +30814,7 @@
 	};
 
 /***/ }),
-/* 306 */
+/* 151 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -36687,7 +30870,7 @@
 	};
 
 /***/ }),
-/* 307 */
+/* 152 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -36818,7 +31001,7 @@
 	};
 
 /***/ }),
-/* 308 */
+/* 153 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -36913,7 +31096,7 @@
 	};
 
 /***/ }),
-/* 309 */
+/* 154 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -36998,7 +31181,7 @@
 	};
 
 /***/ }),
-/* 310 */
+/* 155 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -37050,7 +31233,7 @@
 	};
 
 /***/ }),
-/* 311 */
+/* 156 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -37084,7 +31267,7 @@
 	};
 
 /***/ }),
-/* 312 */
+/* 157 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -37176,7 +31359,7 @@
 	};
 
 /***/ }),
-/* 313 */
+/* 158 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -37216,7 +31399,7 @@
 	};
 
 /***/ }),
-/* 314 */
+/* 159 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -37335,7 +31518,7 @@
 	};
 
 /***/ }),
-/* 315 */
+/* 160 */
 /***/ (function(module, exports) {
 
 	module.exports = // Base deafult colors in PB IDE: background: #FFFFDF; foreground: #000000;
@@ -37397,7 +31580,7 @@
 	};
 
 /***/ }),
-/* 316 */
+/* 161 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -37517,7 +31700,7 @@
 	};
 
 /***/ }),
-/* 317 */
+/* 162 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -37544,7 +31727,7 @@
 	};
 
 /***/ }),
-/* 318 */
+/* 163 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -37717,7 +31900,7 @@
 	};
 
 /***/ }),
-/* 319 */
+/* 164 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -37791,7 +31974,7 @@
 	};
 
 /***/ }),
-/* 320 */
+/* 165 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -37822,7 +32005,7 @@
 	};
 
 /***/ }),
-/* 321 */
+/* 166 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -37893,7 +32076,7 @@
 	};
 
 /***/ }),
-/* 322 */
+/* 167 */
 /***/ (function(module, exports) {
 
 	module.exports = // Colors from RouterOS terminal:
@@ -38056,7 +32239,7 @@
 	};
 
 /***/ }),
-/* 323 */
+/* 168 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -38096,7 +32279,7 @@
 	};
 
 /***/ }),
-/* 324 */
+/* 169 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -38161,7 +32344,7 @@
 	};
 
 /***/ }),
-/* 325 */
+/* 170 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -38273,7 +32456,7 @@
 	};
 
 /***/ }),
-/* 326 */
+/* 171 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -38392,7 +32575,7 @@
 	};
 
 /***/ }),
-/* 327 */
+/* 172 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -38540,7 +32723,7 @@
 	};
 
 /***/ }),
-/* 328 */
+/* 173 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -38598,7 +32781,7 @@
 	};
 
 /***/ }),
-/* 329 */
+/* 174 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -38700,7 +32883,7 @@
 	};
 
 /***/ }),
-/* 330 */
+/* 175 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -38719,7 +32902,7 @@
 	};
 
 /***/ }),
-/* 331 */
+/* 176 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -38779,7 +32962,7 @@
 	};
 
 /***/ }),
-/* 332 */
+/* 177 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -38833,7 +33016,7 @@
 	};
 
 /***/ }),
-/* 333 */
+/* 178 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -38903,7 +33086,7 @@
 	};
 
 /***/ }),
-/* 334 */
+/* 179 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -39278,7 +33461,7 @@
 	};
 
 /***/ }),
-/* 335 */
+/* 180 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -39442,7 +33625,7 @@
 	};
 
 /***/ }),
-/* 336 */
+/* 181 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -39529,7 +33712,7 @@
 	};
 
 /***/ }),
-/* 337 */
+/* 182 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -39571,7 +33754,7 @@
 	};
 
 /***/ }),
-/* 338 */
+/* 183 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -39622,7 +33805,7 @@
 	};
 
 /***/ }),
-/* 339 */
+/* 184 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -40080,7 +34263,7 @@
 	};
 
 /***/ }),
-/* 340 */
+/* 185 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -40118,7 +34301,7 @@
 	};
 
 /***/ }),
-/* 341 */
+/* 186 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -40239,7 +34422,7 @@
 	};
 
 /***/ }),
-/* 342 */
+/* 187 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -40287,7 +34470,7 @@
 	};
 
 /***/ }),
-/* 343 */
+/* 188 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -40379,7 +34562,7 @@
 	};
 
 /***/ }),
-/* 344 */
+/* 189 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -40419,7 +34602,7 @@
 	};
 
 /***/ }),
-/* 345 */
+/* 190 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -40484,7 +34667,7 @@
 	};
 
 /***/ }),
-/* 346 */
+/* 191 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -40550,7 +34733,7 @@
 	};
 
 /***/ }),
-/* 347 */
+/* 192 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -40589,7 +34772,7 @@
 	};
 
 /***/ }),
-/* 348 */
+/* 193 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -40677,7 +34860,7 @@
 	};
 
 /***/ }),
-/* 349 */
+/* 194 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -40747,7 +34930,7 @@
 	};
 
 /***/ }),
-/* 350 */
+/* 195 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -40907,7 +35090,7 @@
 	};
 
 /***/ }),
-/* 351 */
+/* 196 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -40961,7 +35144,7 @@
 	};
 
 /***/ }),
-/* 352 */
+/* 197 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -41021,7 +35204,7 @@
 	};
 
 /***/ }),
-/* 353 */
+/* 198 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -41064,7 +35247,7 @@
 	};
 
 /***/ }),
-/* 354 */
+/* 199 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -41080,7 +35263,7 @@
 	};
 
 /***/ }),
-/* 355 */
+/* 200 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -41183,7 +35366,7 @@
 	};
 
 /***/ }),
-/* 356 */
+/* 201 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -41248,7 +35431,7 @@
 	};
 
 /***/ }),
-/* 357 */
+/* 202 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -41358,7 +35541,7 @@
 	};
 
 /***/ }),
-/* 358 */
+/* 203 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -41498,7 +35681,7 @@
 	};
 
 /***/ }),
-/* 359 */
+/* 204 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -41575,7 +35758,7 @@
 	};
 
 /***/ }),
-/* 360 */
+/* 205 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -41650,7 +35833,7 @@
 	};
 
 /***/ }),
-/* 361 */
+/* 206 */
 /***/ (function(module, exports) {
 
 	module.exports = function(hljs) {
@@ -41761,53 +35944,30 @@
 	};
 
 /***/ }),
-/* 362 */
+/* 207 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _reactDatepicker = __webpack_require__(363);
+	var _reactDatepicker = __webpack_require__(208);
 
 	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
 
-	var _moment = __webpack_require__(365);
+	var _moment = __webpack_require__(210);
 
 	var _moment2 = _interopRequireDefault(_moment);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  Default: {
-	    displayName: 'Default'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/examples/default.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('Default')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'Default',
 
 	  getInitialState: function getInitialState() {
@@ -41821,69 +35981,64 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'row' },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'pre',
 	        { className: 'column example__code' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'code',
 	          { className: 'jsx' },
 	          "<DatePicker",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "selected={this.state.startDate}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "onChange={this.handleChange} />"
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'column' },
-	        _react3.default.createElement(_reactDatepicker2.default, {
+	        _react2.default.createElement(_reactDatepicker2.default, {
 	          selected: this.state.startDate,
 	          onChange: this.handleChange })
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
-/* 363 */
+/* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
-	var _react2 = __webpack_require__(2);
-
-	var _react3 = _interopRequireDefault(_react2);
-
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _date_input = __webpack_require__(364);
+	var _date_input = __webpack_require__(209);
 
 	var _date_input2 = _interopRequireDefault(_date_input);
 
-	var _calendar = __webpack_require__(490);
+	var _calendar = __webpack_require__(336);
 
 	var _calendar2 = _interopRequireDefault(_calendar);
 
-	var _tether_component = __webpack_require__(498);
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _tether_component = __webpack_require__(344);
 
 	var _tether_component2 = _interopRequireDefault(_tether_component);
 
-	var _classnames2 = __webpack_require__(497);
+	var _classnames2 = __webpack_require__(343);
 
 	var _classnames3 = _interopRequireDefault(_classnames2);
 
-	var _date_utils = __webpack_require__(486);
+	var _date_utils = __webpack_require__(332);
 
-	var _propTypes = __webpack_require__(487);
+	var _propTypes = __webpack_require__(333);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -41891,32 +36046,13 @@
 
 	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-	var _components = {
-	  DatePicker: {
-	    displayName: 'DatePicker'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/src/datepicker.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
 	var outsideClickIgnoreClass = 'react-datepicker-ignore-onclickoutside';
 
 	/**
 	 * General datepicker component.
 	 */
 
-	var DatePicker = _wrapComponent('DatePicker')(_react3.default.createClass({
+	var DatePicker = _react2.default.createClass({
 	  displayName: 'DatePicker',
 
 	  propTypes: {
@@ -42027,7 +36163,7 @@
 	    if (!this.props.inline && (!this.state.open || this.props.disabled)) {
 	      return null;
 	    }
-	    return _react3.default.createElement(_calendar2.default, {
+	    return _react2.default.createElement(_calendar2.default, {
 	      ref: 'calendar',
 	      locale: this.props.locale,
 	      dateFormat: this.props.dateFormatCalendar,
@@ -42049,7 +36185,7 @@
 	  },
 	  renderDateInput: function renderDateInput() {
 	    var className = (0, _classnames3.default)(this.props.className, _defineProperty({}, outsideClickIgnoreClass, this.state.open));
-	    return _react3.default.createElement(_date_input2.default, {
+	    return _react2.default.createElement(_date_input2.default, {
 	      ref: 'input',
 	      id: this.props.id,
 	      name: this.props.name,
@@ -42077,7 +36213,7 @@
 	  },
 	  renderClearButton: function renderClearButton() {
 	    if (this.props.isClearable && this.props.selected != null) {
-	      return _react3.default.createElement('a', { className: 'react-datepicker__close-icon', href: '#', onClick: this.onClearClick });
+	      return _react2.default.createElement('a', { className: 'react-datepicker__close-icon', href: '#', onClick: this.onClearClick });
 	    } else {
 	      return null;
 	    }
@@ -42088,7 +36224,7 @@
 	    if (this.props.inline) {
 	      return calendar;
 	    } else {
-	      return _react3.default.createElement(
+	      return _react2.default.createElement(
 	        _tether_component2.default,
 	        {
 	          classPrefix: "react-datepicker__tether",
@@ -42097,7 +36233,7 @@
 	          targetOffset: this.props.popoverTargetOffset,
 	          renderElementTo: this.props.renderCalendarTo,
 	          constraints: this.props.tetherConstraints },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'div',
 	          { className: 'react-datepicker__input-container' },
 	          this.renderDateInput(),
@@ -42107,34 +36243,29 @@
 	      );
 	    }
 	  }
-	}));
+	});
 
 	module.exports = DatePicker;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
 
 /***/ }),
-/* 364 */
+/* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
-
-	var _react2 = __webpack_require__(2);
-
-	var _react3 = _interopRequireDefault(_react2);
-
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
+	'use strict';
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-	var _moment = __webpack_require__(365);
+	var _moment = __webpack_require__(210);
 
 	var _moment2 = _interopRequireDefault(_moment);
 
-	var _date_utils = __webpack_require__(486);
+	var _react = __webpack_require__(2);
 
-	var _propTypes = __webpack_require__(487);
+	var _react2 = _interopRequireDefault(_react);
+
+	var _date_utils = __webpack_require__(332);
+
+	var _propTypes = __webpack_require__(333);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -42142,26 +36273,7 @@
 
 	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
 
-	var _components = {
-	  DateInput: {
-	    displayName: 'DateInput'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/src/date_input.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	var DateInput = _wrapComponent('DateInput')(_react3.default.createClass({
+	var DateInput = _react2.default.createClass({
 	  displayName: 'DateInput',
 
 	  propTypes: {
@@ -42243,7 +36355,7 @@
 	        rest = _objectWithoutProperties(_props, ['date', 'locale', 'minDate', 'maxDate', 'excludeDates', 'includeDates', 'filterDate', 'dateFormat', 'onChangeDate']); // eslint-disable-line no-unused-vars
 
 
-	    return _react3.default.createElement('input', _extends({
+	    return _react2.default.createElement('input', _extends({
 	      ref: 'input',
 	      type: 'text'
 	    }, rest, {
@@ -42251,13 +36363,12 @@
 	      onBlur: this.handleBlur,
 	      onChange: this.handleChange }));
 	  }
-	}));
+	});
 
 	module.exports = DateInput;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
 
 /***/ }),
-/* 365 */
+/* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var require;/* WEBPACK VAR INJECTION */(function(module) {//! moment.js
@@ -44104,7 +38215,7 @@
 	        try {
 	            oldLocale = globalLocale._abbr;
 	            var aliasedRequire = require;
-	            __webpack_require__(366)("./" + name);
+	            __webpack_require__(212)("./" + name);
 	            getSetGlobalLocale(oldLocale);
 	        } catch (e) {}
 	    }
@@ -46796,251 +40907,267 @@
 
 	})));
 
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(211)(module)))
 
 /***/ }),
-/* 366 */
+/* 211 */
+/***/ (function(module, exports) {
+
+	module.exports = function(module) {
+		if(!module.webpackPolyfill) {
+			module.deprecate = function() {};
+			module.paths = [];
+			// module.parent = undefined by default
+			module.children = [];
+			module.webpackPolyfill = 1;
+		}
+		return module;
+	}
+
+
+/***/ }),
+/* 212 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var map = {
-		"./af": 367,
-		"./af.js": 367,
-		"./ar": 368,
-		"./ar-dz": 369,
-		"./ar-dz.js": 369,
-		"./ar-kw": 370,
-		"./ar-kw.js": 370,
-		"./ar-ly": 371,
-		"./ar-ly.js": 371,
-		"./ar-ma": 372,
-		"./ar-ma.js": 372,
-		"./ar-sa": 373,
-		"./ar-sa.js": 373,
-		"./ar-tn": 374,
-		"./ar-tn.js": 374,
-		"./ar.js": 368,
-		"./az": 375,
-		"./az.js": 375,
-		"./be": 376,
-		"./be.js": 376,
-		"./bg": 377,
-		"./bg.js": 377,
-		"./bm": 378,
-		"./bm.js": 378,
-		"./bn": 379,
-		"./bn.js": 379,
-		"./bo": 380,
-		"./bo.js": 380,
-		"./br": 381,
-		"./br.js": 381,
-		"./bs": 382,
-		"./bs.js": 382,
-		"./ca": 383,
-		"./ca.js": 383,
-		"./cs": 384,
-		"./cs.js": 384,
-		"./cv": 385,
-		"./cv.js": 385,
-		"./cy": 386,
-		"./cy.js": 386,
-		"./da": 387,
-		"./da.js": 387,
-		"./de": 388,
-		"./de-at": 389,
-		"./de-at.js": 389,
-		"./de-ch": 390,
-		"./de-ch.js": 390,
-		"./de.js": 388,
-		"./dv": 391,
-		"./dv.js": 391,
-		"./el": 392,
-		"./el.js": 392,
-		"./en-au": 393,
-		"./en-au.js": 393,
-		"./en-ca": 394,
-		"./en-ca.js": 394,
-		"./en-gb": 395,
-		"./en-gb.js": 395,
-		"./en-ie": 396,
-		"./en-ie.js": 396,
-		"./en-nz": 397,
-		"./en-nz.js": 397,
-		"./eo": 398,
-		"./eo.js": 398,
-		"./es": 399,
-		"./es-do": 400,
-		"./es-do.js": 400,
-		"./es-us": 401,
-		"./es-us.js": 401,
-		"./es.js": 399,
-		"./et": 402,
-		"./et.js": 402,
-		"./eu": 403,
-		"./eu.js": 403,
-		"./fa": 404,
-		"./fa.js": 404,
-		"./fi": 405,
-		"./fi.js": 405,
-		"./fo": 406,
-		"./fo.js": 406,
-		"./fr": 407,
-		"./fr-ca": 408,
-		"./fr-ca.js": 408,
-		"./fr-ch": 409,
-		"./fr-ch.js": 409,
-		"./fr.js": 407,
-		"./fy": 410,
-		"./fy.js": 410,
-		"./gd": 411,
-		"./gd.js": 411,
-		"./gl": 412,
-		"./gl.js": 412,
-		"./gom-latn": 413,
-		"./gom-latn.js": 413,
-		"./gu": 414,
-		"./gu.js": 414,
-		"./he": 415,
-		"./he.js": 415,
-		"./hi": 416,
-		"./hi.js": 416,
-		"./hr": 417,
-		"./hr.js": 417,
-		"./hu": 418,
-		"./hu.js": 418,
-		"./hy-am": 419,
-		"./hy-am.js": 419,
-		"./id": 420,
-		"./id.js": 420,
-		"./is": 421,
-		"./is.js": 421,
-		"./it": 422,
-		"./it.js": 422,
-		"./ja": 423,
-		"./ja.js": 423,
-		"./jv": 424,
-		"./jv.js": 424,
-		"./ka": 425,
-		"./ka.js": 425,
-		"./kk": 426,
-		"./kk.js": 426,
-		"./km": 427,
-		"./km.js": 427,
-		"./kn": 428,
-		"./kn.js": 428,
-		"./ko": 429,
-		"./ko.js": 429,
-		"./ky": 430,
-		"./ky.js": 430,
-		"./lb": 431,
-		"./lb.js": 431,
-		"./lo": 432,
-		"./lo.js": 432,
-		"./lt": 433,
-		"./lt.js": 433,
-		"./lv": 434,
-		"./lv.js": 434,
-		"./me": 435,
-		"./me.js": 435,
-		"./mi": 436,
-		"./mi.js": 436,
-		"./mk": 437,
-		"./mk.js": 437,
-		"./ml": 438,
-		"./ml.js": 438,
-		"./mr": 439,
-		"./mr.js": 439,
-		"./ms": 440,
-		"./ms-my": 441,
-		"./ms-my.js": 441,
-		"./ms.js": 440,
-		"./mt": 442,
-		"./mt.js": 442,
-		"./my": 443,
-		"./my.js": 443,
-		"./nb": 444,
-		"./nb.js": 444,
-		"./ne": 445,
-		"./ne.js": 445,
-		"./nl": 446,
-		"./nl-be": 447,
-		"./nl-be.js": 447,
-		"./nl.js": 446,
-		"./nn": 448,
-		"./nn.js": 448,
-		"./pa-in": 449,
-		"./pa-in.js": 449,
-		"./pl": 450,
-		"./pl.js": 450,
-		"./pt": 451,
-		"./pt-br": 452,
-		"./pt-br.js": 452,
-		"./pt.js": 451,
-		"./ro": 453,
-		"./ro.js": 453,
-		"./ru": 454,
-		"./ru.js": 454,
-		"./sd": 455,
-		"./sd.js": 455,
-		"./se": 456,
-		"./se.js": 456,
-		"./si": 457,
-		"./si.js": 457,
-		"./sk": 458,
-		"./sk.js": 458,
-		"./sl": 459,
-		"./sl.js": 459,
-		"./sq": 460,
-		"./sq.js": 460,
-		"./sr": 461,
-		"./sr-cyrl": 462,
-		"./sr-cyrl.js": 462,
-		"./sr.js": 461,
-		"./ss": 463,
-		"./ss.js": 463,
-		"./sv": 464,
-		"./sv.js": 464,
-		"./sw": 465,
-		"./sw.js": 465,
-		"./ta": 466,
-		"./ta.js": 466,
-		"./te": 467,
-		"./te.js": 467,
-		"./tet": 468,
-		"./tet.js": 468,
-		"./th": 469,
-		"./th.js": 469,
-		"./tl-ph": 470,
-		"./tl-ph.js": 470,
-		"./tlh": 471,
-		"./tlh.js": 471,
-		"./tr": 472,
-		"./tr.js": 472,
-		"./tzl": 473,
-		"./tzl.js": 473,
-		"./tzm": 474,
-		"./tzm-latn": 475,
-		"./tzm-latn.js": 475,
-		"./tzm.js": 474,
-		"./uk": 476,
-		"./uk.js": 476,
-		"./ur": 477,
-		"./ur.js": 477,
-		"./uz": 478,
-		"./uz-latn": 479,
-		"./uz-latn.js": 479,
-		"./uz.js": 478,
-		"./vi": 480,
-		"./vi.js": 480,
-		"./x-pseudo": 481,
-		"./x-pseudo.js": 481,
-		"./yo": 482,
-		"./yo.js": 482,
-		"./zh-cn": 483,
-		"./zh-cn.js": 483,
-		"./zh-hk": 484,
-		"./zh-hk.js": 484,
-		"./zh-tw": 485,
-		"./zh-tw.js": 485
+		"./af": 213,
+		"./af.js": 213,
+		"./ar": 214,
+		"./ar-dz": 215,
+		"./ar-dz.js": 215,
+		"./ar-kw": 216,
+		"./ar-kw.js": 216,
+		"./ar-ly": 217,
+		"./ar-ly.js": 217,
+		"./ar-ma": 218,
+		"./ar-ma.js": 218,
+		"./ar-sa": 219,
+		"./ar-sa.js": 219,
+		"./ar-tn": 220,
+		"./ar-tn.js": 220,
+		"./ar.js": 214,
+		"./az": 221,
+		"./az.js": 221,
+		"./be": 222,
+		"./be.js": 222,
+		"./bg": 223,
+		"./bg.js": 223,
+		"./bm": 224,
+		"./bm.js": 224,
+		"./bn": 225,
+		"./bn.js": 225,
+		"./bo": 226,
+		"./bo.js": 226,
+		"./br": 227,
+		"./br.js": 227,
+		"./bs": 228,
+		"./bs.js": 228,
+		"./ca": 229,
+		"./ca.js": 229,
+		"./cs": 230,
+		"./cs.js": 230,
+		"./cv": 231,
+		"./cv.js": 231,
+		"./cy": 232,
+		"./cy.js": 232,
+		"./da": 233,
+		"./da.js": 233,
+		"./de": 234,
+		"./de-at": 235,
+		"./de-at.js": 235,
+		"./de-ch": 236,
+		"./de-ch.js": 236,
+		"./de.js": 234,
+		"./dv": 237,
+		"./dv.js": 237,
+		"./el": 238,
+		"./el.js": 238,
+		"./en-au": 239,
+		"./en-au.js": 239,
+		"./en-ca": 240,
+		"./en-ca.js": 240,
+		"./en-gb": 241,
+		"./en-gb.js": 241,
+		"./en-ie": 242,
+		"./en-ie.js": 242,
+		"./en-nz": 243,
+		"./en-nz.js": 243,
+		"./eo": 244,
+		"./eo.js": 244,
+		"./es": 245,
+		"./es-do": 246,
+		"./es-do.js": 246,
+		"./es-us": 247,
+		"./es-us.js": 247,
+		"./es.js": 245,
+		"./et": 248,
+		"./et.js": 248,
+		"./eu": 249,
+		"./eu.js": 249,
+		"./fa": 250,
+		"./fa.js": 250,
+		"./fi": 251,
+		"./fi.js": 251,
+		"./fo": 252,
+		"./fo.js": 252,
+		"./fr": 253,
+		"./fr-ca": 254,
+		"./fr-ca.js": 254,
+		"./fr-ch": 255,
+		"./fr-ch.js": 255,
+		"./fr.js": 253,
+		"./fy": 256,
+		"./fy.js": 256,
+		"./gd": 257,
+		"./gd.js": 257,
+		"./gl": 258,
+		"./gl.js": 258,
+		"./gom-latn": 259,
+		"./gom-latn.js": 259,
+		"./gu": 260,
+		"./gu.js": 260,
+		"./he": 261,
+		"./he.js": 261,
+		"./hi": 262,
+		"./hi.js": 262,
+		"./hr": 263,
+		"./hr.js": 263,
+		"./hu": 264,
+		"./hu.js": 264,
+		"./hy-am": 265,
+		"./hy-am.js": 265,
+		"./id": 266,
+		"./id.js": 266,
+		"./is": 267,
+		"./is.js": 267,
+		"./it": 268,
+		"./it.js": 268,
+		"./ja": 269,
+		"./ja.js": 269,
+		"./jv": 270,
+		"./jv.js": 270,
+		"./ka": 271,
+		"./ka.js": 271,
+		"./kk": 272,
+		"./kk.js": 272,
+		"./km": 273,
+		"./km.js": 273,
+		"./kn": 274,
+		"./kn.js": 274,
+		"./ko": 275,
+		"./ko.js": 275,
+		"./ky": 276,
+		"./ky.js": 276,
+		"./lb": 277,
+		"./lb.js": 277,
+		"./lo": 278,
+		"./lo.js": 278,
+		"./lt": 279,
+		"./lt.js": 279,
+		"./lv": 280,
+		"./lv.js": 280,
+		"./me": 281,
+		"./me.js": 281,
+		"./mi": 282,
+		"./mi.js": 282,
+		"./mk": 283,
+		"./mk.js": 283,
+		"./ml": 284,
+		"./ml.js": 284,
+		"./mr": 285,
+		"./mr.js": 285,
+		"./ms": 286,
+		"./ms-my": 287,
+		"./ms-my.js": 287,
+		"./ms.js": 286,
+		"./mt": 288,
+		"./mt.js": 288,
+		"./my": 289,
+		"./my.js": 289,
+		"./nb": 290,
+		"./nb.js": 290,
+		"./ne": 291,
+		"./ne.js": 291,
+		"./nl": 292,
+		"./nl-be": 293,
+		"./nl-be.js": 293,
+		"./nl.js": 292,
+		"./nn": 294,
+		"./nn.js": 294,
+		"./pa-in": 295,
+		"./pa-in.js": 295,
+		"./pl": 296,
+		"./pl.js": 296,
+		"./pt": 297,
+		"./pt-br": 298,
+		"./pt-br.js": 298,
+		"./pt.js": 297,
+		"./ro": 299,
+		"./ro.js": 299,
+		"./ru": 300,
+		"./ru.js": 300,
+		"./sd": 301,
+		"./sd.js": 301,
+		"./se": 302,
+		"./se.js": 302,
+		"./si": 303,
+		"./si.js": 303,
+		"./sk": 304,
+		"./sk.js": 304,
+		"./sl": 305,
+		"./sl.js": 305,
+		"./sq": 306,
+		"./sq.js": 306,
+		"./sr": 307,
+		"./sr-cyrl": 308,
+		"./sr-cyrl.js": 308,
+		"./sr.js": 307,
+		"./ss": 309,
+		"./ss.js": 309,
+		"./sv": 310,
+		"./sv.js": 310,
+		"./sw": 311,
+		"./sw.js": 311,
+		"./ta": 312,
+		"./ta.js": 312,
+		"./te": 313,
+		"./te.js": 313,
+		"./tet": 314,
+		"./tet.js": 314,
+		"./th": 315,
+		"./th.js": 315,
+		"./tl-ph": 316,
+		"./tl-ph.js": 316,
+		"./tlh": 317,
+		"./tlh.js": 317,
+		"./tr": 318,
+		"./tr.js": 318,
+		"./tzl": 319,
+		"./tzl.js": 319,
+		"./tzm": 320,
+		"./tzm-latn": 321,
+		"./tzm-latn.js": 321,
+		"./tzm.js": 320,
+		"./uk": 322,
+		"./uk.js": 322,
+		"./ur": 323,
+		"./ur.js": 323,
+		"./uz": 324,
+		"./uz-latn": 325,
+		"./uz-latn.js": 325,
+		"./uz.js": 324,
+		"./vi": 326,
+		"./vi.js": 326,
+		"./x-pseudo": 327,
+		"./x-pseudo.js": 327,
+		"./yo": 328,
+		"./yo.js": 328,
+		"./zh-cn": 329,
+		"./zh-cn.js": 329,
+		"./zh-hk": 330,
+		"./zh-hk.js": 330,
+		"./zh-tw": 331,
+		"./zh-tw.js": 331
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -47053,11 +41180,11 @@
 	};
 	webpackContext.resolve = webpackContextResolve;
 	module.exports = webpackContext;
-	webpackContext.id = 366;
+	webpackContext.id = 212;
 
 
 /***/ }),
-/* 367 */
+/* 213 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -47065,7 +41192,7 @@
 	//! author : Werner Mollentze : https://github.com/wernerm
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -47136,7 +41263,7 @@
 
 
 /***/ }),
-/* 368 */
+/* 214 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -47146,7 +41273,7 @@
 	//! author : forabi https://github.com/forabi
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -47284,7 +41411,7 @@
 
 
 /***/ }),
-/* 369 */
+/* 215 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -47292,7 +41419,7 @@
 	//! author : Noureddine LOUAHEDJ : https://github.com/noureddineme
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -47349,7 +41476,7 @@
 
 
 /***/ }),
-/* 370 */
+/* 216 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -47357,7 +41484,7 @@
 	//! author : Nusret Parlak: https://github.com/nusretparlak
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -47414,7 +41541,7 @@
 
 
 /***/ }),
-/* 371 */
+/* 217 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -47422,7 +41549,7 @@
 	//! author : Ali Hmer: https://github.com/kikoanis
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -47546,7 +41673,7 @@
 
 
 /***/ }),
-/* 372 */
+/* 218 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -47555,7 +41682,7 @@
 	//! author : Abdel Said : https://github.com/abdelsaid
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -47612,7 +41739,7 @@
 
 
 /***/ }),
-/* 373 */
+/* 219 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -47620,7 +41747,7 @@
 	//! author : Suhail Alkowaileet : https://github.com/xsoh
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -47723,7 +41850,7 @@
 
 
 /***/ }),
-/* 374 */
+/* 220 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -47731,7 +41858,7 @@
 	//! author : Nader Toukabri : https://github.com/naderio
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -47788,7 +41915,7 @@
 
 
 /***/ }),
-/* 375 */
+/* 221 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -47796,7 +41923,7 @@
 	//! author : topchiyev : https://github.com/topchiyev
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -47899,7 +42026,7 @@
 
 
 /***/ }),
-/* 376 */
+/* 222 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -47909,7 +42036,7 @@
 	//! Author : Menelion Elensúle : https://github.com/Oire
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -48039,7 +42166,7 @@
 
 
 /***/ }),
-/* 377 */
+/* 223 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -48047,7 +42174,7 @@
 	//! author : Krasen Borisov : https://github.com/kraz
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -48135,7 +42262,7 @@
 
 
 /***/ }),
-/* 378 */
+/* 224 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -48143,7 +42270,7 @@
 	//! author : Estelle Comment : https://github.com/estellecomment
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -48200,7 +42327,7 @@
 
 
 /***/ }),
-/* 379 */
+/* 225 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -48208,7 +42335,7 @@
 	//! author : Kaushik Gandhi : https://github.com/kaushikgandhi
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -48325,7 +42452,7 @@
 
 
 /***/ }),
-/* 380 */
+/* 226 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -48333,7 +42460,7 @@
 	//! author : Thupten N. Chakrishar : https://github.com/vajradog
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -48450,7 +42577,7 @@
 
 
 /***/ }),
-/* 381 */
+/* 227 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -48458,7 +42585,7 @@
 	//! author : Jean-Baptiste Le Duigou : https://github.com/jbleduigou
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -48564,7 +42691,7 @@
 
 
 /***/ }),
-/* 382 */
+/* 228 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -48573,7 +42700,7 @@
 	//! based on (hr) translation by Bojan Marković
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -48722,7 +42849,7 @@
 
 
 /***/ }),
-/* 383 */
+/* 229 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -48730,7 +42857,7 @@
 	//! author : Juan G. Hurtado : https://github.com/juanghurtado
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -48816,7 +42943,7 @@
 
 
 /***/ }),
-/* 384 */
+/* 230 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -48824,7 +42951,7 @@
 	//! author : petrbela : https://github.com/petrbela
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49001,7 +43128,7 @@
 
 
 /***/ }),
-/* 385 */
+/* 231 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49009,7 +43136,7 @@
 	//! author : Anatoly Mironov : https://github.com/mirontoli
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49070,7 +43197,7 @@
 
 
 /***/ }),
-/* 386 */
+/* 232 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49079,7 +43206,7 @@
 	//! author : https://github.com/ryangreaves
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49157,7 +43284,7 @@
 
 
 /***/ }),
-/* 387 */
+/* 233 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49165,7 +43292,7 @@
 	//! author : Ulrik Nielsen : https://github.com/mrbase
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49223,7 +43350,7 @@
 
 
 /***/ }),
-/* 388 */
+/* 234 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49233,7 +43360,7 @@
 	//! author : Mikolaj Dadela : https://github.com/mik01aj
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49307,7 +43434,7 @@
 
 
 /***/ }),
-/* 389 */
+/* 235 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49318,7 +43445,7 @@
 	//! author : Mikolaj Dadela : https://github.com/mik01aj
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49392,7 +43519,7 @@
 
 
 /***/ }),
-/* 390 */
+/* 236 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49400,7 +43527,7 @@
 	//! author : sschueller : https://github.com/sschueller
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49476,7 +43603,7 @@
 
 
 /***/ }),
-/* 391 */
+/* 237 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49484,7 +43611,7 @@
 	//! author : Jawish Hameed : https://github.com/jawish
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49582,7 +43709,7 @@
 
 
 /***/ }),
-/* 392 */
+/* 238 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49590,7 +43717,7 @@
 	//! author : Aggelos Karalias : https://github.com/mehiel
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49688,7 +43815,7 @@
 
 
 /***/ }),
-/* 393 */
+/* 239 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49696,7 +43823,7 @@
 	//! author : Jared Morse : https://github.com/jarcoal
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49761,7 +43888,7 @@
 
 
 /***/ }),
-/* 394 */
+/* 240 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49769,7 +43896,7 @@
 	//! author : Jonathan Abourbih : https://github.com/jonbca
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49830,7 +43957,7 @@
 
 
 /***/ }),
-/* 395 */
+/* 241 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49838,7 +43965,7 @@
 	//! author : Chris Gedrim : https://github.com/chrisgedrim
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49903,7 +44030,7 @@
 
 
 /***/ }),
-/* 396 */
+/* 242 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49911,7 +44038,7 @@
 	//! author : Chris Cartlidge : https://github.com/chriscartlidge
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49976,7 +44103,7 @@
 
 
 /***/ }),
-/* 397 */
+/* 243 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49984,7 +44111,7 @@
 	//! author : Luke McGregor : https://github.com/lukemcgregor
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50049,7 +44176,7 @@
 
 
 /***/ }),
-/* 398 */
+/* 244 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50059,7 +44186,7 @@
 	//! comment : miestasmia corrected the translation by colindean
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50128,7 +44255,7 @@
 
 
 /***/ }),
-/* 399 */
+/* 245 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50136,7 +44263,7 @@
 	//! author : Julio Napurí : https://github.com/julionc
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50226,14 +44353,14 @@
 
 
 /***/ }),
-/* 400 */
+/* 246 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
 	//! locale : Spanish (Dominican Republic) [es-do]
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50323,7 +44450,7 @@
 
 
 /***/ }),
-/* 401 */
+/* 247 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50331,7 +44458,7 @@
 	//! author : bustta : https://github.com/bustta
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50412,7 +44539,7 @@
 
 
 /***/ }),
-/* 402 */
+/* 248 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50421,7 +44548,7 @@
 	//! improvements : Illimar Tambek : https://github.com/ragulka
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50499,7 +44626,7 @@
 
 
 /***/ }),
-/* 403 */
+/* 249 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50507,7 +44634,7 @@
 	//! author : Eneko Illarramendi : https://github.com/eillarra
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50571,7 +44698,7 @@
 
 
 /***/ }),
-/* 404 */
+/* 250 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50579,7 +44706,7 @@
 	//! author : Ebrahim Byagowi : https://github.com/ebraminio
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50684,7 +44811,7 @@
 
 
 /***/ }),
-/* 405 */
+/* 251 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50692,7 +44819,7 @@
 	//! author : Tarmo Aidantausta : https://github.com/bleadof
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50799,7 +44926,7 @@
 
 
 /***/ }),
-/* 406 */
+/* 252 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50807,7 +44934,7 @@
 	//! author : Ragnar Johannesen : https://github.com/ragnar123
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50865,7 +44992,7 @@
 
 
 /***/ }),
-/* 407 */
+/* 253 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50873,7 +45000,7 @@
 	//! author : John Fischer : https://github.com/jfroffice
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50954,7 +45081,7 @@
 
 
 /***/ }),
-/* 408 */
+/* 254 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50962,7 +45089,7 @@
 	//! author : Jonathan Abourbih : https://github.com/jonbca
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51034,7 +45161,7 @@
 
 
 /***/ }),
-/* 409 */
+/* 255 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -51042,7 +45169,7 @@
 	//! author : Gaspard Bucher : https://github.com/gaspard
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51118,7 +45245,7 @@
 
 
 /***/ }),
-/* 410 */
+/* 256 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -51126,7 +45253,7 @@
 	//! author : Robin van der Vliet : https://github.com/robin0van0der0v
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51199,7 +45326,7 @@
 
 
 /***/ }),
-/* 411 */
+/* 257 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -51207,7 +45334,7 @@
 	//! author : Jon Ashdown : https://github.com/jonashdown
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51281,7 +45408,7 @@
 
 
 /***/ }),
-/* 412 */
+/* 258 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -51289,7 +45416,7 @@
 	//! author : Juan G. Hurtado : https://github.com/juanghurtado
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51364,7 +45491,7 @@
 
 
 /***/ }),
-/* 413 */
+/* 259 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -51372,7 +45499,7 @@
 	//! author : The Discoverer : https://github.com/WikiDiscoverer
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51493,7 +45620,7 @@
 
 
 /***/ }),
-/* 414 */
+/* 260 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -51501,7 +45628,7 @@
 	//! author : Kaushik Thanki : https://github.com/Kaushik1987
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51623,7 +45750,7 @@
 
 
 /***/ }),
-/* 415 */
+/* 261 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -51633,7 +45760,7 @@
 	//! author : Tal Ater : https://github.com/TalAter
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51728,7 +45855,7 @@
 
 
 /***/ }),
-/* 416 */
+/* 262 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -51736,7 +45863,7 @@
 	//! author : Mayank Singhal : https://github.com/mayanksinghal
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51858,7 +45985,7 @@
 
 
 /***/ }),
-/* 417 */
+/* 263 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -51866,7 +45993,7 @@
 	//! author : Bojan Marković : https://github.com/bmarkovic
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -52018,7 +46145,7 @@
 
 
 /***/ }),
-/* 418 */
+/* 264 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -52026,7 +46153,7 @@
 	//! author : Adam Brunner : https://github.com/adambrunner
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -52134,7 +46261,7 @@
 
 
 /***/ }),
-/* 419 */
+/* 265 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -52142,7 +46269,7 @@
 	//! author : Armendarabyan : https://github.com/armendarabyan
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -52235,7 +46362,7 @@
 
 
 /***/ }),
-/* 420 */
+/* 266 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -52244,7 +46371,7 @@
 	//! reference: http://id.wikisource.org/wiki/Pedoman_Umum_Ejaan_Bahasa_Indonesia_yang_Disempurnakan
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -52324,7 +46451,7 @@
 
 
 /***/ }),
-/* 421 */
+/* 267 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -52332,7 +46459,7 @@
 	//! author : Hinrik Örn Sigurðsson : https://github.com/hinrik
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -52462,7 +46589,7 @@
 
 
 /***/ }),
-/* 422 */
+/* 268 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -52471,7 +46598,7 @@
 	//! author: Mattia Larentis: https://github.com/nostalgiaz
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -52538,7 +46665,7 @@
 
 
 /***/ }),
-/* 423 */
+/* 269 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -52546,7 +46673,7 @@
 	//! author : LI Long : https://github.com/baryon
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -52624,7 +46751,7 @@
 
 
 /***/ }),
-/* 424 */
+/* 270 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -52633,7 +46760,7 @@
 	//! reference: http://jv.wikipedia.org/wiki/Basa_Jawa
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -52713,7 +46840,7 @@
 
 
 /***/ }),
-/* 425 */
+/* 271 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -52721,7 +46848,7 @@
 	//! author : Irakli Janiashvili : https://github.com/irakli-janiashvili
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -52808,7 +46935,7 @@
 
 
 /***/ }),
-/* 426 */
+/* 272 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -52816,7 +46943,7 @@
 	//! authors : Nurlan Rakhimzhanov : https://github.com/nurlan
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -52901,7 +47028,7 @@
 
 
 /***/ }),
-/* 427 */
+/* 273 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -52909,7 +47036,7 @@
 	//! author : Kruy Vanna : https://github.com/kruyvanna
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -52965,7 +47092,7 @@
 
 
 /***/ }),
-/* 428 */
+/* 274 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -52973,7 +47100,7 @@
 	//! author : Rajeev Naik : https://github.com/rajeevnaikte
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -53097,7 +47224,7 @@
 
 
 /***/ }),
-/* 429 */
+/* 275 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -53106,7 +47233,7 @@
 	//! author : Jeeeyul Lee <jeeeyul@gmail.com>
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -53185,7 +47312,7 @@
 
 
 /***/ }),
-/* 430 */
+/* 276 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -53193,7 +47320,7 @@
 	//! author : Chyngyz Arystan uulu : https://github.com/chyngyz
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -53279,7 +47406,7 @@
 
 
 /***/ }),
-/* 431 */
+/* 277 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -53288,7 +47415,7 @@
 	//! author : David Raison : https://github.com/kwisatz
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -53422,7 +47549,7 @@
 
 
 /***/ }),
-/* 432 */
+/* 278 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -53430,7 +47557,7 @@
 	//! author : Ryan Hart : https://github.com/ryanhart2
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -53498,7 +47625,7 @@
 
 
 /***/ }),
-/* 433 */
+/* 279 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -53506,7 +47633,7 @@
 	//! author : Mindaugas Mozūras : https://github.com/mmozuras
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -53622,7 +47749,7 @@
 
 
 /***/ }),
-/* 434 */
+/* 280 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -53631,7 +47758,7 @@
 	//! author : Jānis Elmeris : https://github.com/JanisE
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -53726,7 +47853,7 @@
 
 
 /***/ }),
-/* 435 */
+/* 281 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -53734,7 +47861,7 @@
 	//! author : Miodrag Nikač <miodrag@restartit.me> : https://github.com/miodragnikac
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -53844,7 +47971,7 @@
 
 
 /***/ }),
-/* 436 */
+/* 282 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -53852,7 +47979,7 @@
 	//! author : John Corrigan <robbiecloset@gmail.com> : https://github.com/johnideal
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -53914,7 +48041,7 @@
 
 
 /***/ }),
-/* 437 */
+/* 283 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -53922,7 +48049,7 @@
 	//! author : Borislav Mickov : https://github.com/B0k0
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54010,7 +48137,7 @@
 
 
 /***/ }),
-/* 438 */
+/* 284 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -54018,7 +48145,7 @@
 	//! author : Floyd Pink : https://github.com/floydpink
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54097,7 +48224,7 @@
 
 
 /***/ }),
-/* 439 */
+/* 285 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -54106,7 +48233,7 @@
 	//! author : Vivek Athalye : https://github.com/vnathalye
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54264,7 +48391,7 @@
 
 
 /***/ }),
-/* 440 */
+/* 286 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -54272,7 +48399,7 @@
 	//! author : Weldan Jamili : https://github.com/weldan
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54352,7 +48479,7 @@
 
 
 /***/ }),
-/* 441 */
+/* 287 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -54361,7 +48488,7 @@
 	//! author : Weldan Jamili : https://github.com/weldan
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54441,7 +48568,7 @@
 
 
 /***/ }),
-/* 442 */
+/* 288 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -54449,7 +48576,7 @@
 	//! author : Alessandro Maruccia : https://github.com/alesma
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54507,7 +48634,7 @@
 
 
 /***/ }),
-/* 443 */
+/* 289 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -54517,7 +48644,7 @@
 	//! author : Tin Aung Lin : https://github.com/thanyawzinmin
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54609,7 +48736,7 @@
 
 
 /***/ }),
-/* 444 */
+/* 290 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -54618,7 +48745,7 @@
 	//!           Sigurd Gartmann : https://github.com/sigurdga
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54678,7 +48805,7 @@
 
 
 /***/ }),
-/* 445 */
+/* 291 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -54686,7 +48813,7 @@
 	//! author : suvash : https://github.com/suvash
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54807,7 +48934,7 @@
 
 
 /***/ }),
-/* 446 */
+/* 292 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -54816,7 +48943,7 @@
 	//! author : Jacob Middag : https://github.com/middagj
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54901,7 +49028,7 @@
 
 
 /***/ }),
-/* 447 */
+/* 293 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -54910,7 +49037,7 @@
 	//! author : Jacob Middag : https://github.com/middagj
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54995,7 +49122,7 @@
 
 
 /***/ }),
-/* 448 */
+/* 294 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55003,7 +49130,7 @@
 	//! author : https://github.com/mechuwind
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55061,7 +49188,7 @@
 
 
 /***/ }),
-/* 449 */
+/* 295 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55069,7 +49196,7 @@
 	//! author : Harpreet Singh : https://github.com/harpreetkhalsagtbit
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55191,7 +49318,7 @@
 
 
 /***/ }),
-/* 450 */
+/* 296 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55199,7 +49326,7 @@
 	//! author : Rafal Hirsz : https://github.com/evoL
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55323,7 +49450,7 @@
 
 
 /***/ }),
-/* 451 */
+/* 297 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55331,7 +49458,7 @@
 	//! author : Jefferson : https://github.com/jalex79
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55394,7 +49521,7 @@
 
 
 /***/ }),
-/* 452 */
+/* 298 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55402,7 +49529,7 @@
 	//! author : Caio Ribeiro Pereira : https://github.com/caio-ribeiro-pereira
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55461,7 +49588,7 @@
 
 
 /***/ }),
-/* 453 */
+/* 299 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55470,7 +49597,7 @@
 	//! author : Valentin Agachi : https://github.com/avaly
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55543,7 +49670,7 @@
 
 
 /***/ }),
-/* 454 */
+/* 300 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55553,7 +49680,7 @@
 	//! author : Коренберг Марк : https://github.com/socketpair
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55733,7 +49860,7 @@
 
 
 /***/ }),
-/* 455 */
+/* 301 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55741,7 +49868,7 @@
 	//! author : Narain Sagar : https://github.com/narainsagar
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55837,7 +49964,7 @@
 
 
 /***/ }),
-/* 456 */
+/* 302 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55845,7 +49972,7 @@
 	//! authors : Bård Rolstad Henriksen : https://github.com/karamell
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55904,7 +50031,7 @@
 
 
 /***/ }),
-/* 457 */
+/* 303 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55912,7 +50039,7 @@
 	//! author : Sampath Sitinamaluwa : https://github.com/sampathsris
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55981,7 +50108,7 @@
 
 
 /***/ }),
-/* 458 */
+/* 304 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55990,7 +50117,7 @@
 	//! based on work of petrbela : https://github.com/petrbela
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -56144,7 +50271,7 @@
 
 
 /***/ }),
-/* 459 */
+/* 305 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56152,7 +50279,7 @@
 	//! author : Robert Sedovšek : https://github.com/sedovsek
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -56323,7 +50450,7 @@
 
 
 /***/ }),
-/* 460 */
+/* 306 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56333,7 +50460,7 @@
 	//! author : Oerd Cukalla : https://github.com/oerd
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -56399,7 +50526,7 @@
 
 
 /***/ }),
-/* 461 */
+/* 307 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56407,7 +50534,7 @@
 	//! author : Milan Janačković<milanjanackovic@gmail.com> : https://github.com/milan-j
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -56516,7 +50643,7 @@
 
 
 /***/ }),
-/* 462 */
+/* 308 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56524,7 +50651,7 @@
 	//! author : Milan Janačković<milanjanackovic@gmail.com> : https://github.com/milan-j
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -56633,7 +50760,7 @@
 
 
 /***/ }),
-/* 463 */
+/* 309 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56641,7 +50768,7 @@
 	//! author : Nicolai Davies<mail@nicolai.io> : https://github.com/nicolaidavies
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -56728,7 +50855,7 @@
 
 
 /***/ }),
-/* 464 */
+/* 310 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56736,7 +50863,7 @@
 	//! author : Jens Alm : https://github.com/ulmus
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -56803,7 +50930,7 @@
 
 
 /***/ }),
-/* 465 */
+/* 311 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56811,7 +50938,7 @@
 	//! author : Fahad Kassim : https://github.com/fadsel
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -56868,7 +50995,7 @@
 
 
 /***/ }),
-/* 466 */
+/* 312 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56876,7 +51003,7 @@
 	//! author : Arjunkumar Krishnamoorthy : https://github.com/tk120404
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57004,7 +51131,7 @@
 
 
 /***/ }),
-/* 467 */
+/* 313 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57012,7 +51139,7 @@
 	//! author : Krishna Chaitanya Thota : https://github.com/kcthota
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57099,7 +51226,7 @@
 
 
 /***/ }),
-/* 468 */
+/* 314 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57108,7 +51235,7 @@
 	//! author : Onorio De J. Afonso : https://github.com/marobo
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57173,7 +51300,7 @@
 
 
 /***/ }),
-/* 469 */
+/* 315 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57181,7 +51308,7 @@
 	//! author : Kridsada Thanabulpong : https://github.com/sirn
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57246,7 +51373,7 @@
 
 
 /***/ }),
-/* 470 */
+/* 316 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57254,7 +51381,7 @@
 	//! author : Dan Hagman : https://github.com/hagmandan
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57314,7 +51441,7 @@
 
 
 /***/ }),
-/* 471 */
+/* 317 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57322,7 +51449,7 @@
 	//! author : Dominika Kruk : https://github.com/amaranthrose
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57442,7 +51569,7 @@
 
 
 /***/ }),
-/* 472 */
+/* 318 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57451,7 +51578,7 @@
 	//!           Burak Yiğit Kaya: https://github.com/BYK
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57538,7 +51665,7 @@
 
 
 /***/ }),
-/* 473 */
+/* 319 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57547,7 +51674,7 @@
 	//! author : Iustì Canun
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57636,7 +51763,7 @@
 
 
 /***/ }),
-/* 474 */
+/* 320 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57644,7 +51771,7 @@
 	//! author : Abdel Said : https://github.com/abdelsaid
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57700,7 +51827,7 @@
 
 
 /***/ }),
-/* 475 */
+/* 321 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57708,7 +51835,7 @@
 	//! author : Abdel Said : https://github.com/abdelsaid
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57764,7 +51891,7 @@
 
 
 /***/ }),
-/* 476 */
+/* 322 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57773,7 +51900,7 @@
 	//! Author : Menelion Elensúle : https://github.com/Oire
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57922,7 +52049,7 @@
 
 
 /***/ }),
-/* 477 */
+/* 323 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57931,7 +52058,7 @@
 	//! author : Zack : https://github.com/ZackVision
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -58027,7 +52154,7 @@
 
 
 /***/ }),
-/* 478 */
+/* 324 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58035,7 +52162,7 @@
 	//! author : Sardor Muminov : https://github.com/muminoff
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -58091,7 +52218,7 @@
 
 
 /***/ }),
-/* 479 */
+/* 325 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58099,7 +52226,7 @@
 	//! author : Rasulbek Mirzayev : github.com/Rasulbeeek
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -58155,7 +52282,7 @@
 
 
 /***/ }),
-/* 480 */
+/* 326 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58163,7 +52290,7 @@
 	//! author : Bang Nguyen : https://github.com/bangnk
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -58240,7 +52367,7 @@
 
 
 /***/ }),
-/* 481 */
+/* 327 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58248,7 +52375,7 @@
 	//! author : Andrew Hood : https://github.com/andrewhood125
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -58314,7 +52441,7 @@
 
 
 /***/ }),
-/* 482 */
+/* 328 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58322,7 +52449,7 @@
 	//! author : Atolagbe Abisoye : https://github.com/andela-batolagbe
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -58380,7 +52507,7 @@
 
 
 /***/ }),
-/* 483 */
+/* 329 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58389,7 +52516,7 @@
 	//! author : Zeno Zeng : https://github.com/zenozeng
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -58497,7 +52624,7 @@
 
 
 /***/ }),
-/* 484 */
+/* 330 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58507,7 +52634,7 @@
 	//! author : Konstantin : https://github.com/skfd
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -58608,7 +52735,7 @@
 
 
 /***/ }),
-/* 485 */
+/* 331 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58617,7 +52744,7 @@
 	//! author : Chris Lam : https://github.com/hehachris
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(365)) :
+	    true ? factory(__webpack_require__(210)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -58718,7 +52845,7 @@
 
 
 /***/ }),
-/* 486 */
+/* 332 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -58733,7 +52860,7 @@
 	exports.getEffectiveMinDate = getEffectiveMinDate;
 	exports.getEffectiveMaxDate = getEffectiveMaxDate;
 
-	var _moment = __webpack_require__(365);
+	var _moment = __webpack_require__(210);
 
 	var _moment2 = _interopRequireDefault(_moment);
 
@@ -58815,7 +52942,7 @@
 	}
 
 /***/ }),
-/* 487 */
+/* 333 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
@@ -58840,16 +52967,16 @@
 	  // By explicitly using `prop-types` you are opting into new development behavior.
 	  // http://fb.me/prop-types-in-prod
 	  var throwOnDirectAccess = true;
-	  module.exports = __webpack_require__(488)(isValidElement, throwOnDirectAccess);
+	  module.exports = __webpack_require__(334)(isValidElement, throwOnDirectAccess);
 	} else {
 	  // By explicitly using `prop-types` you are opting into new production behavior.
 	  // http://fb.me/prop-types-in-prod
-	  module.exports = __webpack_require__(489)();
+	  module.exports = __webpack_require__(335)();
 	}
 
 
 /***/ }),
-/* 488 */
+/* 334 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
@@ -59397,7 +53524,7 @@
 
 
 /***/ }),
-/* 489 */
+/* 335 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
@@ -59461,59 +53588,36 @@
 
 
 /***/ }),
-/* 490 */
+/* 336 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
-	var _react2 = __webpack_require__(2);
-
-	var _react3 = _interopRequireDefault(_react2);
-
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _moment = __webpack_require__(365);
+	var _moment = __webpack_require__(210);
 
 	var _moment2 = _interopRequireDefault(_moment);
 
-	var _year_dropdown = __webpack_require__(491);
+	var _year_dropdown = __webpack_require__(337);
 
 	var _year_dropdown2 = _interopRequireDefault(_year_dropdown);
 
-	var _month = __webpack_require__(494);
+	var _month = __webpack_require__(340);
 
 	var _month2 = _interopRequireDefault(_month);
 
-	var _propTypes = __webpack_require__(487);
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _propTypes = __webpack_require__(333);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _date_utils = __webpack_require__(486);
+	var _date_utils = __webpack_require__(332);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  Calendar: {
-	    displayName: 'Calendar'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/src/calendar.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	var Calendar = _wrapComponent('Calendar')(_react3.default.createClass({
+	var Calendar = _react2.default.createClass({
 	  displayName: 'Calendar',
 
 	  propTypes: {
@@ -59535,7 +53639,7 @@
 	    todayButton: _propTypes2.default.string
 	  },
 
-	  mixins: [__webpack_require__(493)],
+	  mixins: [__webpack_require__(339)],
 
 	  getInitialState: function getInitialState() {
 	    return {
@@ -59603,7 +53707,7 @@
 	    var startOfWeek = this.state.date.clone().startOf('week');
 	    return [0, 1, 2, 3, 4, 5, 6].map(function (offset) {
 	      var day = startOfWeek.clone().add(offset, 'days');
-	      return _react3.default.createElement(
+	      return _react2.default.createElement(
 	        'div',
 	        { key: offset, className: 'react-datepicker__day-name' },
 	        day.localeData().weekdaysShort(day)
@@ -59614,7 +53718,7 @@
 	    if ((0, _date_utils.allDaysDisabledBefore)(this.state.date, 'month', this.props)) {
 	      return;
 	    }
-	    return _react3.default.createElement('a', {
+	    return _react2.default.createElement('a', {
 	      className: 'react-datepicker__navigation react-datepicker__navigation--previous',
 	      onClick: this.decreaseMonth });
 	  },
@@ -59622,7 +53726,7 @@
 	    if ((0, _date_utils.allDaysDisabledAfter)(this.state.date, 'month', this.props)) {
 	      return;
 	    }
-	    return _react3.default.createElement('a', {
+	    return _react2.default.createElement('a', {
 	      className: 'react-datepicker__navigation react-datepicker__navigation--next',
 	      onClick: this.increaseMonth });
 	  },
@@ -59631,7 +53735,7 @@
 	    if (this.props.showYearDropdown) {
 	      classes.push('react-datepicker__current-month--hasYearDropdown');
 	    }
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: classes.join(' ') },
 	      this.state.date.format(this.props.dateFormat)
@@ -59641,7 +53745,7 @@
 	    if (!this.props.showYearDropdown) {
 	      return;
 	    }
-	    return _react3.default.createElement(_year_dropdown2.default, {
+	    return _react2.default.createElement(_year_dropdown2.default, {
 	      onChange: this.changeYear,
 	      year: this.state.date.year() });
 	  },
@@ -59651,7 +53755,7 @@
 	    if (!this.props.todayButton) {
 	      return;
 	    }
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'react-datepicker__today-button', onClick: function onClick() {
 	          return _this.props.onSelect((0, _moment2.default)());
@@ -59660,24 +53764,24 @@
 	    );
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'react-datepicker' },
-	      _react3.default.createElement('div', { className: 'react-datepicker__triangle' }),
-	      _react3.default.createElement(
+	      _react2.default.createElement('div', { className: 'react-datepicker__triangle' }),
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'react-datepicker__header' },
 	        this.renderPreviousMonthButton(),
 	        this.renderCurrentMonth(),
 	        this.renderYearDropdown(),
 	        this.renderNextMonthButton(),
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'div',
 	          null,
 	          this.header()
 	        )
 	      ),
-	      _react3.default.createElement(_month2.default, {
+	      _react2.default.createElement(_month2.default, {
 	        day: this.state.date,
 	        onDayClick: this.handleDayClick,
 	        minDate: this.props.minDate,
@@ -59692,55 +53796,31 @@
 	      this.renderTodayButton()
 	    );
 	  }
-	}));
+	});
 
 	module.exports = Calendar;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
 
 /***/ }),
-/* 491 */
+/* 337 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _year_dropdown_options = __webpack_require__(492);
+	var _year_dropdown_options = __webpack_require__(338);
 
 	var _year_dropdown_options2 = _interopRequireDefault(_year_dropdown_options);
 
-	var _propTypes = __webpack_require__(487);
+	var _propTypes = __webpack_require__(333);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  YearDropdown: {
-	    displayName: 'YearDropdown'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/src/year_dropdown.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	var YearDropdown = _wrapComponent('YearDropdown')(_react3.default.createClass({
+	var YearDropdown = _react2.default.createClass({
 	  displayName: 'YearDropdown',
 
 	  propTypes: {
@@ -59754,19 +53834,19 @@
 	    };
 	  },
 	  renderReadView: function renderReadView() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'react-datepicker__year-read-view', onClick: this.toggleDropdown },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'span',
 	        { className: 'react-datepicker__year-read-view--selected-year' },
 	        this.props.year
 	      ),
-	      _react3.default.createElement('span', { className: 'react-datepicker__year-read-view--down-arrow' })
+	      _react2.default.createElement('span', { className: 'react-datepicker__year-read-view--down-arrow' })
 	    );
 	  },
 	  renderDropdown: function renderDropdown() {
-	    return _react3.default.createElement(_year_dropdown_options2.default, {
+	    return _react2.default.createElement(_year_dropdown_options2.default, {
 	      ref: 'options',
 	      year: this.props.year,
 	      onChange: this.onChange,
@@ -59783,55 +53863,31 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      null,
 	      this.state.dropdownVisible ? this.renderDropdown() : this.renderReadView()
 	    );
 	  }
-	}));
+	});
 
 	module.exports = YearDropdown;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
 
 /***/ }),
-/* 492 */
+/* 338 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _propTypes = __webpack_require__(487);
+	var _propTypes = __webpack_require__(333);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	var _components = {
-	  YearDropdownOptions: {
-	    displayName: 'YearDropdownOptions'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/src/year_dropdown_options.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
 
 	function generateYears(year) {
 	  var list = [];
@@ -59841,7 +53897,7 @@
 	  return list;
 	}
 
-	var YearDropdownOptions = _wrapComponent('YearDropdownOptions')(_react3.default.createClass({
+	var YearDropdownOptions = _react2.default.createClass({
 	  displayName: 'YearDropdownOptions',
 
 	  propTypes: {
@@ -59850,7 +53906,7 @@
 	    year: _propTypes2.default.number.isRequired
 	  },
 
-	  mixins: [__webpack_require__(493)],
+	  mixins: [__webpack_require__(339)],
 
 	  getInitialState: function getInitialState() {
 	    return {
@@ -59862,12 +53918,12 @@
 
 	    var selectedYear = this.props.year;
 	    var options = this.state.yearsList.map(function (year) {
-	      return _react3.default.createElement(
+	      return _react2.default.createElement(
 	        'div',
 	        { className: 'react-datepicker__year-option',
 	          key: year,
 	          onClick: _this.onChange.bind(_this, year) },
-	        selectedYear === year ? _react3.default.createElement(
+	        selectedYear === year ? _react2.default.createElement(
 	          'span',
 	          { className: 'react-datepicker__year-option--selected' },
 	          '\u2713'
@@ -59876,21 +53932,21 @@
 	      );
 	    });
 
-	    options.unshift(_react3.default.createElement(
+	    options.unshift(_react2.default.createElement(
 	      'div',
 	      { className: 'react-datepicker__year-option',
 	        ref: "upcoming",
 	        key: "upcoming",
 	        onClick: this.incrementYears },
-	      _react3.default.createElement('a', { className: 'react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-upcoming' })
+	      _react2.default.createElement('a', { className: 'react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-upcoming' })
 	    ));
-	    options.push(_react3.default.createElement(
+	    options.push(_react2.default.createElement(
 	      'div',
 	      { className: 'react-datepicker__year-option',
 	        ref: "previous",
 	        key: "previous",
 	        onClick: this.decrementYears },
-	      _react3.default.createElement('a', { className: 'react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous' })
+	      _react2.default.createElement('a', { className: 'react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous' })
 	    ));
 	    return options;
 	  },
@@ -59916,19 +53972,18 @@
 	    return this.shiftYears(-1);
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'react-datepicker__year-dropdown' },
 	      this.renderOptions()
 	    );
 	  }
-	}));
+	});
 
 	module.exports = YearDropdownOptions;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
 
 /***/ }),
-/* 493 */
+/* 339 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -60066,49 +54121,26 @@
 
 
 /***/ }),
-/* 494 */
+/* 340 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _week = __webpack_require__(495);
+	var _week = __webpack_require__(341);
 
 	var _week2 = _interopRequireDefault(_week);
 
-	var _propTypes = __webpack_require__(487);
+	var _propTypes = __webpack_require__(333);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  Month: {
-	    displayName: 'Month'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/src/month.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	var Month = _wrapComponent('Month')(_react3.default.createClass({
+	var Month = _react2.default.createClass({
 	  displayName: 'Month',
 
 	  propTypes: {
@@ -60144,7 +54176,7 @@
 	    }).filter(function (startOfWeek) {
 	      return _this.props.fixedHeight || _this.isWeekInMonth(startOfWeek);
 	    }).map(function (startOfWeek, offset) {
-	      return _react3.default.createElement(_week2.default, {
+	      return _react2.default.createElement(_week2.default, {
 	        key: offset,
 	        day: startOfWeek,
 	        month: _this.props.day.month(),
@@ -60160,61 +54192,37 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'react-datepicker__month', role: 'listbox' },
 	      this.renderWeeks()
 	    );
 	  }
-	}));
+	});
 
 	module.exports = Month;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
 
 /***/ }),
-/* 495 */
+/* 341 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _day = __webpack_require__(496);
+	var _day = __webpack_require__(342);
 
 	var _day2 = _interopRequireDefault(_day);
 
-	var _propTypes = __webpack_require__(487);
+	var _propTypes = __webpack_require__(333);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  Week: {
-	    displayName: 'Week'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/src/week.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	var Week = _wrapComponent('Week')(_react3.default.createClass({
+	var Week = _react2.default.createClass({
 	  displayName: 'Week',
 
 	  propTypes: {
@@ -60242,7 +54250,7 @@
 	    var startOfWeek = this.props.day.clone().startOf('week');
 	    return [0, 1, 2, 3, 4, 5, 6].map(function (offset) {
 	      var day = startOfWeek.clone().add(offset, 'days');
-	      return _react3.default.createElement(_day2.default, {
+	      return _react2.default.createElement(_day2.default, {
 	        key: offset,
 	        day: day,
 	        month: _this.props.month,
@@ -60258,67 +54266,43 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'react-datepicker__week' },
 	      this.renderDays()
 	    );
 	  }
-	}));
+	});
 
 	module.exports = Week;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
 
 /***/ }),
-/* 496 */
+/* 342 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
-	var _react2 = __webpack_require__(2);
-
-	var _react3 = _interopRequireDefault(_react2);
-
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _moment = __webpack_require__(365);
+	var _moment = __webpack_require__(210);
 
 	var _moment2 = _interopRequireDefault(_moment);
 
-	var _classnames = __webpack_require__(497);
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _classnames = __webpack_require__(343);
 
 	var _classnames2 = _interopRequireDefault(_classnames);
 
-	var _date_utils = __webpack_require__(486);
+	var _date_utils = __webpack_require__(332);
 
-	var _propTypes = __webpack_require__(487);
+	var _propTypes = __webpack_require__(333);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  Day: {
-	    displayName: 'Day'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/src/day.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	var Day = _wrapComponent('Day')(_react3.default.createClass({
+	var Day = _react2.default.createClass({
 	  displayName: 'Day',
 
 	  propTypes: {
@@ -60378,7 +54362,7 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      {
 	        className: this.getClassNames(),
@@ -60388,13 +54372,12 @@
 	      this.props.day.date()
 	    );
 	  }
-	}));
+	});
 
 	module.exports = Day;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
 
 /***/ }),
-/* 497 */
+/* 343 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -60448,22 +54431,18 @@
 
 
 /***/ }),
-/* 498 */
+/* 344 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
-
-	var _react2 = __webpack_require__(2);
-
-	var _react3 = _interopRequireDefault(_react2);
-
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
+	'use strict';
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-	var _propTypes = __webpack_require__(487);
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _propTypes = __webpack_require__(333);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -60471,7 +54450,7 @@
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
-	var _tether = __webpack_require__(499);
+	var _tether = __webpack_require__(345);
 
 	var _tether2 = _interopRequireDefault(_tether);
 
@@ -60479,29 +54458,10 @@
 
 	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
 
-	var _components = {
-	  TetherComponent: {
-	    displayName: 'TetherComponent'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/src/tether_component.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
 	function childrenPropType(_ref, propName, componentName) {
 	  var children = _ref.children;
 
-	  var childCount = _react2.Children.count(children);
+	  var childCount = _react.Children.count(children);
 	  if (childCount <= 0) {
 	    return new Error(componentName + ' expects at least one child to use as the target element.');
 	  } else if (childCount > 2) {
@@ -60511,7 +54471,7 @@
 
 	var attachmentPositions = ['top left', 'top center', 'top right', 'middle left', 'middle center', 'middle right', 'bottom left', 'bottom center', 'bottom right'];
 
-	var TetherComponent = _wrapComponent('TetherComponent')(_react3.default.createClass({
+	var TetherComponent = _react2.default.createClass({
 	  displayName: 'TetherComponent',
 
 	  propTypes: {
@@ -60633,7 +54593,7 @@
 
 	    // we use forEach because the second child could be null
 	    // causing children to not be an array
-	    _react2.Children.forEach(children, function (child, index) {
+	    _react.Children.forEach(children, function (child, index) {
 	      if (index === 0) {
 	        firstChild = child;
 	        return;
@@ -60642,13 +54602,12 @@
 
 	    return firstChild;
 	  }
-	}));
+	});
 
 	module.exports = TetherComponent;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
 
 /***/ }),
-/* 499 */
+/* 345 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*! tether 1.4.3 */
@@ -62467,49 +56426,26 @@
 
 
 /***/ }),
-/* 500 */
+/* 346 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _propTypes = __webpack_require__(487);
+	var _propTypes = __webpack_require__(333);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  CodeExampleComponent: {
-	    displayName: 'CodeExampleComponent'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/code_example_component.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('CodeExampleComponent')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'CodeExampleComponent',
 
 	  propTypes: {
@@ -62519,10 +56455,10 @@
 	  },
 
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { key: this.props.id, id: 'example-' + this.props.id, className: 'example' },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'h2',
 	        { className: 'example__heading' },
 	        this.props.title
@@ -62530,57 +56466,33 @@
 	      this.props.children
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
-/* 501 */
+/* 347 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _reactDatepicker = __webpack_require__(363);
+	var _reactDatepicker = __webpack_require__(208);
 
 	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
 
-	var _moment = __webpack_require__(365);
+	var _moment = __webpack_require__(210);
 
 	var _moment2 = _interopRequireDefault(_moment);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  CustomDateFormat: {
-	    displayName: 'CustomDateFormat'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/examples/custom_date_format.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('CustomDateFormat')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'CustomDateFormat',
 
 	  getInitialState: function getInitialState() {
@@ -62594,92 +56506,68 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'row' },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'pre',
 	        { className: 'column example__code' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'code',
 	          { className: 'jsx' },
 	          "<DatePicker",
-	          _react3.default.createElement('br', null),
-	          _react3.default.createElement(
+	          _react2.default.createElement('br', null),
+	          _react2.default.createElement(
 	            'strong',
 	            null,
 	            '\xA0 \xA0 ',
 	            "dateFormat=\"YYYY/MM/DD\""
 	          ),
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "selected={this.state.startDate}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "onChange={this.handleChange} />"
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'column' },
-	        _react3.default.createElement(_reactDatepicker2.default, {
+	        _react2.default.createElement(_reactDatepicker2.default, {
 	          dateFormat: 'YYYY/MM/DD',
 	          selected: this.state.startDate,
 	          onChange: this.handleChange })
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
-/* 502 */
+/* 348 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _reactDatepicker = __webpack_require__(363);
+	var _reactDatepicker = __webpack_require__(208);
 
 	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
 
-	var _moment = __webpack_require__(365);
+	var _moment = __webpack_require__(210);
 
 	var _moment2 = _interopRequireDefault(_moment);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  CustomClassName: {
-	    displayName: 'CustomClassName'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/examples/custom_class_name.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('CustomClassName')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'CustomClassName',
 
 	  getInitialState: function getInitialState() {
@@ -62693,158 +56581,110 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'row' },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'pre',
 	        { className: 'column example__code' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'code',
 	          { className: 'jsx' },
 	          "<DatePicker",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "selected={this.state.startDate}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "onChange={this.handleChange}",
 	          ' ',
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "className='red-border' />"
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'column' },
-	        _react3.default.createElement(_reactDatepicker2.default, {
+	        _react2.default.createElement(_reactDatepicker2.default, {
 	          selected: this.state.startDate,
 	          onChange: this.handleChange,
 	          className: 'red-border' })
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
-/* 503 */
+/* 349 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _reactDatepicker = __webpack_require__(363);
+	var _reactDatepicker = __webpack_require__(208);
 
 	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  PlaceholderText: {
-	    displayName: 'PlaceholderText'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/examples/placeholder_text.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('PlaceholderText')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'PlaceholderText',
 
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'row' },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'pre',
 	        { className: 'column example__code' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'code',
 	          { className: 'jsx' },
 	          "<DatePicker placeholderText=\"Click to select a date\" />"
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'column' },
-	        _react3.default.createElement(_reactDatepicker2.default, { placeholderText: 'Click to select a date' })
+	        _react2.default.createElement(_reactDatepicker2.default, { placeholderText: 'Click to select a date' })
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
-/* 504 */
+/* 350 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _reactDatepicker = __webpack_require__(363);
+	var _reactDatepicker = __webpack_require__(208);
 
 	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
 
-	var _moment = __webpack_require__(365);
+	var _moment = __webpack_require__(210);
 
 	var _moment2 = _interopRequireDefault(_moment);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  SpecificDateRange: {
-	    displayName: 'SpecificDateRange'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/examples/specific_date_range.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('SpecificDateRange')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'SpecificDateRange',
 
 	  getInitialState: function getInitialState() {
@@ -62858,45 +56698,45 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'row' },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'pre',
 	        { className: 'column example__code' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'code',
 	          { className: 'jsx' },
 	          "<DatePicker",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "selected={this.state.startDate}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "onChange={this.handleChange}",
-	          _react3.default.createElement('br', null),
-	          _react3.default.createElement(
+	          _react2.default.createElement('br', null),
+	          _react2.default.createElement(
 	            'strong',
 	            null,
 	            '\xA0 \xA0 ',
 	            "minDate={moment()}"
 	          ),
-	          _react3.default.createElement('br', null),
-	          _react3.default.createElement(
+	          _react2.default.createElement('br', null),
+	          _react2.default.createElement(
 	            'strong',
 	            null,
 	            '\xA0 \xA0 ',
 	            "maxDate={moment().add(5, 'days')}"
 	          ),
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "placeholderText=\"Select a date between today and 5 days in the future\" />"
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'column' },
-	        _react3.default.createElement(_reactDatepicker2.default, {
+	        _react2.default.createElement(_reactDatepicker2.default, {
 	          selected: this.state.startDate,
 	          onChange: this.handleChange,
 	          minDate: (0, _moment2.default)(),
@@ -62905,53 +56745,29 @@
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
-/* 505 */
+/* 351 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _reactDatepicker = __webpack_require__(363);
+	var _reactDatepicker = __webpack_require__(208);
 
 	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  CustomStartDate: {
-	    displayName: 'CustomStartDate'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/examples/locale.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('CustomStartDate')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'CustomStartDate',
 
 	  getInitialState: function getInitialState() {
@@ -62965,38 +56781,38 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'row' },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'pre',
 	        { className: 'column example__code' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'code',
 	          { className: 'jsx' },
 	          "<DatePicker",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "selected={this.state.startDate}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "onChange={this.handleChange}",
-	          _react3.default.createElement('br', null),
-	          _react3.default.createElement(
+	          _react2.default.createElement('br', null),
+	          _react2.default.createElement(
 	            'strong',
 	            null,
 	            '\xA0 \xA0 ',
 	            "locale='en-gb'"
 	          ),
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "placeholderText='Weeks start on Monday' />"
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'column' },
-	        _react3.default.createElement(_reactDatepicker2.default, {
+	        _react2.default.createElement(_reactDatepicker2.default, {
 	          selected: this.state.startDate,
 	          onChange: this.handleChange,
 	          locale: 'en-gb',
@@ -63004,57 +56820,33 @@
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
-/* 506 */
+/* 352 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _reactDatepicker = __webpack_require__(363);
+	var _reactDatepicker = __webpack_require__(208);
 
 	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
 
-	var _moment = __webpack_require__(365);
+	var _moment = __webpack_require__(210);
 
 	var _moment2 = _interopRequireDefault(_moment);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  ExcludeDates: {
-	    displayName: 'ExcludeDates'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/examples/exclude_dates.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('ExcludeDates')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'ExcludeDates',
 
 	  getInitialState: function getInitialState() {
@@ -63068,38 +56860,38 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'row' },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'pre',
 	        { className: 'column example__code' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'code',
 	          { className: 'jsx' },
 	          "<DatePicker",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "selected={this.state.startDate}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "onChange={this.handleChange}",
-	          _react3.default.createElement('br', null),
-	          _react3.default.createElement(
+	          _react2.default.createElement('br', null),
+	          _react2.default.createElement(
 	            'strong',
 	            null,
 	            '\xA0 \xA0 ',
 	            "excludeDates={[moment(), moment().subtract(1, 'days')]}"
 	          ),
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "placeholderText=\"Select a date other than today or yesterday\" />"
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'column' },
-	        _react3.default.createElement(_reactDatepicker2.default, {
+	        _react2.default.createElement(_reactDatepicker2.default, {
 	          selected: this.state.startDate,
 	          onChange: this.handleChange,
 	          excludeDates: [(0, _moment2.default)(), (0, _moment2.default)().subtract(1, 'days')],
@@ -63107,57 +56899,33 @@
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
-/* 507 */
+/* 353 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _reactDatepicker = __webpack_require__(363);
+	var _reactDatepicker = __webpack_require__(208);
 
 	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
 
-	var _moment = __webpack_require__(365);
+	var _moment = __webpack_require__(210);
 
 	var _moment2 = _interopRequireDefault(_moment);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  includeDates: {
-	    displayName: 'includeDates'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/examples/include_dates.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('includeDates')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'includeDates',
 
 	  getInitialState: function getInitialState() {
@@ -63171,38 +56939,38 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'row' },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'pre',
 	        { className: 'column example__code' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'code',
 	          { className: 'jsx' },
 	          "<DatePicker",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "selected={this.state.startDate}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "onChange={this.handleChange}",
-	          _react3.default.createElement('br', null),
-	          _react3.default.createElement(
+	          _react2.default.createElement('br', null),
+	          _react2.default.createElement(
 	            'strong',
 	            null,
 	            '\xA0 \xA0 ',
 	            "includeDates={[moment(), moment().add(1, 'days')]}"
 	          ),
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "placeholderText=\"This only includes today and tomorrow\" />"
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'column' },
-	        _react3.default.createElement(_reactDatepicker2.default, {
+	        _react2.default.createElement(_reactDatepicker2.default, {
 	          selected: this.state.startDate,
 	          onChange: this.handleChange,
 	          includeDates: [(0, _moment2.default)(), (0, _moment2.default)().add(1, 'days')],
@@ -63210,53 +56978,29 @@
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
-/* 508 */
+/* 354 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _reactDatepicker = __webpack_require__(363);
+	var _reactDatepicker = __webpack_require__(208);
 
 	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  FilterDates: {
-	    displayName: 'FilterDates'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/examples/filter_dates.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('FilterDates')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'FilterDates',
 
 	  getInitialState: function getInitialState() {
@@ -63274,38 +57018,38 @@
 	    return day !== 0 && day !== 6;
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'row' },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'pre',
 	        { className: 'column example__code' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'code',
 	          { className: 'jsx' },
 	          "<DatePicker",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "selected={this.state.date}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "onChange={this.handleChange}",
-	          _react3.default.createElement('br', null),
-	          _react3.default.createElement(
+	          _react2.default.createElement('br', null),
+	          _react2.default.createElement(
 	            'strong',
 	            null,
 	            '\xA0 \xA0 ',
 	            "filterDate={this.isWeekday}"
 	          ),
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "placeholderText=\"Select a weekday\" />"
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'column' },
-	        _react3.default.createElement(_reactDatepicker2.default, {
+	        _react2.default.createElement(_reactDatepicker2.default, {
 	          selected: this.state.date,
 	          onChange: this.handleChange,
 	          filterDate: this.isWeekday,
@@ -63313,53 +57057,29 @@
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
-/* 509 */
+/* 355 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _reactDatepicker = __webpack_require__(363);
+	var _reactDatepicker = __webpack_require__(208);
 
 	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  Disabled: {
-	    displayName: 'Disabled'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/examples/disabled.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('Disabled')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'Disabled',
 
 	  getInitialState: function getInitialState() {
@@ -63373,39 +57093,39 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'row' },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'pre',
 	        { className: 'column example__code' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'code',
 	          { className: 'jsx' },
 	          "<DatePicker",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "selected={this.state.startDate}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "onChange={this.handleChange}",
-	          _react3.default.createElement('br', null),
-	          _react3.default.createElement(
+	          _react2.default.createElement('br', null),
+	          _react2.default.createElement(
 	            'strong',
 	            null,
 	            '\xA0 \xA0 ',
 	            "disabled={true}"
 	          ),
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "placeholderText='This is disabled'",
 	          ' />'
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'column' },
-	        _react3.default.createElement(_reactDatepicker2.default, {
+	        _react2.default.createElement(_reactDatepicker2.default, {
 	          selected: this.state.startDate,
 	          onChange: this.handleChange,
 	          disabled: true,
@@ -63413,57 +57133,33 @@
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
-/* 510 */
+/* 356 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _reactDatepicker = __webpack_require__(363);
+	var _reactDatepicker = __webpack_require__(208);
 
 	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
 
-	var _moment = __webpack_require__(365);
+	var _moment = __webpack_require__(210);
 
 	var _moment2 = _interopRequireDefault(_moment);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  ClearInput: {
-	    displayName: 'ClearInput'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/examples/clear_input.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('ClearInput')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'ClearInput',
 
 	  getInitialState: function getInitialState() {
@@ -63477,34 +57173,34 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'row' },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'pre',
 	        { className: 'column example__code' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'code',
 	          { className: 'jsx' },
 	          "<DatePicker",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "selected={this.state.startDate}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "onChange={this.handleChange}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "isClearable={true} />",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "placeholderText='I have been cleared!' />"
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'column' },
-	        _react3.default.createElement(_reactDatepicker2.default, {
+	        _react2.default.createElement(_reactDatepicker2.default, {
 	          selected: this.state.startDate,
 	          onChange: this.handleChange,
 	          isClearable: true,
@@ -63512,53 +57208,29 @@
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
-/* 511 */
+/* 357 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _reactDatepicker = __webpack_require__(363);
+	var _reactDatepicker = __webpack_require__(208);
 
 	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  Disabled: {
-	    displayName: 'Disabled'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/examples/on_blur_callbacks.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('Disabled')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'Disabled',
 
 	  getInitialState: function getInitialState() {
@@ -63583,67 +57255,67 @@
 	  },
 
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'row' },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'pre',
 	        { className: 'column example__code' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'code',
 	          { className: 'js' },
 	          "handleOnBlur: function (date) {",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "if (date === null) {",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 \xA0 \xA0 ',
 	          "console.log('selected date: %s', date);",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "else {",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 \xA0 \xA0 ',
 	          "console.log('selected date: %s', date.format('DD/MM/YYYY'));",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          "};"
 	        ),
-	        _react3.default.createElement('br', null),
-	        _react3.default.createElement(
+	        _react2.default.createElement('br', null),
+	        _react2.default.createElement(
 	          'code',
 	          { className: 'jsx' },
 	          "<DatePicker",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "key='example9'",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "selected={this.state.startDate}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "onChange={this.handleChange}",
-	          _react3.default.createElement('br', null),
-	          _react3.default.createElement(
+	          _react2.default.createElement('br', null),
+	          _react2.default.createElement(
 	            'strong',
 	            null,
 	            '\xA0 \xA0 ',
 	            "onBlur={this.handleOnBlur}"
 	          ),
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "placeholderText=\"View blur callbacks in console\" />"
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'column' },
-	        _react3.default.createElement(_reactDatepicker2.default, {
+	        _react2.default.createElement(_reactDatepicker2.default, {
 	          key: 'example9',
 	          selected: this.state.startDate,
 	          onChange: this.handleChange,
@@ -63652,57 +57324,33 @@
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
-/* 512 */
+/* 358 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _reactDatepicker = __webpack_require__(363);
+	var _reactDatepicker = __webpack_require__(208);
 
 	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
 
-	var _moment = __webpack_require__(365);
+	var _moment = __webpack_require__(210);
 
 	var _moment2 = _interopRequireDefault(_moment);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  Placement: {
-	    displayName: 'Placement'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/examples/placement.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('Placement')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'Placement',
 
 	  getInitialState: function getInitialState() {
@@ -63716,37 +57364,37 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'row' },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'pre',
 	        { className: 'column example__code' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'code',
 	          { className: 'jsx' },
 	          "<DatePicker",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "selected={this.state.startDate}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "onChange={this.handleChange}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "popoverAttachment='bottom center'",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "popoverTargetAttachment='top center'",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "popoverTargetOffset='0px 0px' />"
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'column' },
-	        _react3.default.createElement(_reactDatepicker2.default, {
+	        _react2.default.createElement(_reactDatepicker2.default, {
 	          selected: this.state.startDate,
 	          onChange: this.handleChange,
 	          popoverAttachment: 'bottom center',
@@ -63755,49 +57403,19 @@
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
-
-/***/ }),
-/* 513 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
-
-	var _react2 = __webpack_require__(2);
-
-	var _react3 = _interopRequireDefault(_react2);
-
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	var _components = {
-	  DateRange: {
-	    displayName: 'DateRange'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/examples/date_range.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
 	});
 
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
+/***/ }),
+/* 359 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
 
 	var React = __webpack_require__(2);
-	var DatePicker = __webpack_require__(363);
-	var moment = __webpack_require__(365);
+	var DatePicker = __webpack_require__(208);
+	var moment = __webpack_require__(210);
 
-	var DateRange = _wrapComponent('DateRange')(React.createClass({
+	var DateRange = React.createClass({
 	  displayName: 'DateRange',
 
 	  getInitialState: function getInitialState() {
@@ -63887,59 +57505,35 @@
 	      )
 	    );
 	  }
-	}));
+	});
 
 	module.exports = DateRange;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
 
 /***/ }),
-/* 514 */
+/* 360 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _reactDatepicker = __webpack_require__(363);
+	var _reactDatepicker = __webpack_require__(208);
 
 	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
 
-	var _moment = __webpack_require__(365);
+	var _moment = __webpack_require__(210);
 
 	var _moment2 = _interopRequireDefault(_moment);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  TabIndex: {
-	    displayName: 'TabIndex'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/examples/tab_index.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('TabIndex')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'TabIndex',
 
 	  getInitialState: function getInitialState() {
@@ -63953,88 +57547,64 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'row' },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'pre',
 	        { className: 'column example__code' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'code',
 	          { className: 'jsx' },
 	          "<DatePicker",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "selected={this.state.startDate}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "onChange={this.handleChange}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "tabIndex={1} />"
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'column' },
-	        _react3.default.createElement(_reactDatepicker2.default, {
+	        _react2.default.createElement(_reactDatepicker2.default, {
 	          selected: this.state.startDate,
 	          onChange: this.handleChange,
 	          tabIndex: 1 })
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
-/* 515 */
+/* 361 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _reactDatepicker = __webpack_require__(363);
+	var _reactDatepicker = __webpack_require__(208);
 
 	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
 
-	var _moment = __webpack_require__(365);
+	var _moment = __webpack_require__(210);
 
 	var _moment2 = _interopRequireDefault(_moment);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  YearDropdown: {
-	    displayName: 'YearDropdown'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/examples/year_dropdown.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('YearDropdown')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'YearDropdown',
 
 	  getInitialState: function getInitialState() {
@@ -64048,36 +57618,36 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'row' },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'pre',
 	        { className: 'column example__code' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'code',
 	          { className: 'jsx' },
 	          "<DatePicker",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "selected={this.state.startDate}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "onChange={this.handleChange}",
 	          ' ',
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "showYearDropdown",
 	          ' ',
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "dateFormatCalendar=\"MMMM\" />"
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'column' },
-	        _react3.default.createElement(_reactDatepicker2.default, {
+	        _react2.default.createElement(_reactDatepicker2.default, {
 	          selected: this.state.startDate,
 	          onChange: this.handleChange,
 	          showYearDropdown: true,
@@ -64085,57 +57655,33 @@
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
-/* 516 */
+/* 362 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _reactDatepicker = __webpack_require__(363);
+	var _reactDatepicker = __webpack_require__(208);
 
 	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
 
-	var _moment = __webpack_require__(365);
+	var _moment = __webpack_require__(210);
 
 	var _moment2 = _interopRequireDefault(_moment);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  Default: {
-	    displayName: 'Default'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/examples/today.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('Default')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'Default',
 
 	  getInitialState: function getInitialState() {
@@ -64149,85 +57695,61 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'row' },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'pre',
 	        { className: 'column example__code' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'code',
 	          { className: 'jsx' },
 	          "<DatePicker",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          "todayButton={'Vandaag'}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          "selected={this.state.startDate}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          "onChange={this.handleChange} />"
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'column' },
-	        _react3.default.createElement(_reactDatepicker2.default, {
+	        _react2.default.createElement(_reactDatepicker2.default, {
 	          todayButton: "Vandaag",
 	          selected: this.state.startDate,
 	          onChange: this.handleChange })
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
-/* 517 */
+/* 363 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _reactDatepicker = __webpack_require__(363);
+	var _reactDatepicker = __webpack_require__(208);
 
 	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
 
-	var _moment = __webpack_require__(365);
+	var _moment = __webpack_require__(210);
 
 	var _moment2 = _interopRequireDefault(_moment);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  Inline: {
-	    displayName: 'Inline'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/examples/inline.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('Inline')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'Inline',
 
 	  getInitialState: function getInitialState() {
@@ -64241,88 +57763,64 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'row' },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'pre',
 	        { className: 'column example__code' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'code',
 	          { className: 'jsx' },
 	          "<DatePicker",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "inline",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "selected={this.state.startDate}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "onChange={this.handleChange} />"
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'column' },
-	        _react3.default.createElement(_reactDatepicker2.default, {
+	        _react2.default.createElement(_reactDatepicker2.default, {
 	          inline: true,
 	          selected: this.state.startDate,
 	          onChange: this.handleChange })
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
-/* 518 */
+/* 364 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _reactDatepicker = __webpack_require__(363);
+	var _reactDatepicker = __webpack_require__(208);
 
 	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
 
-	var _moment = __webpack_require__(365);
+	var _moment = __webpack_require__(210);
 
 	var _moment2 = _interopRequireDefault(_moment);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  OpenToDate: {
-	    displayName: 'OpenToDate'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/examples/open_to_date.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('OpenToDate')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'OpenToDate',
 
 	  getInitialState: function getInitialState() {
@@ -64336,83 +57834,59 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'row' },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'pre',
 	        { className: 'column example__code' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'code',
 	          { className: 'jsx' },
 	          "<DatePicker",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          "openToDate={moment('1993-09-28')}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "selected={this.state.startDate}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "onChange={this.handleChange} />"
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'column' },
-	        _react3.default.createElement(_reactDatepicker2.default, {
+	        _react2.default.createElement(_reactDatepicker2.default, {
 	          openToDate: (0, _moment2.default)('1993-09-28'),
 	          selected: this.state.startDate,
 	          onChange: this.handleChange })
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
-/* 519 */
+/* 365 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _reactDatepicker = __webpack_require__(363);
+	var _reactDatepicker = __webpack_require__(208);
 
 	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  FixedCalendar: {
-	    displayName: 'FixedCalendar'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/examples/fixed_calendar.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('FixedCalendar')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'FixedCalendar',
 
 	  getInitialState: function getInitialState() {
@@ -64426,96 +57900,72 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { className: 'row' },
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'pre',
 	        { className: 'column example__code' },
-	        _react3.default.createElement(
+	        _react2.default.createElement(
 	          'code',
 	          { className: 'jsx' },
 	          "<DatePicker",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "fixedHeight",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "selected={this.state.startDate}",
-	          _react3.default.createElement('br', null),
+	          _react2.default.createElement('br', null),
 	          '\xA0 \xA0 ',
 	          "onChange={this.handleChange} />"
 	        )
 	      ),
-	      _react3.default.createElement(
+	      _react2.default.createElement(
 	        'div',
 	        { className: 'column' },
-	        _react3.default.createElement(_reactDatepicker2.default, {
+	        _react2.default.createElement(_reactDatepicker2.default, {
 	          fixedHeight: true,
 	          selected: this.state.startDate,
 	          onChange: this.handleChange })
 	      )
 	    );
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ }),
-/* 520 */
+/* 366 */
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 521 */
-520,
-/* 522 */
+/* 367 */
+366,
+/* 368 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(module) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _react2 = __webpack_require__(2);
+	var _react = __webpack_require__(2);
 
-	var _react3 = _interopRequireDefault(_react2);
+	var _react2 = _interopRequireDefault(_react);
 
-	var _reactTransformHmr3 = __webpack_require__(29);
-
-	var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-	var _reactDatepicker = __webpack_require__(363);
+	var _reactDatepicker = __webpack_require__(208);
 
 	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
 
-	var _moment = __webpack_require__(365);
+	var _moment = __webpack_require__(210);
 
 	var _moment2 = _interopRequireDefault(_moment);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _components = {
-	  HeroExample: {
-	    displayName: 'HeroExample'
-	  }
-	};
-
-	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	  filename: '/Users/jasonmcgeeney/forks/blah/react-datepicker/docs-site/src/hero_example.jsx',
-	  components: _components,
-	  locals: [module],
-	  imports: [_react3.default]
-	});
-
-	function _wrapComponent(id) {
-	  return function (Component) {
-	    return _reactTransformHmr2(Component, id);
-	  };
-	}
-
-	exports.default = _wrapComponent('HeroExample')(_react3.default.createClass({
+	exports.default = _react2.default.createClass({
 	  displayName: 'HeroExample',
 
 	  getInitialState: function getInitialState() {
@@ -64529,12 +57979,11 @@
 	    });
 	  },
 	  render: function render() {
-	    return _react3.default.createElement(_reactDatepicker2.default, {
+	    return _react2.default.createElement(_reactDatepicker2.default, {
 	      selected: this.state.startDate,
 	      onChange: this.handleChange });
 	  }
-	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)(module)))
+	});
 
 /***/ })
 /******/ ])));

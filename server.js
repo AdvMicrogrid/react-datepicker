@@ -4,9 +4,7 @@ var merge = require('lodash/merge')
 var config = merge({}, require('./webpack.docs.config'))
 
 config.devtool = 'cheap-module-eval-source-map'
-config.entry.unshift('webpack-hot-middleware/client')
 config.plugins.push(
-  new webpack.HotModuleReplacementPlugin(),
   new webpack.NoErrorsPlugin()
 )
 
@@ -17,8 +15,6 @@ app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
   publicPath: config.output.publicPath
 }))
-
-app.use(require('webpack-hot-middleware')(compiler))
 
 app.use(express.static('docs-site'))
 

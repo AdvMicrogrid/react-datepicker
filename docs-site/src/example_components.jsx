@@ -25,8 +25,9 @@ import FixedCalendar from './examples/fixed_calendar'
 
 import 'react-datepicker/dist/react-datepicker.css'
 import './style.scss'
+import createClass from 'create-react-class'
 
-export default React.createClass({
+export default createClass({
   displayName: 'exampleComponents',
 
   componentDidMount () {

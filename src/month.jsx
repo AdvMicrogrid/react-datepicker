@@ -1,8 +1,9 @@
 import React from 'react'
 import Week from './week'
 import PropTypes from 'prop-types'
+import createClass from 'create-react-class'
 
-var Month = React.createClass({
+var Month = createClass({
   displayName: 'Month',
 
   propTypes: {

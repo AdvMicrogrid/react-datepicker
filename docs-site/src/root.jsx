@@ -1,8 +1,9 @@
 import React from 'react'
 import ExampleComponents from './example_components.jsx'
 import HeroExample from './hero_example.jsx'
+import createClass from 'create-react-class'
 
-export default React.createClass({
+export default createClass({
   displayName: 'Root',
 
   render () {

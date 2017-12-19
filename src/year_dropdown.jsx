@@ -1,8 +1,9 @@
 import React from 'react'
 import YearDropdownOptions from './year_dropdown_options'
 import PropTypes from 'prop-types'
+import createClass from 'create-react-class'
 
-var YearDropdown = React.createClass({
+var YearDropdown = createClass({
   displayName: 'YearDropdown',
 
   propTypes: {

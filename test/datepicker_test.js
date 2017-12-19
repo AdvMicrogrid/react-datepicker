@@ -5,6 +5,7 @@ import DatePicker from '../src/datepicker.jsx'
 import Day from '../src/day'
 import TetherComponent from '../src/tether_component.jsx'
 import moment from 'moment'
+import createClass from 'create-react-class'
 
 describe('DatePicker', () => {
   it('should show the calendar when focusing on the date input', () => {
@@ -150,7 +151,7 @@ describe('DatePicker', () => {
   })
 
   it('should mount and unmount properly', done => {
-    var TestComponent = React.createClass({
+    var TestComponent = createClass({
       displayName: 'TestComponent',
 
       getInitialState () {

@@ -1,8 +1,9 @@
 import React from 'react'
 import DatePicker from 'react-datepicker'
 import moment from 'moment'
+import createClass from 'create-react-class'
 
-export default React.createClass({
+export default createClass({
   displayName: 'YearDropdown',
 
   getInitialState () {

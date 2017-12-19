@@ -4,8 +4,9 @@ import Month from './month'
 import React from 'react'
 import PropTypes from 'prop-types'
 import { isSameDay, allDaysDisabledBefore, allDaysDisabledAfter, getEffectiveMinDate, getEffectiveMaxDate } from './date_utils'
+import createClass from 'create-react-class'
 
-var Calendar = React.createClass({
+var Calendar = createClass({
   displayName: 'Calendar',
 
   propTypes: {

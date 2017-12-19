@@ -25,10 +25,11 @@ You’ll need to install React and Moment.js separately since those dependencies
 var React = require('react');
 var DatePicker = require('react-datepicker');
 var moment = require('moment');
+import createClass from 'create-react-class'
 
 require('react-datepicker/dist/react-datepicker.css');
 
-var Example = React.createClass({
+var Example = createClass({
   displayName: 'Example',
 
   getInitialState: function() {

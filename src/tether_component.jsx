@@ -2,6 +2,7 @@ import React, { Children } from 'react'
 import PropTypes from 'prop-types'
 import ReactDOM from 'react-dom'
 import Tether from 'tether'
+import createClass from 'create-react-class'
 
 function childrenPropType ({ children }, propName, componentName) {
   const childCount = Children.count(children)
@@ -24,7 +25,7 @@ const attachmentPositions = [
   'bottom right'
 ]
 
-var TetherComponent = React.createClass({
+var TetherComponent = createClass({
   displayName: 'TetherComponent',
 
   propTypes: {

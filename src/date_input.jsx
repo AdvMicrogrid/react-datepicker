@@ -2,8 +2,9 @@ import moment from 'moment'
 import React from 'react'
 import { isSameDay, isDayDisabled } from './date_utils'
 import PropTypes from 'prop-types'
+import createClass from 'create-react-class'
 
-var DateInput = React.createClass({
+var DateInput = createClass({
   displayName: 'DateInput',
 
   propTypes: {

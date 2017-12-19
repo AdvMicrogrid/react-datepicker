@@ -5,6 +5,7 @@ import TetherComponent from './tether_component'
 import classnames from 'classnames'
 import { isSameDay } from './date_utils'
 import PropTypes from 'prop-types'
+import createClass from 'create-react-class'
 
 var outsideClickIgnoreClass = 'react-datepicker-ignore-onclickoutside'
 
@@ -12,7 +13,7 @@ var outsideClickIgnoreClass = 'react-datepicker-ignore-onclickoutside'
  * General datepicker component.
  */
 
-var DatePicker = React.createClass({
+var DatePicker = createClass({
   displayName: 'DatePicker',
 
   propTypes: {
